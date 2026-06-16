@@ -1,0 +1,1202 @@
+Command: /Users/admin9/ccass-sentinel/.venv/bin/python /Users/admin9/ccass-sentinel/scripts/daily_runner.py --date 2026/04/27 --auto-backfill
+Exit code: 0
+
+STDOUT:
+🛰️  CCASS Sentinel Daily Runner — 2026/04/27
+  Watchlist: 2796 stocks
+  Already have: 0/2796 stocks for 2026/04/27; collecting 2796 missing stocks...
+  Progress: 10 processed, 10 collected, 0 errors, 0 pending timeouts
+  Progress: 20 processed, 20 collected, 0 errors, 0 pending timeouts
+  Progress: 30 processed, 30 collected, 0 errors, 0 pending timeouts
+  Progress: 40 processed, 40 collected, 0 errors, 0 pending timeouts
+  Progress: 50 processed, 50 collected, 0 errors, 0 pending timeouts
+  Progress: 60 processed, 60 collected, 0 errors, 0 pending timeouts
+  Progress: 70 processed, 70 collected, 0 errors, 0 pending timeouts
+  Progress: 80 processed, 80 collected, 0 errors, 0 pending timeouts
+  Progress: 90 processed, 90 collected, 0 errors, 0 pending timeouts
+  Progress: 100 processed, 100 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (100 entries)
+  Progress: 110 processed, 110 collected, 0 errors, 0 pending timeouts
+  Progress: 120 processed, 120 collected, 0 errors, 0 pending timeouts
+  Progress: 130 processed, 130 collected, 0 errors, 0 pending timeouts
+  Progress: 140 processed, 140 collected, 0 errors, 0 pending timeouts
+  Progress: 150 processed, 150 collected, 0 errors, 0 pending timeouts
+  Progress: 160 processed, 160 collected, 0 errors, 0 pending timeouts
+  Progress: 170 processed, 170 collected, 0 errors, 0 pending timeouts
+  Progress: 180 processed, 180 collected, 0 errors, 0 pending timeouts
+  Progress: 190 processed, 190 collected, 0 errors, 0 pending timeouts
+  Progress: 200 processed, 200 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (200 entries)
+  Progress: 210 processed, 210 collected, 0 errors, 0 pending timeouts
+  Progress: 220 processed, 220 collected, 0 errors, 0 pending timeouts
+  Progress: 230 processed, 230 collected, 0 errors, 0 pending timeouts
+  Progress: 240 processed, 240 collected, 0 errors, 0 pending timeouts
+  Progress: 250 processed, 250 collected, 0 errors, 0 pending timeouts
+  Progress: 260 processed, 260 collected, 0 errors, 0 pending timeouts
+  Progress: 270 processed, 270 collected, 0 errors, 0 pending timeouts
+  Progress: 280 processed, 280 collected, 0 errors, 0 pending timeouts
+  Progress: 290 processed, 290 collected, 0 errors, 0 pending timeouts
+  Progress: 300 processed, 300 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (300 entries)
+  Progress: 310 processed, 310 collected, 0 errors, 0 pending timeouts
+  Progress: 320 processed, 320 collected, 0 errors, 0 pending timeouts
+  Progress: 330 processed, 330 collected, 0 errors, 0 pending timeouts
+  Progress: 340 processed, 340 collected, 0 errors, 0 pending timeouts
+  Progress: 350 processed, 350 collected, 0 errors, 0 pending timeouts
+  Progress: 360 processed, 360 collected, 0 errors, 0 pending timeouts
+  Progress: 370 processed, 370 collected, 0 errors, 0 pending timeouts
+  Progress: 380 processed, 380 collected, 0 errors, 0 pending timeouts
+  Progress: 390 processed, 390 collected, 0 errors, 0 pending timeouts
+  Progress: 400 processed, 400 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (400 entries)
+  Progress: 410 processed, 410 collected, 0 errors, 0 pending timeouts
+  Progress: 420 processed, 420 collected, 0 errors, 0 pending timeouts
+  Progress: 430 processed, 430 collected, 0 errors, 0 pending timeouts
+  Progress: 440 processed, 440 collected, 0 errors, 0 pending timeouts
+  Progress: 450 processed, 450 collected, 0 errors, 0 pending timeouts
+  Progress: 460 processed, 460 collected, 0 errors, 0 pending timeouts
+  Progress: 470 processed, 470 collected, 0 errors, 0 pending timeouts
+  Progress: 480 processed, 480 collected, 0 errors, 0 pending timeouts
+  Progress: 490 processed, 490 collected, 0 errors, 0 pending timeouts
+  Progress: 500 processed, 500 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (500 entries)
+  Progress: 510 processed, 510 collected, 0 errors, 0 pending timeouts
+  Progress: 520 processed, 520 collected, 0 errors, 0 pending timeouts
+  Progress: 530 processed, 530 collected, 0 errors, 0 pending timeouts
+  Progress: 540 processed, 540 collected, 0 errors, 0 pending timeouts
+  Progress: 550 processed, 550 collected, 0 errors, 0 pending timeouts
+  Progress: 560 processed, 560 collected, 0 errors, 0 pending timeouts
+  Progress: 570 processed, 570 collected, 0 errors, 0 pending timeouts
+  Progress: 580 processed, 580 collected, 0 errors, 0 pending timeouts
+  Progress: 590 processed, 590 collected, 0 errors, 0 pending timeouts
+  Progress: 600 processed, 600 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (600 entries)
+  Progress: 610 processed, 610 collected, 0 errors, 0 pending timeouts
+  Progress: 620 processed, 620 collected, 0 errors, 0 pending timeouts
+  Progress: 630 processed, 630 collected, 0 errors, 0 pending timeouts
+  Progress: 640 processed, 640 collected, 0 errors, 0 pending timeouts
+  Progress: 650 processed, 650 collected, 0 errors, 0 pending timeouts
+  Progress: 660 processed, 660 collected, 0 errors, 0 pending timeouts
+  Progress: 670 processed, 670 collected, 0 errors, 0 pending timeouts
+  Progress: 680 processed, 680 collected, 0 errors, 0 pending timeouts
+  Progress: 690 processed, 690 collected, 0 errors, 0 pending timeouts
+  Progress: 700 processed, 700 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (700 entries)
+  Progress: 710 processed, 710 collected, 0 errors, 0 pending timeouts
+  Progress: 720 processed, 720 collected, 0 errors, 0 pending timeouts
+  Progress: 730 processed, 730 collected, 0 errors, 0 pending timeouts
+  Progress: 740 processed, 740 collected, 0 errors, 0 pending timeouts
+  Progress: 750 processed, 750 collected, 0 errors, 0 pending timeouts
+  Progress: 760 processed, 760 collected, 0 errors, 0 pending timeouts
+  Progress: 770 processed, 770 collected, 0 errors, 0 pending timeouts
+  Progress: 780 processed, 780 collected, 0 errors, 0 pending timeouts
+  Progress: 790 processed, 790 collected, 0 errors, 0 pending timeouts
+  Progress: 800 processed, 800 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (800 entries)
+  Progress: 810 processed, 810 collected, 0 errors, 0 pending timeouts
+  Progress: 820 processed, 820 collected, 0 errors, 0 pending timeouts
+  Progress: 830 processed, 830 collected, 0 errors, 0 pending timeouts
+  Progress: 840 processed, 840 collected, 0 errors, 0 pending timeouts
+  Progress: 850 processed, 850 collected, 0 errors, 0 pending timeouts
+  Progress: 860 processed, 860 collected, 0 errors, 0 pending timeouts
+  Progress: 870 processed, 870 collected, 0 errors, 0 pending timeouts
+  Progress: 880 processed, 880 collected, 0 errors, 0 pending timeouts
+  Progress: 890 processed, 890 collected, 0 errors, 0 pending timeouts
+  Progress: 900 processed, 900 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (900 entries)
+  Progress: 910 processed, 909 collected, 0 errors, 0 pending timeouts
+  Progress: 920 processed, 919 collected, 0 errors, 0 pending timeouts
+  Progress: 930 processed, 929 collected, 0 errors, 0 pending timeouts
+  Progress: 940 processed, 939 collected, 0 errors, 0 pending timeouts
+  Progress: 950 processed, 948 collected, 0 errors, 0 pending timeouts
+  Progress: 960 processed, 958 collected, 0 errors, 0 pending timeouts
+  Progress: 970 processed, 968 collected, 0 errors, 0 pending timeouts
+  Progress: 980 processed, 978 collected, 0 errors, 0 pending timeouts
+  Progress: 990 processed, 988 collected, 0 errors, 0 pending timeouts
+  Progress: 1000 processed, 998 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1002 entries)
+  Progress: 1010 processed, 1008 collected, 0 errors, 0 pending timeouts
+  Progress: 1020 processed, 1018 collected, 0 errors, 0 pending timeouts
+  Progress: 1030 processed, 1028 collected, 0 errors, 0 pending timeouts
+  Progress: 1040 processed, 1038 collected, 0 errors, 0 pending timeouts
+  Progress: 1050 processed, 1048 collected, 0 errors, 0 pending timeouts
+  Progress: 1060 processed, 1058 collected, 0 errors, 0 pending timeouts
+  Progress: 1070 processed, 1068 collected, 0 errors, 0 pending timeouts
+  Progress: 1080 processed, 1078 collected, 0 errors, 0 pending timeouts
+  Progress: 1090 processed, 1088 collected, 0 errors, 0 pending timeouts
+  Progress: 1100 processed, 1098 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1102 entries)
+  Progress: 1110 processed, 1108 collected, 0 errors, 0 pending timeouts
+  Progress: 1120 processed, 1118 collected, 0 errors, 0 pending timeouts
+  Progress: 1130 processed, 1127 collected, 0 errors, 0 pending timeouts
+  Progress: 1140 processed, 1137 collected, 0 errors, 0 pending timeouts
+  Progress: 1150 processed, 1147 collected, 0 errors, 0 pending timeouts
+  Progress: 1160 processed, 1157 collected, 0 errors, 0 pending timeouts
+  Progress: 1170 processed, 1167 collected, 0 errors, 0 pending timeouts
+  Progress: 1180 processed, 1177 collected, 0 errors, 0 pending timeouts
+  Progress: 1190 processed, 1187 collected, 0 errors, 0 pending timeouts
+  Progress: 1200 processed, 1196 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1204 entries)
+  Progress: 1210 processed, 1206 collected, 0 errors, 0 pending timeouts
+  Progress: 1220 processed, 1216 collected, 0 errors, 0 pending timeouts
+  Progress: 1230 processed, 1226 collected, 0 errors, 0 pending timeouts
+  Progress: 1240 processed, 1236 collected, 0 errors, 0 pending timeouts
+  Progress: 1250 processed, 1246 collected, 0 errors, 0 pending timeouts
+  Progress: 1260 processed, 1256 collected, 0 errors, 0 pending timeouts
+  Progress: 1270 processed, 1266 collected, 0 errors, 0 pending timeouts
+  Progress: 1280 processed, 1276 collected, 0 errors, 0 pending timeouts
+  Progress: 1290 processed, 1286 collected, 0 errors, 0 pending timeouts
+  Progress: 1300 processed, 1296 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1304 entries)
+  Progress: 1310 processed, 1306 collected, 0 errors, 0 pending timeouts
+  Progress: 1320 processed, 1316 collected, 0 errors, 0 pending timeouts
+  Progress: 1330 processed, 1326 collected, 0 errors, 0 pending timeouts
+  Progress: 1340 processed, 1336 collected, 0 errors, 0 pending timeouts
+  Progress: 1350 processed, 1346 collected, 0 errors, 0 pending timeouts
+  Progress: 1360 processed, 1356 collected, 0 errors, 0 pending timeouts
+  Progress: 1370 processed, 1366 collected, 0 errors, 0 pending timeouts
+  Progress: 1380 processed, 1376 collected, 0 errors, 0 pending timeouts
+  Progress: 1390 processed, 1386 collected, 0 errors, 0 pending timeouts
+  Progress: 1400 processed, 1396 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1405 entries)
+  Progress: 1410 processed, 1405 collected, 0 errors, 0 pending timeouts
+  Progress: 1420 processed, 1415 collected, 0 errors, 0 pending timeouts
+  Progress: 1430 processed, 1425 collected, 0 errors, 0 pending timeouts
+  Progress: 1440 processed, 1435 collected, 0 errors, 0 pending timeouts
+  Progress: 1450 processed, 1445 collected, 0 errors, 0 pending timeouts
+  Progress: 1460 processed, 1455 collected, 0 errors, 0 pending timeouts
+  Progress: 1470 processed, 1465 collected, 0 errors, 0 pending timeouts
+  Progress: 1480 processed, 1475 collected, 0 errors, 0 pending timeouts
+  Progress: 1490 processed, 1485 collected, 0 errors, 0 pending timeouts
+  Progress: 1500 processed, 1495 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1505 entries)
+  Progress: 1510 processed, 1505 collected, 0 errors, 0 pending timeouts
+  Progress: 1520 processed, 1515 collected, 0 errors, 0 pending timeouts
+  Progress: 1530 processed, 1525 collected, 0 errors, 0 pending timeouts
+  Progress: 1540 processed, 1535 collected, 0 errors, 0 pending timeouts
+  Progress: 1550 processed, 1545 collected, 0 errors, 0 pending timeouts
+  Progress: 1560 processed, 1555 collected, 0 errors, 0 pending timeouts
+  Progress: 1570 processed, 1565 collected, 0 errors, 0 pending timeouts
+  Progress: 1580 processed, 1575 collected, 0 errors, 0 pending timeouts
+  Progress: 1590 processed, 1585 collected, 0 errors, 0 pending timeouts
+  Progress: 1600 processed, 1595 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1605 entries)
+  Progress: 1610 processed, 1605 collected, 0 errors, 0 pending timeouts
+  Progress: 1620 processed, 1615 collected, 0 errors, 0 pending timeouts
+  Progress: 1630 processed, 1625 collected, 0 errors, 0 pending timeouts
+  Progress: 1640 processed, 1635 collected, 0 errors, 0 pending timeouts
+  Progress: 1650 processed, 1645 collected, 0 errors, 0 pending timeouts
+  Progress: 1660 processed, 1655 collected, 0 errors, 0 pending timeouts
+  Progress: 1670 processed, 1665 collected, 0 errors, 0 pending timeouts
+  Progress: 1680 processed, 1675 collected, 0 errors, 0 pending timeouts
+  Progress: 1690 processed, 1685 collected, 0 errors, 0 pending timeouts
+  Progress: 1700 processed, 1695 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1705 entries)
+  Progress: 1710 processed, 1705 collected, 0 errors, 0 pending timeouts
+  Progress: 1720 processed, 1715 collected, 0 errors, 0 pending timeouts
+  Progress: 1730 processed, 1725 collected, 0 errors, 0 pending timeouts
+  Progress: 1740 processed, 1735 collected, 0 errors, 0 pending timeouts
+  Progress: 1750 processed, 1745 collected, 0 errors, 0 pending timeouts
+  Progress: 1760 processed, 1755 collected, 0 errors, 0 pending timeouts
+  Progress: 1770 processed, 1765 collected, 0 errors, 0 pending timeouts
+  Progress: 1780 processed, 1775 collected, 0 errors, 0 pending timeouts
+  Progress: 1790 processed, 1784 collected, 0 errors, 0 pending timeouts
+  Progress: 1800 processed, 1794 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1807 entries)
+  Progress: 1810 processed, 1803 collected, 0 errors, 0 pending timeouts
+  Progress: 1820 processed, 1813 collected, 0 errors, 0 pending timeouts
+  Progress: 1830 processed, 1823 collected, 0 errors, 0 pending timeouts
+  Progress: 1840 processed, 1833 collected, 0 errors, 0 pending timeouts
+  Progress: 1850 processed, 1843 collected, 0 errors, 0 pending timeouts
+  Progress: 1860 processed, 1853 collected, 0 errors, 0 pending timeouts
+  Progress: 1870 processed, 1863 collected, 0 errors, 0 pending timeouts
+  Progress: 1880 processed, 1873 collected, 0 errors, 0 pending timeouts
+  Progress: 1890 processed, 1883 collected, 0 errors, 0 pending timeouts
+  Progress: 1900 processed, 1893 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1907 entries)
+  Progress: 1910 processed, 1903 collected, 0 errors, 0 pending timeouts
+  Progress: 1920 processed, 1913 collected, 0 errors, 0 pending timeouts
+  Progress: 1930 processed, 1923 collected, 0 errors, 0 pending timeouts
+  Progress: 1940 processed, 1933 collected, 0 errors, 0 pending timeouts
+  Progress: 1950 processed, 1943 collected, 0 errors, 0 pending timeouts
+  Progress: 1960 processed, 1953 collected, 0 errors, 0 pending timeouts
+  Progress: 1970 processed, 1963 collected, 0 errors, 0 pending timeouts
+  Progress: 1980 processed, 1973 collected, 0 errors, 0 pending timeouts
+  Progress: 1990 processed, 1979 collected, 0 errors, 0 pending timeouts
+  Progress: 2000 processed, 1981 collected, 0 errors, 0 pending timeouts
+  Progress: 2010 processed, 1985 collected, 0 errors, 0 pending timeouts
+  Progress: 2020 processed, 1995 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2025 entries)
+  💾 Interim holders saved (2026 entries)
+  Progress: 2030 processed, 2004 collected, 0 errors, 0 pending timeouts
+  Progress: 2040 processed, 2014 collected, 0 errors, 0 pending timeouts
+  Progress: 2050 processed, 2024 collected, 0 errors, 0 pending timeouts
+  Progress: 2060 processed, 2034 collected, 0 errors, 0 pending timeouts
+  Progress: 2070 processed, 2044 collected, 0 errors, 0 pending timeouts
+  Progress: 2080 processed, 2054 collected, 0 errors, 0 pending timeouts
+  Progress: 2090 processed, 2064 collected, 0 errors, 0 pending timeouts
+  Progress: 2100 processed, 2074 collected, 0 errors, 0 pending timeouts
+  Progress: 2110 processed, 2084 collected, 0 errors, 0 pending timeouts
+  Progress: 2120 processed, 2094 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2126 entries)
+  Progress: 2130 processed, 2104 collected, 0 errors, 0 pending timeouts
+  Progress: 2140 processed, 2114 collected, 0 errors, 0 pending timeouts
+  Progress: 2150 processed, 2124 collected, 0 errors, 0 pending timeouts
+  Progress: 2160 processed, 2134 collected, 0 errors, 0 pending timeouts
+  Progress: 2170 processed, 2144 collected, 0 errors, 0 pending timeouts
+  Progress: 2180 processed, 2153 collected, 0 errors, 0 pending timeouts
+  Progress: 2190 processed, 2163 collected, 0 errors, 0 pending timeouts
+  Progress: 2200 processed, 2173 collected, 0 errors, 0 pending timeouts
+  Progress: 2210 processed, 2183 collected, 0 errors, 0 pending timeouts
+  Progress: 2220 processed, 2193 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2227 entries)
+  Progress: 2230 processed, 2203 collected, 0 errors, 0 pending timeouts
+  Progress: 2240 processed, 2213 collected, 0 errors, 0 pending timeouts
+  Progress: 2250 processed, 2223 collected, 0 errors, 0 pending timeouts
+  Progress: 2260 processed, 2233 collected, 0 errors, 0 pending timeouts
+  Progress: 2270 processed, 2243 collected, 0 errors, 0 pending timeouts
+  Progress: 2280 processed, 2252 collected, 0 errors, 0 pending timeouts
+  Progress: 2290 processed, 2262 collected, 0 errors, 0 pending timeouts
+  Progress: 2300 processed, 2270 collected, 0 errors, 0 pending timeouts
+  Progress: 2310 processed, 2280 collected, 0 errors, 0 pending timeouts
+  Progress: 2320 processed, 2290 collected, 0 errors, 0 pending timeouts
+  Progress: 2330 processed, 2300 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2330 entries)
+  Progress: 2340 processed, 2310 collected, 0 errors, 0 pending timeouts
+  Progress: 2350 processed, 2318 collected, 0 errors, 0 pending timeouts
+  Progress: 2360 processed, 2327 collected, 0 errors, 0 pending timeouts
+  Progress: 2370 processed, 2336 collected, 0 errors, 0 pending timeouts
+  Progress: 2380 processed, 2346 collected, 0 errors, 0 pending timeouts
+  Progress: 2390 processed, 2356 collected, 0 errors, 0 pending timeouts
+  Progress: 2400 processed, 2366 collected, 0 errors, 0 pending timeouts
+  Progress: 2410 processed, 2375 collected, 0 errors, 0 pending timeouts
+  Progress: 2420 processed, 2385 collected, 0 errors, 0 pending timeouts
+  Progress: 2430 processed, 2394 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2436 entries)
+  Progress: 2440 processed, 2404 collected, 0 errors, 0 pending timeouts
+  Progress: 2450 processed, 2414 collected, 0 errors, 0 pending timeouts
+  Progress: 2460 processed, 2424 collected, 0 errors, 0 pending timeouts
+  Progress: 2470 processed, 2434 collected, 0 errors, 0 pending timeouts
+  Progress: 2480 processed, 2444 collected, 0 errors, 0 pending timeouts
+  Progress: 2490 processed, 2454 collected, 0 errors, 0 pending timeouts
+  Progress: 2500 processed, 2464 collected, 0 errors, 0 pending timeouts
+  Progress: 2510 processed, 2474 collected, 0 errors, 0 pending timeouts
+  Progress: 2520 processed, 2484 collected, 0 errors, 0 pending timeouts
+  Progress: 2530 processed, 2494 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2536 entries)
+  Progress: 2540 processed, 2504 collected, 0 errors, 0 pending timeouts
+  Progress: 2550 processed, 2514 collected, 0 errors, 0 pending timeouts
+  Progress: 2560 processed, 2524 collected, 0 errors, 0 pending timeouts
+  Progress: 2570 processed, 2534 collected, 0 errors, 0 pending timeouts
+  Progress: 2580 processed, 2544 collected, 0 errors, 0 pending timeouts
+  Progress: 2590 processed, 2554 collected, 0 errors, 0 pending timeouts
+  Progress: 2600 processed, 2564 collected, 0 errors, 0 pending timeouts
+  Progress: 2610 processed, 2574 collected, 0 errors, 0 pending timeouts
+  Progress: 2620 processed, 2584 collected, 0 errors, 0 pending timeouts
+  Progress: 2630 processed, 2594 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2636 entries)
+  Progress: 2640 processed, 2602 collected, 0 errors, 0 pending timeouts
+  Progress: 2650 processed, 2608 collected, 0 errors, 0 pending timeouts
+  Progress: 2660 processed, 2618 collected, 0 errors, 0 pending timeouts
+  Progress: 2670 processed, 2628 collected, 0 errors, 0 pending timeouts
+  Progress: 2680 processed, 2638 collected, 0 errors, 0 pending timeouts
+  Progress: 2690 processed, 2648 collected, 0 errors, 0 pending timeouts
+  Progress: 2700 processed, 2658 collected, 0 errors, 0 pending timeouts
+  Progress: 2710 processed, 2668 collected, 0 errors, 0 pending timeouts
+  Progress: 2720 processed, 2678 collected, 0 errors, 0 pending timeouts
+  Progress: 2730 processed, 2688 collected, 0 errors, 0 pending timeouts
+  Progress: 2740 processed, 2698 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2742 entries)
+  Progress: 2750 processed, 2708 collected, 0 errors, 0 pending timeouts
+  Progress: 2760 processed, 2718 collected, 0 errors, 0 pending timeouts
+  Progress: 2770 processed, 2728 collected, 0 errors, 0 pending timeouts
+  Progress: 2780 processed, 2729 collected, 0 errors, 0 pending timeouts
+  Progress: 2790 processed, 2729 collected, 0 errors, 0 pending timeouts
+
+  ✅ Collected: 2730 | No data: 66 | Timeouts: 0 | Errors: 0
+  💾 Metrics → /Users/admin9/ccass-sentinel/data/ccass_timeseries.json
+  💾 Holders → /Users/admin9/ccass-sentinel/data/holders/2026-04-27.json
+  📊 Total: 2776 stocks, 147241 snapshots
+
+  ✅ No anomalies detected
+
+  📈 DAILY SUMMARY:
+    ⬆ 00010: BT5 7.2%→10.9% (+3.7pp)
+    ⬆ 00014: BT5 10.3%→13.4% (+3.1pp)
+    ⬇ 00020: BT5 35.0%→29.1% (-5.9pp)
+    ⬆ 00022: BT5 25.3%→64.2% (+38.9pp)
+    ⬇ 00037: BT5 40.3%→27.9% (-12.4pp)
+    ⬆ 00039: BT5 32.1%→40.4% (+8.3pp)
+    ⬇ 00040: BT5 36.5%→29.4% (-7.1pp)
+    ⬆ 00048: BT5 53.2%→80.9% (+27.6pp)
+    ⬆ 00052: BT5 13.3%→19.3% (+5.9pp)
+    ⬆ 00058: BT5 52.8%→59.4% (+6.6pp)
+    ⬆ 00064: BT5 71.7%→75.0% (+3.3pp)
+    ⬆ 00065: BT5 32.8%→44.1% (+11.3pp)
+    ⬇ 00072: BT5 26.2%→14.3% (-11.9pp)
+    ⬇ 00076: BT5 32.6%→28.2% (-4.4pp)
+    ⬆ 00078: BT5 64.3%→71.7% (+7.4pp)
+    ⬇ 00080: BT5 76.6%→66.9% (-9.6pp)
+    ⬆ 00086: BT5 48.7%→55.3% (+6.6pp)
+    ⬆ 00094: BT5 38.6%→59.4% (+20.8pp)
+    ⬆ 00095: BT5 41.4%→53.0% (+11.7pp)
+    ⬇ 00100: BT5 44.8%→41.7% (-3.1pp)
+    ⬆ 00103: BT5 45.2%→55.3% (+10.1pp)
+    ⬆ 00108: BT5 69.6%→95.6% (+26.0pp)
+    ⬆ 00116: BT5 28.3%→35.4% (+7.1pp)
+    ⬇ 00120: BT5 61.0%→56.4% (-4.7pp)
+    ⬆ 00122: BT5 19.2%→25.2% (+6.0pp)
+    ⬇ 00130: BT5 16.8%→6.7% (-10.0pp)
+    ⬇ 00136: BT5 29.2%→24.2% (-5.0pp)
+    ⬇ 00139: BT5 40.7%→29.1% (-11.6pp)
+    ⬆ 00145: BT5 35.1%→52.6% (+17.5pp)
+    ⬆ 00146: BT5 22.2%→28.7% (+6.5pp)
+    ⬆ 00147: BT5 25.0%→30.5% (+5.6pp)
+    ⬇ 00148: BT5 18.6%→13.3% (-5.4pp)
+    ⬆ 00149: BT5 37.0%→40.2% (+3.2pp)
+    ⬆ 00158: BT5 16.1%→51.5% (+35.4pp)
+    ⬇ 00164: BT5 74.9%→67.3% (-7.6pp)
+    ⬆ 00167: BT5 50.5%→92.9% (+42.4pp)
+    ⬆ 00169: BT5 14.9%→22.8% (+7.9pp)
+    ⬇ 00182: BT5 33.5%→26.4% (-7.1pp)
+    ⬇ 00191: BT5 43.1%→31.6% (-11.5pp)
+    ⬆ 00195: BT5 57.2%→60.3% (+3.1pp)
+    ⬇ 00199: BT5 67.6%→63.6% (-4.0pp)
+    ⬆ 00204: BT5 37.4%→44.9% (+7.5pp)
+    ⬇ 00206: BT5 73.2%→64.4% (-8.8pp)
+    ⬆ 00209: BT5 55.0%→83.5% (+28.5pp)
+    ⬆ 00210: BT5 51.6%→55.7% (+4.1pp)
+    ⬆ 00216: BT5 6.2%→11.4% (+5.2pp)
+    ⬆ 00222: BT5 54.5%→59.5% (+5.0pp)
+    ⬆ 00237: BT5 20.6%→25.1% (+4.5pp)
+    ⬇ 00239: BT5 52.6%→42.1% (-10.5pp)
+    ⬆ 00241: BT5 20.2%→24.7% (+4.5pp)
+    ⬆ 00248: BT5 29.4%→34.7% (+5.3pp)
+    ⬆ 00256: BT5 30.5%→35.8% (+5.3pp)
+    ⬆ 00258: BT5 45.2%→48.6% (+3.3pp)
+    ⬇ 00264: BT5 85.8%→76.5% (-9.3pp)
+    ⬇ 00267: BT5 22.6%→19.5% (-3.1pp)
+    ⬆ 00276: BT5 36.9%→40.9% (+4.0pp)
+    ⬆ 00279: BT5 21.6%→25.3% (+3.6pp)
+    ⬇ 00285: BT5 13.9%→10.1% (-3.8pp)
+    ⬆ 00286: BT5 45.4%→48.5% (+3.1pp)
+    ⬆ 00287: BT5 11.5%→39.8% (+28.3pp)
+    ⬇ 00290: BT5 93.8%→64.0% (-29.8pp)
+    ⬇ 00295: BT5 71.2%→65.0% (-6.2pp)
+    ⬇ 00296: BT5 45.8%→35.4% (-10.5pp)
+    ⬇ 00300: BT5 25.5%→20.9% (-4.6pp)
+    ⬇ 00301: BT5 87.8%→83.1% (-4.7pp)
+    ⬇ 00302: BT5 31.9%→24.0% (-7.9pp)
+    ⬇ 00308: BT5 28.6%→24.9% (-3.7pp)
+    ⬇ 00309: BT5 56.6%→52.9% (-3.8pp)
+    ⬆ 00310: BT5 32.0%→85.2% (+53.2pp)
+    ⬆ 00314: BT5 31.8%→36.0% (+4.2pp)
+    ⬇ 00330: BT5 39.8%→36.8% (-3.1pp)
+    ⬆ 00339: BT5 72.7%→79.1% (+6.3pp)
+    ⬆ 00340: BT5 28.5%→34.8% (+6.4pp)
+    ⬆ 00347: BT5 12.1%→16.1% (+4.1pp)
+    ⬆ 00351: BT5 38.7%→41.9% (+3.2pp)
+    ⬇ 00352: BT5 68.8%→62.6% (-6.2pp)
+    ⬇ 00354: BT5 28.1%→24.7% (-3.4pp)
+    ⬇ 00357: BT5 20.2%→13.8% (-6.4pp)
+    ⬇ 00361: BT5 71.6%→67.3% (-4.3pp)
+    ⬆ 00368: BT5 74.0%→79.3% (+5.3pp)
+    ⬇ 00370: BT5 73.1%→34.8% (-38.3pp)
+    ⬆ 00372: BT5 21.9%→72.5% (+50.5pp)
+    ⬇ 00376: BT5 73.5%→58.6% (-15.0pp)
+    ⬇ 00381: BT5 71.2%→61.5% (-9.7pp)
+    ⬆ 00391: BT5 61.4%→65.0% (+3.6pp)
+    ⬇ 00396: BT5 48.2%→43.2% (-5.0pp)
+    ⬇ 00399: BT5 34.3%→23.0% (-11.3pp)
+    ⬆ 00401: BT5 36.8%→67.4% (+30.6pp)
+    ⬆ 00403: BT5 32.5%→35.5% (+3.0pp)
+    ⬇ 00412: BT5 74.2%→69.1% (-5.2pp)
+    ⬇ 00413: BT5 91.7%→72.5% (-19.2pp)
+    ⬆ 00417: BT5 12.4%→83.4% (+71.0pp)
+    ⬆ 00419: BT5 28.8%→32.8% (+4.0pp)
+    ⬆ 00426: BT5 28.2%→37.5% (+9.2pp)
+    ⬆ 00428: BT5 61.0%→66.0% (+5.0pp)
+    ⬇ 00433: BT5 69.5%→64.9% (-4.6pp)
+    ⬇ 00434: BT5 55.5%→52.3% (-3.2pp)
+    ⬇ 00439: BT5 45.7%→30.4% (-15.3pp)
+    ⬇ 00464: BT5 66.1%→53.6% (-12.5pp)
+    ⬆ 00467: BT5 61.5%→65.3% (+3.8pp)
+    ⬇ 00471: BT5 65.3%→42.3% (-23.0pp)
+    ⬆ 00472: BT5 24.2%→48.7% (+24.6pp)
+    ⬆ 00474: BT5 67.3%→83.3% (+16.0pp)
+    ⬇ 00484: BT5 37.0%→31.7% (-5.3pp)
+    ⬆ 00485: BT5 22.7%→25.9% (+3.2pp)
+    ⬇ 00488: BT5 57.3%→41.8% (-15.5pp)
+    ⬇ 00498: BT5 74.4%→69.6% (-4.8pp)
+    ⬇ 00506: BT5 48.5%→44.3% (-4.2pp)
+    ⬇ 00508: BT5 63.2%→60.2% (-3.0pp)
+    ⬇ 00515: BT5 52.2%→30.9% (-21.3pp)
+    ⬇ 00524: BT5 80.2%→76.7% (-3.5pp)
+    ⬇ 00527: BT5 75.4%→71.6% (-3.8pp)
+    ⬇ 00529: BT5 28.8%→22.1% (-6.6pp)
+    ⬇ 00544: BT5 59.0%→47.0% (-12.1pp)
+    ⬆ 00547: BT5 53.0%→58.2% (+5.2pp)
+    ⬇ 00550: BT5 64.0%→58.1% (-5.9pp)
+    ⬇ 00556: BT5 84.3%→52.8% (-31.5pp)
+    ⬆ 00558: BT5 22.7%→25.7% (+3.1pp)
+    ⬇ 00564: BT5 21.8%→11.4% (-10.4pp)
+    ⬇ 00565: BT5 64.4%→44.2% (-20.2pp)
+    ⬇ 00567: BT5 80.7%→76.0% (-4.7pp)
+    ⬇ 00571: BT5 66.9%→41.3% (-25.7pp)
+    ⬇ 00576: BT5 5.0%→1.9% (-3.2pp)
+    ⬆ 00582: BT5 86.6%→90.3% (+3.7pp)
+    ⬇ 00585: BT5 84.4%→80.1% (-4.3pp)
+    ⬆ 00595: BT5 17.8%→23.9% (+6.0pp)
+    ⬇ 00599: BT5 43.6%→30.9% (-12.7pp)
+    ⬇ 00607: BT5 58.6%→53.4% (-5.2pp)
+    ⬇ 00608: BT5 37.3%→29.1% (-8.2pp)
+    ⬆ 00613: BT5 22.2%→75.6% (+53.4pp)
+    ⬆ 00616: BT5 66.0%→70.8% (+4.8pp)
+    ⬆ 00617: BT5 53.9%→59.0% (+5.0pp)
+    ⬇ 00620: BT5 84.5%→78.9% (-5.5pp)
+    ⬆ 00623: BT5 73.9%→77.6% (+3.6pp)
+    ⬇ 00632: BT5 82.7%→75.3% (-7.4pp)
+    ⬇ 00640: BT5 39.0%→30.0% (-9.0pp)
+    ⬆ 00653: BT5 17.6%→73.0% (+55.5pp)
+    ⬆ 00659: BT5 13.1%→19.4% (+6.3pp)
+    ⬇ 00666: BT5 62.8%→23.5% (-39.2pp)
+    ⬆ 00667: BT5 36.1%→39.3% (+3.2pp)
+    ⬆ 00679: BT5 61.6%→69.4% (+7.8pp)
+    ⬆ 00682: BT5 23.1%→33.0% (+9.9pp)
+    ⬆ 00689: BT5 56.4%→72.1% (+15.7pp)
+    ⬇ 00690: BT5 36.1%→28.8% (-7.3pp)
+    ⬇ 00695: BT5 77.4%→74.0% (-3.4pp)
+    ⬇ 00697: BT5 36.2%→31.4% (-4.8pp)
+    ⬆ 00698: BT5 14.6%→17.8% (+3.2pp)
+    ⬆ 00719: BT5 10.9%→15.9% (+4.9pp)
+    ⬆ 00720: BT5 57.8%→62.4% (+4.6pp)
+    ⬇ 00736: BT5 55.0%→35.3% (-19.7pp)
+    ⬆ 00743: BT5 15.1%→18.5% (+3.5pp)
+    ⬆ 00745: BT5 63.8%→68.5% (+4.7pp)
+    ⬇ 00746: BT5 45.6%→41.9% (-3.7pp)
+    ⬆ 00747: BT5 20.6%→25.1% (+4.5pp)
+    ⬆ 00751: BT5 28.7%→32.6% (+3.9pp)
+    ⬇ 00765: BT5 70.9%→64.7% (-6.2pp)
+    ⬇ 00770: BT5 63.6%→58.3% (-5.3pp)
+    ⬇ 00776: BT5 65.3%→59.9% (-5.4pp)
+    ⬆ 00777: BT5 23.3%→26.8% (+3.5pp)
+    ⬆ 00784: BT5 73.2%→86.6% (+13.4pp)
+    ⬆ 00804: BT5 87.6%→93.0% (+5.5pp)
+    ⬆ 00805: BT5 71.4%→86.7% (+15.3pp)
+    ⬇ 00806: BT5 46.5%→42.7% (-3.8pp)
+    ⬆ 00810: BT5 42.5%→72.0% (+29.5pp)
+    ⬆ 00829: BT5 24.6%→32.0% (+7.4pp)
+    ⬇ 00830: BT5 37.6%→32.0% (-5.7pp)
+    ⬆ 00831: BT5 17.6%→27.1% (+9.5pp)
+    ⬆ 00842: BT5 37.6%→41.4% (+3.8pp)
+    ⬇ 00846: BT5 83.0%→66.3% (-16.6pp)
+    ⬆ 00851: BT5 71.0%→74.4% (+3.5pp)
+    ⬆ 00853: BT5 11.4%→19.2% (+7.7pp)
+    ⬇ 00854: BT5 94.5%→86.4% (-8.1pp)
+    ⬆ 00863: BT5 21.7%→41.8% (+20.1pp)
+    ⬆ 00866: BT5 23.8%→33.5% (+9.8pp)
+    ⬆ 00873: BT5 16.8%→20.5% (+3.7pp)
+    ⬇ 00875: BT5 41.1%→28.9% (-12.2pp)
+    ⬆ 00878: BT5 30.4%→34.5% (+4.2pp)
+    ⬇ 00880: BT5 66.3%→63.0% (-3.3pp)
+    ⬆ 00881: BT5 53.9%→57.9% (+4.0pp)
+    ⬆ 00884: BT5 38.1%→42.6% (+4.5pp)
+    ⬇ 00893: BT5 53.0%→37.3% (-15.6pp)
+    ⬆ 00894: BT5 26.2%→39.8% (+13.6pp)
+    ⬆ 00899: BT5 65.7%→80.5% (+14.8pp)
+    ⬇ 00905: BT5 88.5%→83.4% (-5.1pp)
+    ⬆ 00926: BT5 80.2%→83.9% (+3.7pp)
+    ⬆ 00927: BT5 22.6%→44.1% (+21.6pp)
+    ⬇ 00931: BT5 58.4%→51.1% (-7.2pp)
+    ⬆ 00932: BT5 51.7%→57.1% (+5.4pp)
+    ⬆ 00943: BT5 25.0%→30.7% (+5.7pp)
+    ⬇ 00959: BT5 60.6%→44.0% (-16.6pp)
+    ⬆ 00960: BT5 11.7%→15.5% (+3.8pp)
+    ⬇ 00970: BT5 46.0%→27.6% (-18.4pp)
+    ⬇ 00979: BT5 49.2%→42.4% (-6.8pp)
+    ⬇ 00986: BT5 44.3%→38.5% (-5.8pp)
+    ⬇ 01002: BT5 46.6%→41.9% (-4.8pp)
+    ⬇ 01005: BT5 51.1%→34.6% (-16.5pp)
+    ⬇ 01010: BT5 48.3%→43.7% (-4.6pp)
+    ⬇ 01020: BT5 56.0%→50.1% (-5.9pp)
+    ⬆ 01022: BT5 70.5%→73.8% (+3.3pp)
+    ⬆ 01025: BT5 64.3%→70.5% (+6.2pp)
+    ⬆ 01027: BT5 75.6%→83.8% (+8.2pp)
+    ⬇ 01028: BT5 68.2%→44.1% (-24.1pp)
+    ⬆ 01029: BT5 77.5%→84.3% (+6.8pp)
+    ⬆ 01030: BT5 14.9%→19.4% (+4.5pp)
+    ⬆ 01045: BT5 29.8%→32.9% (+3.2pp)
+    ⬇ 01059: BT5 78.1%→69.8% (-8.3pp)
+    ⬆ 01063: BT5 48.4%→56.2% (+7.9pp)
+    ⬇ 01085: BT5 67.4%→64.0% (-3.4pp)
+    ⬆ 01086: BT5 25.6%→41.3% (+15.8pp)
+    ⬆ 01087: BT5 55.4%→61.3% (+5.9pp)
+    ⬆ 01091: BT5 74.0%→77.3% (+3.3pp)
+    ⬇ 01102: BT5 68.0%→64.2% (-3.7pp)
+    ⬇ 01104: BT5 86.0%→75.7% (-10.3pp)
+    ⬇ 01105: BT5 59.4%→55.9% (-3.5pp)
+    ⬇ 01107: BT5 64.9%→48.1% (-16.8pp)
+    ⬇ 01114: BT5 13.2%→9.8% (-3.4pp)
+    ⬇ 01115: BT5 41.3%→33.2% (-8.1pp)
+    ⬇ 01117: BT5 47.0%→43.5% (-3.5pp)
+    ⬆ 01121: BT5 35.2%→49.0% (+13.8pp)
+    ⬇ 01125: BT5 47.1%→8.1% (-39.0pp)
+    ⬆ 01126: BT5 22.9%→28.4% (+5.5pp)
+    ⬆ 01127: BT5 22.2%→38.0% (+15.8pp)
+    ⬆ 01130: BT5 65.4%→70.3% (+5.0pp)
+    ⬆ 01137: BT5 28.8%→32.8% (+3.9pp)
+    ⬆ 01138: BT5 4.5%→9.1% (+4.6pp)
+    ⬆ 01141: BT5 39.7%→49.0% (+9.4pp)
+    ⬆ 01142: BT5 78.1%→89.0% (+11.0pp)
+    ⬇ 01143: BT5 53.7%→49.7% (-4.0pp)
+    ⬇ 01150: BT5 74.2%→68.4% (-5.7pp)
+    ⬇ 01152: BT5 74.6%→67.5% (-7.2pp)
+    ⬇ 01159: BT5 59.0%→49.7% (-9.3pp)
+    ⬇ 01164: BT5 66.2%→58.6% (-7.6pp)
+    ⬇ 01166: BT5 74.7%→68.1% (-6.6pp)
+    ⬆ 01167: BT5 48.7%→53.6% (+4.9pp)
+    ⬆ 01168: BT5 63.7%→73.3% (+9.6pp)
+    ⬆ 01170: BT5 55.7%→59.6% (+3.9pp)
+    ⬆ 01180: BT5 56.9%→61.7% (+4.8pp)
+    ⬇ 01184: BT5 72.8%→66.8% (-6.0pp)
+    ⬆ 01200: BT5 18.1%→22.8% (+4.7pp)
+    ⬇ 01209: BT5 29.9%→23.8% (-6.0pp)
+    ⬆ 01216: BT5 77.9%→82.9% (+5.0pp)
+    ⬆ 01224: BT5 56.2%→61.6% (+5.4pp)
+    ⬆ 01226: BT5 70.4%→76.5% (+6.2pp)
+    ⬆ 01228: BT5 39.2%→54.9% (+15.7pp)
+    ⬇ 01233: BT5 69.7%→59.0% (-10.7pp)
+    ⬇ 01237: BT5 73.4%→69.1% (-4.3pp)
+    ⬆ 01250: BT5 22.9%→26.4% (+3.5pp)
+    ⬇ 01251: BT5 57.1%→54.1% (-3.1pp)
+    ⬇ 01255: BT5 69.8%→33.6% (-36.2pp)
+    ⬆ 01258: BT5 26.8%→31.0% (+4.2pp)
+    ⬆ 01259: BT5 52.4%→60.3% (+7.9pp)
+    ⬆ 01262: BT5 21.3%→38.8% (+17.5pp)
+    ⬆ 01268: BT5 50.5%→54.9% (+4.4pp)
+    ⬆ 01273: BT5 64.5%→68.3% (+3.8pp)
+    ⬆ 01274: BT5 15.1%→26.5% (+11.4pp)
+    ⬆ 01280: BT5 62.4%→85.2% (+22.8pp)
+    ⬆ 01282: BT5 34.6%→38.9% (+4.3pp)
+    ⬇ 01284: BT5 72.7%→65.4% (-7.2pp)
+    ⬇ 01286: BT5 10.7%→6.7% (-4.0pp)
+    ⬆ 01289: BT5 30.3%→34.7% (+4.3pp)
+    ⬆ 01300: BT5 70.9%→74.4% (+3.4pp)
+    ⬆ 01310: BT5 20.8%→83.6% (+62.9pp)
+    ⬇ 01316: BT5 64.2%→57.6% (-6.7pp)
+    ⬇ 01318: BT5 14.1%→9.5% (-4.6pp)
+    ⬇ 01319: BT5 79.8%→7.6% (-72.1pp)
+    ⬆ 01323: BT5 62.4%→65.6% (+3.2pp)
+    ⬇ 01332: BT5 63.9%→51.8% (-12.2pp)
+    ⬆ 01333: BT5 30.3%→60.2% (+30.0pp)
+    ⬆ 01340: BT5 37.4%→41.8% (+4.4pp)
+    ⬇ 01341: BT5 23.2%→7.9% (-15.2pp)
+    ⬆ 01346: BT5 66.3%→70.5% (+4.1pp)
+    ⬆ 01348: BT5 67.5%→81.9% (+14.3pp)
+    ⬆ 01351: BT5 81.1%→88.7% (+7.6pp)
+    ⬇ 01354: BT5 48.2%→36.3% (-11.9pp)
+    ⬇ 01355: BT5 57.6%→49.1% (-8.5pp)
+    ⬇ 01364: BT5 62.7%→54.7% (-8.0pp)
+    ⬆ 01371: BT5 23.7%→55.9% (+32.2pp)
+    ⬇ 01372: BT5 56.6%→50.3% (-6.4pp)
+    ⬆ 01373: BT5 34.8%→37.9% (+3.2pp)
+    ⬇ 01376: BT5 82.1%→50.7% (-31.5pp)
+    ⬇ 01378: BT5 40.7%→33.7% (-7.0pp)
+    ⬇ 01380: BT5 59.0%→37.8% (-21.2pp)
+    ⬇ 01384: BT5 36.1%→16.9% (-19.2pp)
+    ⬆ 01385: BT5 16.8%→20.1% (+3.3pp)
+    ⬆ 01396: BT5 35.3%→40.5% (+5.2pp)
+    ⬇ 01399: BT5 51.4%→48.1% (-3.3pp)
+    ⬇ 01400: BT5 64.8%→59.0% (-5.8pp)
+    ⬇ 01401: BT5 70.4%→58.9% (-11.6pp)
+    ⬇ 01405: BT5 52.9%→49.5% (-3.4pp)
+    ⬇ 01406: BT5 58.6%→50.3% (-8.3pp)
+    ⬆ 01407: BT5 87.4%→91.2% (+3.8pp)
+    ⬆ 01408: BT5 63.0%→68.6% (+5.5pp)
+    ⬆ 01410: BT5 77.6%→82.7% (+5.1pp)
+    ⬆ 01412: BT5 45.2%→49.2% (+4.1pp)
+    ⬇ 01419: BT5 52.1%→48.5% (-3.6pp)
+    ⬆ 01421: BT5 38.8%→44.4% (+5.6pp)
+    ⬆ 01429: BT5 31.3%→81.5% (+50.2pp)
+    ⬆ 01433: BT5 51.9%→55.6% (+3.7pp)
+    ⬇ 01451: BT5 63.8%→60.0% (-3.9pp)
+    ⬆ 01455: BT5 63.4%→67.7% (+4.3pp)
+    ⬇ 01459: BT5 64.9%→60.6% (-4.3pp)
+    ⬆ 01460: BT5 46.6%→51.0% (+4.4pp)
+    ⬆ 01468: BT5 14.2%→17.3% (+3.1pp)
+    ⬆ 01473: BT5 16.8%→25.9% (+9.1pp)
+    ⬆ 01475: BT5 24.4%→77.9% (+53.5pp)
+    ⬆ 01477: BT5 61.9%→67.2% (+5.3pp)
+    ⬇ 01489: BT5 92.2%→86.7% (-5.5pp)
+    ⬆ 01501: BT5 59.2%→64.5% (+5.3pp)
+    ⬆ 01508: BT5 16.8%→21.6% (+4.8pp)
+    ⬇ 01519: BT5 55.8%→49.9% (-5.9pp)
+    ⬇ 01520: BT5 60.6%→55.7% (-4.9pp)
+    ⬆ 01523: BT5 28.0%→32.8% (+4.8pp)
+    ⬇ 01525: BT5 73.0%→66.5% (-6.5pp)
+    ⬇ 01528: BT5 48.4%→25.5% (-22.9pp)
+    ⬇ 01543: BT5 72.3%→68.1% (-4.2pp)
+    ⬆ 01545: BT5 63.5%→67.3% (+3.7pp)
+    ⬆ 01546: BT5 43.9%→81.2% (+37.4pp)
+    ⬆ 01552: BT5 32.5%→57.5% (+25.0pp)
+    ⬆ 01560: BT5 14.8%→18.5% (+3.7pp)
+    ⬇ 01561: BT5 55.0%→44.0% (-10.9pp)
+    ⬆ 01563: BT5 13.0%→62.9% (+49.8pp)
+    ⬆ 01575: BT5 51.5%→64.2% (+12.6pp)
+    ⬆ 01576: BT5 58.7%→69.9% (+11.2pp)
+    ⬆ 01580: BT5 28.5%→36.2% (+7.7pp)
+    ⬆ 01582: BT5 46.7%→50.8% (+4.1pp)
+    ⬆ 01588: BT5 43.1%→54.7% (+11.6pp)
+    ⬇ 01592: BT5 58.4%→52.5% (-5.9pp)
+    ⬆ 01593: BT5 64.8%→74.2% (+9.4pp)
+    ⬆ 01597: BT5 93.5%→97.1% (+3.6pp)
+    ⬆ 01611: BT5 55.2%→58.7% (+3.4pp)
+    ⬇ 01612: BT5 39.4%→34.8% (-4.6pp)
+    ⬆ 01616: BT5 46.8%→53.6% (+6.7pp)
+    ⬆ 01621: BT5 42.2%→45.9% (+3.7pp)
+    ⬆ 01628: BT5 33.9%→39.4% (+5.5pp)
+    ⬆ 01633: BT5 31.2%→34.7% (+3.4pp)
+    ⬇ 01635: BT5 43.2%→8.5% (-34.7pp)
+    ⬆ 01643: BT5 62.0%→74.4% (+12.4pp)
+    ⬆ 01650: BT5 41.6%→48.9% (+7.2pp)
+    ⬆ 01653: BT5 26.6%→56.2% (+29.6pp)
+    ⬇ 01655: BT5 54.0%→45.0% (-9.1pp)
+    ⬆ 01658: BT5 34.1%→37.5% (+3.4pp)
+    ⬇ 01660: BT5 92.1%→84.8% (-7.3pp)
+    ⬇ 01661: BT5 44.2%→40.6% (-3.6pp)
+    ⬆ 01662: BT5 29.3%→39.8% (+10.5pp)
+    ⬆ 01679: BT5 50.7%→60.9% (+10.3pp)
+    ⬆ 01681: BT5 16.6%→23.4% (+6.8pp)
+    ⬆ 01683: BT5 59.9%→64.6% (+4.8pp)
+    ⬆ 01686: BT5 7.9%→16.0% (+8.1pp)
+    ⬆ 01691: BT5 40.0%→43.1% (+3.2pp)
+    ⬇ 01693: BT5 92.4%→87.3% (-5.1pp)
+    ⬇ 01703: BT5 74.7%→62.6% (-12.1pp)
+    ⬆ 01709: BT5 47.4%→59.1% (+11.7pp)
+    ⬇ 01712: BT5 72.3%→64.9% (-7.5pp)
+    ⬇ 01715: BT5 72.5%→61.6% (-11.0pp)
+    ⬆ 01716: BT5 52.0%→79.1% (+27.1pp)
+    ⬆ 01718: BT5 63.8%→67.1% (+3.2pp)
+    ⬆ 01722: BT5 51.9%→55.0% (+3.1pp)
+    ⬆ 01725: BT5 21.5%→27.5% (+6.0pp)
+    ⬇ 01729: BT5 78.1%→71.3% (-6.8pp)
+    ⬆ 01731: BT5 36.9%→40.0% (+3.1pp)
+    ⬇ 01732: BT5 39.6%→35.8% (-3.8pp)
+    ⬇ 01735: BT5 70.6%→52.1% (-18.5pp)
+    ⬇ 01742: BT5 37.7%→32.8% (-4.9pp)
+    ⬇ 01747: BT5 89.1%→85.9% (-3.1pp)
+    ⬆ 01748: BT5 64.1%→95.7% (+31.6pp)
+    ⬆ 01750: BT5 40.3%→43.3% (+3.0pp)
+    ⬇ 01751: BT5 85.3%→75.6% (-9.7pp)
+    ⬆ 01773: BT5 53.8%→58.5% (+4.7pp)
+    ⬇ 01775: BT5 37.3%→32.5% (-4.8pp)
+    ⬇ 01778: BT5 79.6%→73.2% (-6.4pp)
+    ⬇ 01780: BT5 96.0%→63.3% (-32.8pp)
+    ⬇ 01782: BT5 78.6%→71.4% (-7.2pp)
+    ⬇ 01783: BT5 72.5%→66.1% (-6.3pp)
+    ⬇ 01787: BT5 7.5%→4.0% (-3.5pp)
+    ⬇ 01788: BT5 76.8%→69.5% (-7.3pp)
+    ⬆ 01792: BT5 65.5%→69.7% (+4.2pp)
+    ⬆ 01793: BT5 63.8%→69.6% (+5.8pp)
+    ⬇ 01796: BT5 92.8%→70.5% (-22.2pp)
+    ⬇ 01798: BT5 20.8%→13.2% (-7.6pp)
+    ⬇ 01809: BT5 79.9%→76.8% (-3.1pp)
+    ⬆ 01812: BT5 11.4%→18.2% (+6.8pp)
+    ⬇ 01815: BT5 60.3%→53.8% (-6.6pp)
+    ⬇ 01817: BT5 87.2%→74.7% (-12.5pp)
+    ⬆ 01822: BT5 57.1%→61.6% (+4.5pp)
+    ⬆ 01823: BT5 43.9%→59.3% (+15.3pp)
+    ⬆ 01826: BT5 64.6%→84.7% (+20.2pp)
+    ⬇ 01831: BT5 60.0%→49.8% (-10.2pp)
+    ⬇ 01835: BT5 67.3%→61.9% (-5.4pp)
+    ⬆ 01843: BT5 7.5%→12.4% (+5.0pp)
+    ⬇ 01845: BT5 80.8%→70.7% (-10.2pp)
+    ⬆ 01850: BT5 41.4%→56.4% (+14.9pp)
+    ⬇ 01855: BT5 59.3%→16.8% (-42.5pp)
+    ⬇ 01860: BT5 32.2%→21.9% (-10.4pp)
+    ⬆ 01870: BT5 47.3%→51.5% (+4.2pp)
+    ⬇ 01872: BT5 73.2%→68.7% (-4.5pp)
+    ⬆ 01873: BT5 18.7%→22.2% (+3.5pp)
+    ⬇ 01875: BT5 78.2%→66.6% (-11.6pp)
+    ⬇ 01877: BT5 22.6%→15.8% (-6.8pp)
+    ⬆ 01881: BT5 32.2%→39.3% (+7.1pp)
+    ⬇ 01888: BT5 23.0%→12.4% (-10.5pp)
+    ⬆ 01894: BT5 44.2%→48.6% (+4.4pp)
+    ⬆ 01900: BT5 62.3%→68.2% (+5.9pp)
+    ⬆ 01901: BT5 31.1%→45.8% (+14.7pp)
+    ⬇ 01903: BT5 81.9%→56.8% (-25.1pp)
+    ⬇ 01905: BT5 56.7%→52.0% (-4.7pp)
+    ⬇ 01906: BT5 74.9%→71.9% (-3.0pp)
+    ⬇ 01908: BT5 47.1%→42.3% (-4.8pp)
+    ⬆ 01909: BT5 59.9%→65.0% (+5.2pp)
+    ⬆ 01912: BT5 27.9%→57.6% (+29.8pp)
+    ⬆ 01913: BT5 7.9%→13.1% (+5.2pp)
+    ⬆ 01915: BT5 77.4%→80.7% (+3.4pp)
+    ⬆ 01916: BT5 19.4%→25.9% (+6.5pp)
+    ⬆ 01918: BT5 6.7%→13.8% (+7.1pp)
+    ⬆ 01920: BT5 65.3%→69.6% (+4.3pp)
+    ⬆ 01927: BT5 37.1%→43.4% (+6.3pp)
+    ⬆ 01929: BT5 29.4%→35.6% (+6.2pp)
+    ⬆ 01931: BT5 68.8%→84.3% (+15.5pp)
+    ⬆ 01936: BT5 72.2%→75.5% (+3.3pp)
+    ⬆ 01939: BT5 57.8%→69.2% (+11.4pp)
+    ⬆ 01940: BT5 63.0%→84.8% (+21.9pp)
+    ⬇ 01941: BT5 63.4%→60.3% (-3.1pp)
+    ⬇ 01943: BT5 87.5%→79.9% (-7.6pp)
+    ⬇ 01950: BT5 48.9%→43.6% (-5.2pp)
+    ⬇ 01951: BT5 20.4%→17.0% (-3.4pp)
+    ⬆ 01952: BT5 16.5%→23.1% (+6.6pp)
+    ⬆ 01959: BT5 15.2%→71.5% (+56.3pp)
+    ⬆ 01960: BT5 56.7%→85.2% (+28.4pp)
+    ⬇ 01961: BT5 84.5%→74.7% (-9.8pp)
+    ⬇ 01962: BT5 46.2%→27.2% (-19.0pp)
+    ⬇ 01965: BT5 42.1%→38.4% (-3.7pp)
+    ⬇ 01967: BT5 70.8%→59.7% (-11.1pp)
+    ⬆ 01980: BT5 82.3%→85.5% (+3.2pp)
+    ⬆ 01981: BT5 46.0%→50.0% (+4.0pp)
+    ⬇ 01983: BT5 74.2%→68.2% (-6.0pp)
+    ⬇ 01987: BT5 76.7%→73.3% (-3.4pp)
+    ⬇ 01991: BT5 76.7%→63.7% (-13.0pp)
+    ⬇ 01993: BT5 74.8%→70.5% (-4.2pp)
+    ⬇ 01995: BT5 47.4%→28.2% (-19.2pp)
+    ⬇ 02002: BT5 67.5%→61.7% (-5.7pp)
+    ⬇ 02003: BT5 82.6%→33.3% (-49.3pp)
+    ⬆ 02005: BT5 16.0%→24.4% (+8.4pp)
+    ⬇ 02007: BT5 19.6%→13.7% (-5.8pp)
+    ⬆ 02008: BT5 49.2%→52.7% (+3.5pp)
+    ⬆ 02012: BT5 21.1%→39.4% (+18.3pp)
+    ⬆ 02018: BT5 35.0%→38.6% (+3.7pp)
+    ⬇ 02025: BT5 91.3%→83.7% (-7.7pp)
+    ⬇ 02048: BT5 55.5%→50.6% (-4.9pp)
+    ⬇ 02076: BT5 4.8%→1.6% (-3.2pp)
+    ⬇ 02096: BT5 56.3%→50.5% (-5.8pp)
+    ⬇ 02097: BT5 33.0%→6.5% (-26.5pp)
+    ⬇ 02099: BT5 18.0%→11.5% (-6.5pp)
+    ⬇ 02102: BT5 46.8%→35.7% (-11.1pp)
+    ⬇ 02105: BT5 36.8%→32.4% (-4.4pp)
+    ⬆ 02108: BT5 55.0%→61.8% (+6.8pp)
+    ⬇ 02110: BT5 64.7%→52.6% (-12.1pp)
+    ⬇ 02111: BT5 59.2%→30.4% (-28.8pp)
+    ⬆ 02120: BT5 65.9%→69.5% (+3.6pp)
+    ⬆ 02121: BT5 16.7%→23.2% (+6.6pp)
+    ⬆ 02122: BT5 13.5%→16.6% (+3.2pp)
+    ⬇ 02126: BT5 27.2%→20.7% (-6.4pp)
+    ⬆ 02129: BT5 41.8%→45.5% (+3.7pp)
+    ⬇ 02130: BT5 53.0%→45.6% (-7.4pp)
+    ⬆ 02132: BT5 50.5%→53.6% (+3.1pp)
+    ⬇ 02137: BT5 27.7%→23.4% (-4.4pp)
+    ⬆ 02139: BT5 44.3%→56.7% (+12.3pp)
+    ⬇ 02142: BT5 36.5%→27.5% (-9.0pp)
+    ⬆ 02147: BT5 33.4%→40.9% (+7.4pp)
+    ⬇ 02149: BT5 46.5%→41.4% (-5.1pp)
+    ⬇ 02155: BT5 36.5%→30.9% (-5.5pp)
+    ⬇ 02157: BT5 9.3%→6.1% (-3.2pp)
+    ⬆ 02158: BT5 18.6%→23.4% (+4.8pp)
+    ⬆ 02160: BT5 22.9%→49.4% (+26.5pp)
+    ⬇ 02162: BT5 44.6%→37.7% (-6.9pp)
+    ⬇ 02169: BT5 82.8%→27.9% (-54.9pp)
+    ⬆ 02172: BT5 20.3%→27.3% (+7.0pp)
+    ⬆ 02176: BT5 53.1%→60.9% (+7.8pp)
+    ⬆ 02178: BT5 58.8%→68.9% (+10.1pp)
+    ⬇ 02179: BT5 79.5%→72.9% (-6.6pp)
+    ⬆ 02180: BT5 38.6%→56.9% (+18.3pp)
+    ⬇ 02185: BT5 67.5%→62.0% (-5.5pp)
+    ⬆ 02190: BT5 37.9%→41.5% (+3.6pp)
+    ⬇ 02191: BT5 34.8%→30.2% (-4.6pp)
+    ⬆ 02197: BT5 49.1%→56.1% (+6.9pp)
+    ⬆ 02199: BT5 7.5%→22.3% (+14.8pp)
+    ⬇ 02205: BT5 82.2%→64.7% (-17.5pp)
+    ⬇ 02211: BT5 46.4%→29.6% (-16.8pp)
+    ⬇ 02219: BT5 54.8%→50.4% (-4.4pp)
+    ⬇ 02221: BT5 58.1%→52.7% (-5.5pp)
+    ⬇ 02228: BT5 34.3%→24.3% (-10.1pp)
+    ⬇ 02245: BT5 22.9%→17.8% (-5.1pp)
+    ⬇ 02251: BT5 60.2%→55.7% (-4.5pp)
+    ⬇ 02252: BT5 12.0%→8.0% (-4.0pp)
+    ⬆ 02255: BT5 59.1%→74.5% (+15.4pp)
+    ⬇ 02256: BT5 48.6%→41.7% (-6.9pp)
+    ⬆ 02257: BT5 45.9%→53.0% (+7.1pp)
+    ⬆ 02266: BT5 65.2%→69.1% (+3.8pp)
+    ⬇ 02268: BT5 51.0%→43.0% (-7.9pp)
+    ⬇ 02270: BT5 99.2%→49.3% (-49.9pp)
+    ⬆ 02273: BT5 27.8%→34.0% (+6.2pp)
+    ⬇ 02276: BT5 59.7%→47.6% (-12.1pp)
+    ⬇ 02289: BT5 86.4%→81.6% (-4.8pp)
+    ⬇ 02291: BT5 49.6%→39.6% (-10.0pp)
+    ⬇ 02302: BT5 87.4%→81.6% (-5.9pp)
+    ⬆ 02309: BT5 54.8%→61.7% (+6.9pp)
+    ⬇ 02312: BT5 61.6%→45.9% (-15.7pp)
+    ⬆ 02314: BT5 6.5%→31.5% (+24.9pp)
+    ⬇ 02315: BT5 67.3%→41.5% (-25.8pp)
+    ⬆ 02321: BT5 79.4%→82.7% (+3.3pp)
+    ⬇ 02322: BT5 79.4%→71.6% (-7.8pp)
+    ⬆ 02324: BT5 40.8%→66.8% (+26.0pp)
+    ⬇ 02325: BT5 84.6%→81.5% (-3.2pp)
+    ⬆ 02330: BT5 51.5%→55.8% (+4.3pp)
+    ⬆ 02342: BT5 34.0%→47.5% (+13.5pp)
+    ⬇ 02350: BT5 71.3%→66.2% (-5.2pp)
+    ⬇ 02358: BT5 53.6%→49.3% (-4.3pp)
+    ⬆ 02371: BT5 47.7%→53.0% (+5.4pp)
+    ⬆ 02376: BT5 37.5%→43.3% (+5.8pp)
+    ⬇ 02382: BT5 21.3%→7.2% (-14.1pp)
+    ⬇ 02393: BT5 70.3%→65.8% (-4.5pp)
+    ⬇ 02402: BT5 49.6%→46.2% (-3.4pp)
+    ⬇ 02405: BT5 36.9%→17.6% (-19.2pp)
+    ⬆ 02407: BT5 54.9%→58.8% (+3.8pp)
+    ⬆ 02409: BT5 83.0%→95.8% (+12.9pp)
+    ⬆ 02411: BT5 17.9%→63.0% (+45.1pp)
+    ⬆ 02415: BT5 44.8%→50.3% (+5.6pp)
+    ⬆ 02416: BT5 52.5%→55.6% (+3.2pp)
+    ⬇ 02419: BT5 23.4%→18.8% (-4.6pp)
+    ⬆ 02422: BT5 56.3%→62.6% (+6.3pp)
+    ⬇ 02425: BT5 21.5%→16.9% (-4.7pp)
+    ⬆ 02427: BT5 13.7%→62.3% (+48.6pp)
+    ⬆ 02429: BT5 47.0%→54.9% (+7.9pp)
+    ⬇ 02431: BT5 72.6%→39.1% (-33.6pp)
+    ⬇ 02432: BT5 16.7%→12.6% (-4.1pp)
+    ⬆ 02436: BT5 85.5%→90.3% (+4.8pp)
+    ⬇ 02438: BT5 57.8%→53.6% (-4.2pp)
+    ⬆ 02439: BT5 48.5%→62.0% (+13.5pp)
+    ⬆ 02442: BT5 82.8%→89.6% (+6.8pp)
+    ⬇ 02443: BT5 54.9%→50.3% (-4.5pp)
+    ⬇ 02450: BT5 85.9%→81.8% (-4.1pp)
+    ⬇ 02455: BT5 23.7%→18.7% (-4.9pp)
+    ⬇ 02458: BT5 89.5%→81.3% (-8.2pp)
+    ⬆ 02459: BT5 31.4%→42.2% (+10.9pp)
+    ⬇ 02465: BT5 17.9%→12.8% (-5.1pp)
+    ⬇ 02469: BT5 50.9%→44.0% (-6.9pp)
+    ⬇ 02473: BT5 77.5%→24.0% (-53.5pp)
+    ⬇ 02480: BT5 92.4%→85.0% (-7.5pp)
+    ⬆ 02482: BT5 54.0%→84.1% (+30.0pp)
+    ⬆ 02487: BT5 70.1%→76.2% (+6.0pp)
+    ⬆ 02488: BT5 25.4%→28.5% (+3.0pp)
+    ⬇ 02489: BT5 70.8%→63.9% (-6.9pp)
+    ⬇ 02495: BT5 63.1%→45.6% (-17.5pp)
+    ⬇ 02497: BT5 89.1%→84.9% (-4.2pp)
+    ⬇ 02498: BT5 38.4%→31.6% (-6.9pp)
+    ⬆ 02499: BT5 86.3%→93.0% (+6.8pp)
+    ⬆ 02500: BT5 26.6%→32.8% (+6.2pp)
+    ⬇ 02501: BT5 77.8%→62.5% (-15.3pp)
+    ⬇ 02502: BT5 58.0%→47.7% (-10.3pp)
+    ⬇ 02503: BT5 79.5%→47.2% (-32.2pp)
+    ⬇ 02506: BT5 33.3%→12.4% (-20.9pp)
+    ⬆ 02509: BT5 47.2%→57.6% (+10.5pp)
+    ⬆ 02512: BT5 59.3%→83.2% (+23.9pp)
+    ⬆ 02515: BT5 46.8%→78.5% (+31.7pp)
+    ⬆ 02517: BT5 32.7%→37.2% (+4.5pp)
+    ⬆ 02520: BT5 50.0%→79.1% (+29.1pp)
+    ⬇ 02521: BT5 77.3%→66.3% (-11.0pp)
+    ⬇ 02530: BT5 71.8%→68.0% (-3.8pp)
+    ⬆ 02531: BT5 47.7%→75.9% (+28.3pp)
+    ⬇ 02533: BT5 47.2%→39.7% (-7.5pp)
+    ⬆ 02535: BT5 52.1%→67.0% (+14.9pp)
+    ⬆ 02540: BT5 56.6%→61.3% (+4.6pp)
+    ⬆ 02549: BT5 70.1%→75.1% (+5.0pp)
+    ⬆ 02550: BT5 21.7%→46.1% (+24.4pp)
+    ⬆ 02551: BT5 54.3%→57.7% (+3.4pp)
+    ⬇ 02556: BT5 74.6%→54.0% (-20.6pp)
+    ⬇ 02559: BT5 84.2%→79.4% (-4.7pp)
+    ⬇ 02562: BT5 59.6%→20.4% (-39.2pp)
+    ⬆ 02563: BT5 65.7%→80.6% (+14.8pp)
+    ⬆ 02565: BT5 80.7%→85.6% (+4.9pp)
+    ⬆ 02566: BT5 55.4%→65.7% (+10.4pp)
+    ⬇ 02570: BT5 40.0%→7.7% (-32.3pp)
+    ⬇ 02575: BT5 77.7%→59.2% (-18.5pp)
+    ⬇ 02576: BT5 51.1%→46.5% (-4.6pp)
+    ⬇ 02577: BT5 44.9%→30.0% (-14.9pp)
+    ⬇ 02582: BT5 71.5%→10.8% (-60.7pp)
+    ⬇ 02585: BT5 88.8%→71.5% (-17.3pp)
+    ⬇ 02587: BT5 63.6%→48.4% (-15.3pp)
+    ⬇ 02589: BT5 27.6%→15.3% (-12.2pp)
+    ⬇ 02591: BT5 50.5%→39.3% (-11.2pp)
+    ⬇ 02593: BT5 47.8%→32.5% (-15.3pp)
+    ⬇ 02602: BT5 61.2%→55.4% (-5.8pp)
+    ⬇ 02603: BT5 16.3%→13.3% (-3.0pp)
+    ⬇ 02609: BT5 52.8%→48.1% (-4.7pp)
+    ⬇ 02613: BT5 56.0%→50.9% (-5.1pp)
+    ⬇ 02616: BT5 38.4%→31.6% (-6.8pp)
+    ⬇ 02617: BT5 79.3%→75.0% (-4.2pp)
+    ⬆ 02623: BT5 48.8%→61.4% (+12.6pp)
+    ⬇ 02631: BT5 31.9%→27.9% (-3.9pp)
+    ⬇ 02635: BT5 71.0%→58.6% (-12.4pp)
+    ⬇ 02637: BT5 61.2%→49.9% (-11.3pp)
+    ⬇ 02650: BT5 91.0%→81.9% (-9.1pp)
+    ⬇ 02655: BT5 84.6%→35.3% (-49.3pp)
+    ⬇ 02656: BT5 85.6%→64.2% (-21.4pp)
+    ⬇ 02659: BT5 82.2%→78.9% (-3.4pp)
+    ⬇ 02661: BT5 89.1%→81.3% (-7.8pp)
+    ⬇ 02665: BT5 77.1%→72.0% (-5.1pp)
+    ⬆ 02666: BT5 21.4%→34.0% (+12.6pp)
+    ⬆ 02668: BT5 56.2%→69.0% (+12.9pp)
+    ⬇ 02677: BT5 78.3%→57.5% (-20.9pp)
+    ⬆ 02678: BT5 48.8%→52.6% (+3.8pp)
+    ⬆ 02682: BT5 34.1%→37.3% (+3.2pp)
+    ⬆ 02683: BT5 36.7%→40.1% (+3.3pp)
+    ⬇ 02685: BT5 76.3%→61.0% (-15.3pp)
+    ⬇ 02696: BT5 54.0%→45.4% (-8.7pp)
+    ⬇ 02699: BT5 88.7%→36.6% (-52.1pp)
+    ⬇ 02701: BT5 46.9%→38.4% (-8.5pp)
+    ⬇ 02706: BT5 48.4%→43.1% (-5.3pp)
+    ⬇ 02722: BT5 31.5%→27.1% (-4.4pp)
+    ⬇ 02728: BT5 66.7%→63.7% (-3.0pp)
+    ⬇ 02799: BT5 16.8%→12.0% (-4.8pp)
+    ⬆ 02863: BT5 62.9%→66.2% (+3.3pp)
+    ⬆ 02877: BT5 29.9%→34.6% (+4.7pp)
+    ⬇ 03200: BT5 40.5%→35.4% (-5.1pp)
+    ⬆ 03303: BT5 41.9%→48.5% (+6.7pp)
+    ⬆ 03313: BT5 59.5%→66.3% (+6.9pp)
+    ⬆ 03319: BT5 9.1%→14.4% (+5.2pp)
+    ⬇ 03322: BT5 30.7%→27.0% (-3.7pp)
+    ⬇ 03330: BT5 40.6%→24.9% (-15.7pp)
+    ⬇ 03336: BT5 64.6%→59.6% (-5.1pp)
+    ⬆ 03363: BT5 45.3%→53.8% (+8.6pp)
+    ⬇ 03366: BT5 32.5%→28.8% (-3.8pp)
+    ⬆ 03368: BT5 45.1%→49.2% (+4.0pp)
+    ⬇ 03380: BT5 22.6%→17.6% (-5.1pp)
+    ⬆ 03383: BT5 13.9%→20.1% (+6.3pp)
+    ⬆ 03389: BT5 74.6%→85.2% (+10.6pp)
+    ⬇ 03395: BT5 68.8%→62.1% (-6.7pp)
+    ⬆ 03600: BT5 29.3%→56.2% (+27.0pp)
+    ⬇ 03626: BT5 87.1%→66.8% (-20.2pp)
+    ⬇ 03628: BT5 70.6%→67.1% (-3.5pp)
+    ⬇ 03633: BT5 67.0%→62.5% (-4.5pp)
+    ⬇ 03638: BT5 78.5%→31.5% (-46.9pp)
+    ⬆ 03658: BT5 45.0%→50.7% (+5.7pp)
+    ⬇ 03662: BT5 42.3%→38.1% (-4.2pp)
+    ⬇ 03666: BT5 55.4%→45.3% (-10.1pp)
+    ⬇ 03668: BT5 33.3%→30.2% (-3.1pp)
+    ⬆ 03669: BT5 16.4%→20.3% (+3.9pp)
+    ⬇ 03677: BT5 47.6%→35.7% (-11.9pp)
+    ⬇ 03692: BT5 26.6%→19.0% (-7.6pp)
+    ⬇ 03708: BT5 59.4%→55.1% (-4.3pp)
+    ⬆ 03709: BT5 28.6%→32.2% (+3.6pp)
+    ⬇ 03718: BT5 62.9%→58.1% (-4.9pp)
+    ⬇ 03738: BT5 26.0%→15.9% (-10.1pp)
+    ⬇ 03750: BT5 18.8%→12.4% (-6.3pp)
+    ⬇ 03778: BT5 82.2%→74.4% (-7.8pp)
+    ⬇ 03788: BT5 64.6%→57.0% (-7.6pp)
+    ⬇ 03798: BT5 61.6%→39.3% (-22.3pp)
+    ⬇ 03822: BT5 35.5%→30.6% (-4.9pp)
+    ⬆ 03830: BT5 40.1%→43.2% (+3.1pp)
+    ⬇ 03833: BT5 27.5%→22.1% (-5.4pp)
+    ⬆ 03839: BT5 48.9%→55.6% (+6.8pp)
+    ⬆ 03866: BT5 26.0%→32.6% (+6.6pp)
+    ⬆ 03877: BT5 14.5%→69.2% (+54.7pp)
+    ⬇ 03881: BT5 58.3%→50.4% (-7.8pp)
+    ⬇ 03886: BT5 48.0%→35.6% (-12.4pp)
+    ⬆ 03893: BT5 69.1%→75.2% (+6.1pp)
+    ⬇ 03899: BT5 37.3%→32.0% (-5.4pp)
+    ⬇ 03908: BT5 14.6%→9.3% (-5.3pp)
+    ⬇ 03913: BT5 35.7%→28.8% (-6.8pp)
+    ⬆ 03919: BT5 43.9%→52.5% (+8.6pp)
+    ⬇ 03928: BT5 93.0%→69.5% (-23.5pp)
+    ⬇ 03931: BT5 47.1%→24.3% (-22.8pp)
+    ⬆ 03938: BT5 50.0%→71.3% (+21.3pp)
+    ⬇ 03939: BT5 77.8%→64.9% (-13.0pp)
+    ⬆ 03963: BT5 70.7%→73.9% (+3.2pp)
+    ⬇ 03983: BT5 25.9%→21.4% (-4.5pp)
+    ⬇ 03990: BT5 29.4%→23.4% (-6.0pp)
+    ⬆ 03997: BT5 36.4%→41.0% (+4.6pp)
+    ⬇ 04335: BT5 30.4%→17.8% (-12.7pp)
+    ⬆ 06038: BT5 36.5%→43.9% (+7.5pp)
+    ⬆ 06063: BT5 45.7%→55.6% (+9.9pp)
+    ⬆ 06086: BT5 14.4%→19.0% (+4.6pp)
+    ⬆ 06093: BT5 69.3%→83.4% (+14.1pp)
+    ⬆ 06100: BT5 30.2%→35.8% (+5.6pp)
+    ⬆ 06108: BT5 36.0%→42.7% (+6.7pp)
+    ⬆ 06110: BT5 10.6%→51.8% (+41.2pp)
+    ⬆ 06117: BT5 55.1%→64.5% (+9.4pp)
+    ⬇ 06119: BT5 40.1%→36.9% (-3.2pp)
+    ⬇ 06127: BT5 19.0%→15.2% (-3.8pp)
+    ⬇ 06128: BT5 79.7%→44.9% (-34.8pp)
+    ⬆ 06136: BT5 72.0%→76.0% (+4.1pp)
+    ⬇ 06162: BT5 94.5%→64.0% (-30.5pp)
+    ⬆ 06166: BT5 34.1%→38.4% (+4.4pp)
+    ⬇ 06178: BT5 62.5%→59.1% (-3.4pp)
+    ⬇ 06181: BT5 11.4%→7.7% (-3.7pp)
+    ⬆ 06182: BT5 64.0%→93.6% (+29.6pp)
+    ⬇ 06196: BT5 28.7%→24.5% (-4.2pp)
+    ⬆ 06288: BT5 22.3%→25.5% (+3.2pp)
+    ⬇ 06608: BT5 61.3%→45.7% (-15.5pp)
+    ⬇ 06609: BT5 67.3%→51.9% (-15.4pp)
+    ⬇ 06616: BT5 58.0%→25.8% (-32.2pp)
+    ⬇ 06618: BT5 25.1%→15.6% (-9.5pp)
+    ⬇ 06651: BT5 47.4%→35.7% (-11.7pp)
+    ⬇ 06655: BT5 63.9%→56.8% (-7.0pp)
+    ⬆ 06657: BT5 10.1%→14.8% (+4.7pp)
+    ⬆ 06660: BT5 13.8%→25.0% (+11.2pp)
+    ⬇ 06666: BT5 35.9%→32.0% (-3.8pp)
+    ⬆ 06676: BT5 77.2%→82.8% (+5.6pp)
+    ⬇ 06677: BT5 43.4%→30.8% (-12.6pp)
+    ⬇ 06680: BT5 37.1%→20.0% (-17.1pp)
+    ⬇ 06681: BT5 87.0%→67.9% (-19.1pp)
+    ⬇ 06683: BT5 46.9%→39.4% (-7.6pp)
+    ⬇ 06693: BT5 30.6%→22.2% (-8.3pp)
+    ⬆ 06696: BT5 45.3%→79.7% (+34.4pp)
+    ⬆ 06699: BT5 38.8%→61.2% (+22.4pp)
+    ⬇ 06812: BT5 34.8%→29.7% (-5.1pp)
+    ⬆ 06820: BT5 82.3%→85.9% (+3.6pp)
+    ⬇ 06821: BT5 15.4%→12.4% (-3.0pp)
+    ⬆ 06828: BT5 28.9%→32.4% (+3.4pp)
+    ⬇ 06829: BT5 43.7%→38.0% (-5.7pp)
+    ⬇ 06830: BT5 50.3%→41.4% (-8.8pp)
+    ⬇ 06838: BT5 58.5%→52.3% (-6.2pp)
+    ⬇ 06865: BT5 17.6%→8.3% (-9.3pp)
+    ⬆ 06869: BT5 6.0%→15.0% (+9.0pp)
+    ⬇ 06877: BT5 85.4%→82.1% (-3.3pp)
+    ⬆ 06882: BT5 16.0%→19.6% (+3.6pp)
+    ⬇ 06896: BT5 37.3%→31.8% (-5.5pp)
+    ⬇ 06911: BT5 36.6%→26.2% (-10.4pp)
+    ⬆ 06918: BT5 49.6%→56.4% (+6.9pp)
+    ⬇ 06928: BT5 50.8%→46.5% (-4.4pp)
+    ⬇ 06933: BT5 85.0%→67.3% (-17.7pp)
+    ⬆ 06938: BT5 32.2%→36.4% (+4.2pp)
+    ⬆ 06939: BT5 59.0%→82.2% (+23.3pp)
+    ⬇ 06955: BT5 20.2%→11.2% (-8.9pp)
+    ⬆ 06959: BT5 59.6%→75.8% (+16.3pp)
+    ⬆ 06968: BT5 28.2%→41.6% (+13.4pp)
+    ⬆ 06969: BT5 29.6%→35.5% (+5.9pp)
+    ⬇ 06978: BT5 62.1%→50.9% (-11.3pp)
+    ⬇ 06989: BT5 43.1%→36.0% (-7.1pp)
+    ⬆ 06996: BT5 61.6%→65.8% (+4.2pp)
+    ⬇ 06998: BT5 61.8%→40.6% (-21.2pp)
+    ⬇ 07618: BT5 38.3%→32.6% (-5.6pp)
+    ⬆ 08006: BT5 50.3%→69.3% (+19.0pp)
+    ⬇ 08027: BT5 67.7%→58.4% (-9.3pp)
+    ⬇ 08029: BT5 83.8%→80.7% (-3.2pp)
+    ⬇ 08030: BT5 91.9%→81.4% (-10.5pp)
+    ⬆ 08031: BT5 11.0%→88.1% (+77.1pp)
+    ⬇ 08036: BT5 86.4%→78.6% (-7.7pp)
+    ⬇ 08037: BT5 72.4%→45.5% (-26.8pp)
+    ⬆ 08040: BT5 39.9%→44.0% (+4.1pp)
+    ⬇ 08049: BT5 64.6%→45.1% (-19.5pp)
+    ⬆ 08062: BT5 23.2%→78.0% (+54.8pp)
+    ⬆ 08069: BT5 43.4%→50.0% (+6.6pp)
+    ⬇ 08079: BT5 76.8%→50.0% (-26.8pp)
+    ⬆ 08082: BT5 55.3%→62.0% (+6.6pp)
+    ⬇ 08087: BT5 48.4%→40.9% (-7.5pp)
+    ⬇ 08093: BT5 58.4%→37.3% (-21.0pp)
+    ⬇ 08106: BT5 73.7%→65.5% (-8.2pp)
+    ⬇ 08118: BT5 68.8%→45.5% (-23.3pp)
+    ⬇ 08120: BT5 65.0%→62.0% (-3.0pp)
+    ⬆ 08121: BT5 71.2%→76.3% (+5.1pp)
+    ⬇ 08125: BT5 80.4%→75.2% (-5.2pp)
+    ⬆ 08136: BT5 48.2%→58.9% (+10.6pp)
+    ⬆ 08140: BT5 50.5%→56.3% (+5.7pp)
+    ⬇ 08143: BT5 59.2%→53.6% (-5.7pp)
+    ⬇ 08146: BT5 84.4%→62.8% (-21.6pp)
+    ⬆ 08147: BT5 42.3%→59.8% (+17.5pp)
+    ⬆ 08148: BT5 87.9%→91.9% (+4.0pp)
+    ⬆ 08153: BT5 46.8%→69.0% (+22.1pp)
+    ⬆ 08156: BT5 41.6%→46.2% (+4.6pp)
+    ⬇ 08163: BT5 82.2%→71.6% (-10.7pp)
+    ⬇ 08168: BT5 68.9%→45.7% (-23.2pp)
+    ⬇ 08178: BT5 77.2%→39.7% (-37.5pp)
+    ⬇ 08179: BT5 58.3%→40.0% (-18.3pp)
+    ⬇ 08186: BT5 59.3%→51.5% (-7.8pp)
+    ⬇ 08188: BT5 40.5%→36.0% (-4.5pp)
+    ⬇ 08189: BT5 59.9%→55.0% (-4.9pp)
+    ⬆ 08191: BT5 29.4%→36.3% (+6.9pp)
+    ⬆ 08193: BT5 60.6%→66.9% (+6.3pp)
+    ⬆ 08196: BT5 43.3%→61.7% (+18.4pp)
+    ⬇ 08206: BT5 56.8%→53.2% (-3.6pp)
+    ⬆ 08208: BT5 34.5%→65.6% (+31.0pp)
+    ⬆ 08210: BT5 24.9%→30.6% (+5.6pp)
+    ⬆ 08217: BT5 59.0%→63.0% (+4.0pp)
+    ⬇ 08219: BT5 61.6%→52.4% (-9.2pp)
+    ⬇ 08223: BT5 82.0%→72.7% (-9.3pp)
+    ⬆ 08232: BT5 58.4%→86.5% (+28.1pp)
+    ⬇ 08237: BT5 88.3%→82.0% (-6.3pp)
+    ⬆ 08238: BT5 36.9%→73.8% (+36.9pp)
+    ⬆ 08239: BT5 82.0%→88.3% (+6.2pp)
+    ⬆ 08241: BT5 45.8%→49.8% (+4.0pp)
+    ⬇ 08246: BT5 40.2%→34.4% (-5.8pp)
+    ⬇ 08247: BT5 34.6%→29.4% (-5.2pp)
+    ⬇ 08249: BT5 30.6%→27.1% (-3.6pp)
+    ⬇ 08268: BT5 73.2%→67.9% (-5.3pp)
+    ⬆ 08283: BT5 67.7%→71.8% (+4.1pp)
+    ⬆ 08285: BT5 46.4%→49.7% (+3.3pp)
+    ⬆ 08292: BT5 74.3%→80.4% (+6.0pp)
+    ⬇ 08300: BT5 86.5%→82.3% (-4.2pp)
+    ⬆ 08308: BT5 33.4%→41.3% (+7.9pp)
+    ⬆ 08310: BT5 82.2%→86.3% (+4.1pp)
+    ⬇ 08329: BT5 40.1%→36.8% (-3.4pp)
+    ⬆ 08341: BT5 47.9%→67.3% (+19.3pp)
+    ⬆ 08356: BT5 29.3%→57.4% (+28.1pp)
+    ⬇ 08357: BT5 58.9%→21.5% (-37.4pp)
+    ⬆ 08367: BT5 68.1%→72.3% (+4.2pp)
+    ⬇ 08368: BT5 81.5%→55.0% (-26.5pp)
+    ⬇ 08370: BT5 48.7%→41.5% (-7.1pp)
+    ⬆ 08375: BT5 30.6%→49.6% (+19.0pp)
+    ⬆ 08377: BT5 85.0%→88.2% (+3.2pp)
+    ⬇ 08385: BT5 71.0%→63.5% (-7.6pp)
+    ⬇ 08391: BT5 66.7%→62.6% (-4.1pp)
+    ⬇ 08395: BT5 72.7%→65.8% (-6.9pp)
+    ⬆ 08403: BT5 75.5%→84.0% (+8.4pp)
+    ⬆ 08420: BT5 73.7%→77.2% (+3.5pp)
+    ⬆ 08422: BT5 43.9%→47.4% (+3.5pp)
+    ⬆ 08426: BT5 79.1%→85.9% (+6.8pp)
+    ⬇ 08430: BT5 75.8%→70.3% (-5.5pp)
+    ⬆ 08431: BT5 59.1%→87.1% (+28.0pp)
+    ⬇ 08439: BT5 49.0%→44.9% (-4.1pp)
+    ⬆ 08448: BT5 72.3%→84.8% (+12.6pp)
+    ⬆ 08450: BT5 70.9%→75.5% (+4.6pp)
+    ⬆ 08455: BT5 70.5%→74.5% (+4.1pp)
+    ⬆ 08456: BT5 73.9%→81.5% (+7.6pp)
+    ⬇ 08460: BT5 69.4%→46.3% (-23.0pp)
+    ⬇ 08472: BT5 59.9%→43.4% (-16.5pp)
+    ⬆ 08482: BT5 71.8%→75.5% (+3.7pp)
+    ⬆ 08489: BT5 46.5%→87.0% (+40.5pp)
+    ⬇ 08490: BT5 61.6%→56.2% (-5.3pp)
+    ⬇ 08491: BT5 80.1%→72.4% (-7.7pp)
+    ⬇ 08500: BT5 87.0%→82.6% (-4.4pp)
+    ⬆ 08507: BT5 32.0%→62.6% (+30.6pp)
+    ⬆ 08516: BT5 51.1%→73.0% (+21.9pp)
+    ⬆ 08527: BT5 71.1%→83.0% (+11.9pp)
+    ⬆ 08535: BT5 49.4%→81.6% (+32.2pp)
+    ⬇ 08547: BT5 65.7%→41.2% (-24.5pp)
+    ⬇ 08603: BT5 79.3%→74.5% (-4.9pp)
+    ⬆ 08612: BT5 34.2%→59.6% (+25.4pp)
+    ⬇ 08613: BT5 69.1%→61.8% (-7.3pp)
+    ⬆ 08619: BT5 43.4%→50.0% (+6.6pp)
+    ⬇ 08620: BT5 83.3%→79.6% (-3.7pp)
+    ⬇ 08622: BT5 65.1%→52.0% (-13.2pp)
+    ⬆ 08631: BT5 75.5%→86.2% (+10.6pp)
+    ⬇ 08635: BT5 74.1%→37.1% (-37.0pp)
+    ⬆ 08637: BT5 52.0%→88.5% (+36.6pp)
+    ⬆ 08659: BT5 62.5%→68.5% (+6.0pp)
+    ⬆ 09636: BT5 31.4%→50.2% (+18.8pp)
+    ⬆ 09638: BT5 38.4%→48.7% (+10.3pp)
+    ⬆ 09639: BT5 53.9%→81.8% (+27.9pp)
+    ⬇ 09660: BT5 45.8%→34.9% (-11.0pp)
+    ⬆ 09663: BT5 31.4%→37.2% (+5.9pp)
+    ⬇ 09689: BT5 89.0%→72.6% (-16.4pp)
+    ⬇ 09699: BT5 52.2%→46.0% (-6.2pp)
+    ⬇ 09858: BT5 30.5%→21.9% (-8.7pp)
+    ⬆ 09877: BT5 59.9%→67.4% (+7.5pp)
+    ⬇ 09885: BT5 50.1%→46.4% (-3.6pp)
+    ⬇ 09887: BT5 26.9%→22.1% (-4.9pp)
+    ⬇ 09890: BT5 74.3%→71.2% (-3.1pp)
+    ⬆ 09893: BT5 75.2%→78.3% (+3.1pp)
+    ⬆ 09896: BT5 31.1%→34.5% (+3.4pp)
+    ⬆ 09898: BT5 4.2%→7.8% (+3.5pp)
+    ⬇ 09900: BT5 89.6%→86.0% (-3.6pp)
+    ⬆ 09906: BT5 17.0%→20.1% (+3.0pp)
+    ⬇ 09911: BT5 55.8%→48.6% (-7.1pp)
+    ⬇ 09919: BT5 50.2%→24.6% (-25.6pp)
+    ⬆ 09922: BT5 40.9%→45.3% (+4.4pp)
+    ⬆ 09928: BT5 65.9%→68.9% (+3.0pp)
+    ⬆ 09929: BT5 48.4%→83.8% (+35.4pp)
+    ⬆ 09930: BT5 68.3%→72.1% (+3.8pp)
+    ⬆ 09939: BT5 37.3%→48.4% (+11.1pp)
+    ⬆ 09955: BT5 44.2%→50.2% (+6.1pp)
+    ⬆ 09958: BT5 40.5%→56.4% (+15.9pp)
+    ⬆ 09960: BT5 44.1%→48.2% (+4.1pp)
+    ⬆ 09963: BT5 40.9%→53.3% (+12.4pp)
+    ⬆ 09978: BT5 27.9%→34.5% (+6.6pp)
+    ⬇ 09993: BT5 30.4%→27.4% (-3.0pp)
+    ⬇ 09995: BT5 24.5%→15.5% (-9.0pp)
+    ⬆ 09998: BT5 46.2%→50.1% (+4.0pp)
+
+
+STDERR:

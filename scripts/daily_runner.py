@@ -10,7 +10,7 @@ Usage:
     python daily_runner.py --dry-run              # scrape but don't commit
 """
 
-import argparse, json, os, sys, time, re, math
+import argparse, json, os, sys, time, re, math, subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
@@ -39,8 +39,9 @@ PAT = re.compile(
     r'<td class="col-address">.*?</td>\s*'
     r'<td class="col-shareholding text-right">\s*<div[^>]*>.*?</div>\s*'
     r'<div class="mobile-list-body">([\d,]+)</div>', re.DOTALL)
-WORKERS = 3  # Conservative for daily runs
-JITTER = (0.8, 2.0)
+WORKERS = 5  # Conservative for daily runs
+JITTER = (0.8, 1.5)
+BATCH_HOLDERS_WRITE = 100  # write holders file every N collected
 
 # ── Scraping (reuse proven architecture from collector_v5) ──────────────
 
@@ -65,12 +66,22 @@ def get_viewstate():
         return None
     return {"vs": vs.group(1), "vsg": vsg.group(1), "ev": ev.group(1) if ev else ""}
 
-def scrape_stock(code, date_str, viewstate):
-    """Scrape a single stock's CCASS data. Returns list of holders or None."""
+
+def normalize_date(date_input):
+    for fmt in ("%Y/%m/%d", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(date_input.strip(), fmt).strftime("%Y/%m/%d")
+        except ValueError:
+            continue
+    raise ValueError(f"Invalid date format: {date_input}. Use YYYY/MM/DD or YYYY-MM-DD.")
+
+
+def scrape_stock(code, date_str, viewstate, retries=2):
+    """Scrape a single stock's CCASS data. Retries on network timeouts.
+    Returns a dict with status and holders."""
     s = get_session()
     time.sleep(random.uniform(*JITTER))
-    
-    # Match proven collector POST body exactly
+
     data = {
         "__EVENTTARGET": "btnSearch",
         "__EVENTARGUMENT": "",
@@ -88,28 +99,39 @@ def scrape_stock(code, date_str, viewstate):
         "txtParticipantName": "",
         "txtSelPartID": "",
     }
-    # Only include EventValidation if present
     if viewstate.get("ev"):
         data["__EVENTVALIDATION"] = viewstate["ev"]
-    
-    try:
-        r = s.post(HKEX_URL, data=data, timeout=(3.05, 20))
-        if r.status_code != 200:
-            return None
-        if len(r.text) < 15000:
-            return None
-        
-        matches = PAT.finditer(r.text)
-        holders = sorted(
-            [{"pid": m.group(1), "name": m.group(2).strip(),
-              "shares": int(m.group(3).replace(",", ""))}
-             for m in matches],
-            key=lambda x: x["shares"], reverse=True
-        )
-        return holders if holders else None
-    except Exception as e:
-        print(f"  ❌ {code}: {e}")
-        return None
+
+    attempt = 0
+    while attempt <= retries:
+        attempt += 1
+        try:
+            r = s.post(HKEX_URL, data=data, timeout=(3.05, 20))
+            if r.status_code != 200:
+                return {"status": "ERROR", "holders": None, "message": f"HTTP {r.status_code}"}
+            if len(r.text) < 15000:
+                return {"status": "NO_DATA", "holders": None}
+
+            matches = PAT.finditer(r.text)
+            holders = sorted(
+                [{"pid": m.group(1), "name": m.group(2).strip(),
+                  "shares": int(m.group(3).replace(",", ""))}
+                 for m in matches],
+                key=lambda x: x["shares"], reverse=True
+            )
+            if holders:
+                return {"status": "SUCCESS", "holders": holders}
+            return {"status": "NO_DATA", "holders": None}
+
+        except (requests.exceptions.ReadTimeout,
+                requests.exceptions.ConnectTimeout,
+                requests.exceptions.Timeout) as e:
+            if attempt > retries:
+                return {"status": "TIMEOUT", "holders": None, "message": str(e)}
+            time.sleep(0.5 + random.random())
+            continue
+        except Exception as e:
+            return {"status": "ERROR", "holders": None, "message": str(e)}
 
 
 def analyze(holdings):
@@ -230,17 +252,47 @@ def main():
     parser = argparse.ArgumentParser(description="CCASS Sentinel Daily Runner")
     parser.add_argument("--date", help="CCASS date (YYYY/MM/DD). Default: yesterday")
     parser.add_argument("--dry-run", action="store_true", help="Scrape but don't save")
+    parser.add_argument(
+        "--batch-write",
+        type=int,
+        default=BATCH_HOLDERS_WRITE,
+        help="Write intermediate holders file every N collected stocks. Default: 100",
+    )
+    parser.add_argument(
+        "--stock-retries",
+        type=int,
+        default=3,
+        help="Retry each stock on network timeout this many times. Default: 3",
+    )
+    parser.add_argument(
+        "--timeout-rounds",
+        type=int,
+        default=1,
+        help="Retry timed-out stocks after the first pass. Default: 1",
+    )
+    parser.add_argument(
+        "--auto-backfill",
+        action="store_true",
+        help="Run daily_backfill automatically if the daily run remains incomplete.",
+    )
     args = parser.parse_args()
     
     # Date
     if args.date:
-        date_str = args.date
+        try:
+            date_str = normalize_date(args.date)
+        except ValueError as exc:
+            print(f"  ❌ {exc}")
+            sys.exit(1)
     else:
         yesterday = datetime.now() - timedelta(days=1)
         date_str = yesterday.strftime("%Y/%m/%d")
     
     date_key = date_str.replace("/", "-")
     print(f"🛰️  CCASS Sentinel Daily Runner — {date_str}")
+    batch_write = max(1, args.batch_write)
+    stock_retries = max(0, args.stock_retries)
+    timeout_rounds = max(0, args.timeout_rounds)
     
     # Load watchlist
     if not WATCHLIST_FILE.exists():
@@ -258,14 +310,33 @@ def main():
     else:
         ts = {}
     
-    # Check if already collected
-    already = sum(1 for c in codes if c in ts and date_key in ts[c])
-    if already == len(codes):
+    holders_file = HOLDERS_DIR / f"{date_key}.json"
+    existing_holders = {}
+    if holders_file.exists():
+        try:
+            existing_holders = json.loads(holders_file.read_text())
+        except Exception:
+            existing_holders = {}
+
+    # Reconstruct metrics for codes that already have holders saved for this date.
+    for code, holders in existing_holders.items():
+        if code not in ts or date_key not in ts.get(code, {}):
+            if holders:
+                metrics = analyze(holders)
+                metrics["date"] = date_key
+                if code not in ts:
+                    ts[code] = {}
+                ts[code][date_key] = metrics
+
+    targets = [c for c in codes if c not in existing_holders]
+
+    if not targets:
         print(f"  ✅ Already collected {date_str} for all {len(codes)} stocks")
         return
-    
-    print(f"  Already have: {already}/{len(codes)}. Collecting remainder...")
-    
+
+    completed = len(codes) - len(targets)
+    print(f"  Already have: {completed}/{len(codes)} stocks for {date_str}; collecting {len(targets)} missing stocks...")
+
     # Get ViewState
     vs = get_viewstate()
     if not vs:
@@ -274,77 +345,152 @@ def main():
     
     # Scrape
     collected = 0
-    errors = 0
+    skipped_no_data = 0
+    skipped_error = 0
     all_alerts = []
-    
-    targets = [c for c in codes if c not in ts or date_key not in ts.get(c, {})]
-    
-    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures = {}
-        for code in targets:
-            f = pool.submit(scrape_stock, code, date_str, vs)
-            futures[f] = code
-        
-        done_set = set()
-        while futures:
-            done, _ = wait(futures.keys() - done_set, return_when=FIRST_COMPLETED)
-            for f in done:
-                done_set.add(f)
-                code = futures[f]
-                holders = f.result()
-                
-                if holders:
-                    metrics = analyze(holders)
-                    metrics["date"] = date_key
-                    
-                    # Initialize stock in timeseries
-                    if code not in ts:
-                        ts[code] = {}
-                    
-                    # Inject prior holders from Tier 2 for cluster detection
-                    prior_dates = sorted(ts.get(code, {}).keys())
-                    if prior_dates:
-                        last_date = prior_dates[-1]
-                        if "holders" not in ts[code][last_date]:
-                            holder_file = HOLDERS_DIR / f"{last_date}.json"
-                            if holder_file.exists():
-                                try:
-                                    hdata = json.loads(holder_file.read_text())
-                                    if code in hdata:
-                                        ts[code][last_date]["holders"] = hdata[code]
-                                except: pass
-                    
-                    # Detect anomalies vs prior
-                    alerts = detect_anomalies(code, metrics, ts[code])
-                    all_alerts.extend(alerts)
-                    
-                    # Store
-                    ts[code][date_key] = metrics
-                    collected += 1
-                else:
-                    errors += 1
-                
-                if (collected + errors) % 10 == 0:
-                    print(f"  Progress: {collected} collected, {errors} errors")
-            
-            if done_set == set(futures.keys()):
-                break
-    
-    print(f"\n  ✅ Collected: {collected} | Errors: {errors}")
+    holders_lock = threading.Lock()
+    daily_holders = {}
+    pending_timeouts = []
+    processed = 0
+
+    def handle_result(code, result):
+        nonlocal collected, skipped_no_data, skipped_error, processed, pending_timeouts
+        status = result.get("status") if isinstance(result, dict) else None
+        processed += 1
+
+        if status == "SUCCESS":
+            holders = result["holders"]
+            metrics = analyze(holders)
+            metrics["date"] = date_key
+
+            if code not in ts:
+                ts[code] = {}
+
+            prior_dates = sorted(ts.get(code, {}).keys())
+            if prior_dates:
+                last_date = prior_dates[-1]
+                if "holders" not in ts[code][last_date]:
+                    holder_file = HOLDERS_DIR / f"{last_date}.json"
+                    if holder_file.exists():
+                        try:
+                            hdata = json.loads(holder_file.read_text())
+                            if code in hdata:
+                                ts[code][last_date]["holders"] = hdata[code]
+                        except:
+                            pass
+
+            ts[code][date_key] = metrics
+            with holders_lock:
+                if metrics.get("holders"):
+                    daily_holders[code] = metrics.get("holders", [])
+            collected += 1
+            return
+
+        if status == "NO_DATA":
+            skipped_no_data += 1
+            with holders_lock:
+                daily_holders[code] = []
+            return
+
+        if status == "TIMEOUT":
+            pending_timeouts.append(code)
+            return
+
+        skipped_error += 1
+        if isinstance(result, dict) and result.get("message"):
+            print(f"  ❌ {code}: {result['message']}")
+
+    def run_fetch_round(codes_to_fetch):
+        nonlocal processed
+        if not codes_to_fetch:
+            return []
+
+        pending_timeouts.clear()
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            futures = {}
+            for code in codes_to_fetch:
+                f = pool.submit(scrape_stock, code, date_str, vs, stock_retries)
+                futures[f] = code
+
+            done_set = set()
+            while futures:
+                done, _ = wait(futures.keys() - done_set, return_when=FIRST_COMPLETED)
+                for f in done:
+                    done_set.add(f)
+                    code = futures[f]
+                    result = f.result()
+                    handle_result(code, result)
+
+                    if processed % 10 == 0:
+                        print(f"  Progress: {processed} processed, {collected} collected, {skipped_error} errors, {len(pending_timeouts)} pending timeouts")
+
+                    if collected > 0 and collected % batch_write == 0:
+                        try:
+                            HOLDERS_DIR.mkdir(parents=True, exist_ok=True)
+                            holders_file = HOLDERS_DIR / f"{date_key}.json"
+                            try:
+                                existing = json.loads(holders_file.read_text()) if holders_file.exists() else {}
+                            except Exception:
+                                existing = {}
+
+                            with holders_lock:
+                                for k, v in daily_holders.items():
+                                    if v or k not in existing:
+                                        existing[k] = v
+
+                            if existing:
+                                tmp_holders = str(holders_file) + ".tmp"
+                                with open(tmp_holders, "w") as f:
+                                    json.dump(existing, f, ensure_ascii=False)
+                                os.replace(tmp_holders, str(holders_file))
+                                print(f"  💾 Interim holders saved ({len(existing)} entries)")
+                        except Exception as e:
+                            print(f"  ⚠️ Failed to flush holders: {e}")
+
+                if done_set == set(futures.keys()):
+                    break
+
+        return list(pending_timeouts)
+
+    targets_to_retry = run_fetch_round(targets)
+    for round_num in range(timeout_rounds):
+        if not targets_to_retry:
+            break
+        print(f"  🔁 Retrying {len(targets_to_retry)} timed-out stocks (round {round_num + 1}/{timeout_rounds})...")
+        current = targets_to_retry
+        pending_timeouts = []
+        targets_to_retry = run_fetch_round(current)
+
+    print(f"\n  ✅ Collected: {collected} | No data: {skipped_no_data} | Timeouts: {len(targets_to_retry)} | Errors: {skipped_error}")
     
     # Save
     if not args.dry_run:
         # Tier 2: Save full holders separately
         HOLDERS_DIR.mkdir(parents=True, exist_ok=True)
         holders_file = HOLDERS_DIR / f"{date_key}.json"
-        daily_holders = {}
-        for code in codes:
-            if code in ts and date_key in ts[code]:
-                daily_holders[code] = ts[code][date_key].get("holders", [])
-        if daily_holders:
-            with open(holders_file, "w") as f:
-                json.dump(daily_holders, f, ensure_ascii=False)
-        
+        # Merge incremental daily_holders with existing file, preserving non-empty existing entries
+        existing_holders = {}
+        if holders_file.exists():
+            try:
+                existing_holders = json.loads(holders_file.read_text())
+            except Exception:
+                existing_holders = {}
+
+        with holders_lock:
+            for code, h in daily_holders.items():
+                if h:
+                    existing_holders[code] = h
+                else:
+                    # only set empty if no existing value
+                    if code not in existing_holders:
+                        existing_holders[code] = h
+
+        if existing_holders:
+            tmp_holders = str(holders_file) + ".tmp"
+            with open(tmp_holders, "w") as f:
+                json.dump(existing_holders, f, ensure_ascii=False)
+            os.replace(tmp_holders, str(holders_file))
+
         # Tier 1: Strip holders from timeseries (metrics only)
         for code in ts:
             for dk in ts[code]:
@@ -399,17 +545,44 @@ def main():
     if not highlights:
         print("    (no material BT5 moves today)")
     
+    exit_code = 0
+    if not args.dry_run and (targets_to_retry or skipped_error):
+        print(f"\n  ⚠️ Incomplete daily run: {len(targets_to_retry)} timed-out stocks, {skipped_error} errors.")
+        exit_code = 1
+        if args.auto_backfill:
+            backfill_script = Path(__file__).resolve().parent / "daily_backfill.py"
+            if backfill_script.exists():
+                bf_cmd = [sys.executable, str(backfill_script), "--date", date_str]
+                bf_cmd += ["--stock-retries", str(stock_retries), "--timeout-rounds", str(timeout_rounds), "--batch-write", str(batch_write)]
+                print("  🔧 Auto-backfilling missing stocks...")
+                bf_result = subprocess.run(
+                    bf_cmd,
+                    cwd=str(REPO_ROOT),
+                    capture_output=True,
+                    timeout=600,
+                )
+                print(bf_result.stdout.decode("utf-8", errors="ignore"))
+                if bf_result.returncode == 0:
+                    print("  ✅ Auto-backfill completed successfully")
+                    exit_code = 0
+                else:
+                    print("  ❌ Auto-backfill failed; check backfill logs for details")
+                    print(bf_result.stderr.decode("utf-8", errors="ignore"))
+            else:
+                print(f"  ❌ Auto-backfill script not found: {backfill_script}")
+    sys.exit(exit_code)
+    
     # ── Telegram Push ──
-    if not args.dry_run:
-        try:
-            from telegram_push import push_daily_summary, push_alerts, push_error
-            total_snaps = sum(len(v) for v in ts.values())
-            push_daily_summary(date_key, collected, errors, len(ts), total_snaps, highlights)
-            if all_alerts:
-                push_alerts(date_key, all_alerts)
-            print(f"  📱 Telegram push sent")
-        except Exception as e:
-            print(f"  ⚠️ Telegram push failed: {e}")
+    # if not args.dry_run:
+    #     try:
+    #         from telegram_push import push_daily_summary, push_alerts, push_error
+    #         total_snaps = sum(len(v) for v in ts.values())
+    #         push_daily_summary(date_key, collected, errors, len(ts), total_snaps, highlights)
+    #         if all_alerts:
+    #             push_alerts(date_key, all_alerts)
+    #         print(f"  📱 Telegram push sent")
+    #     except Exception as e:
+    #         print(f"  ⚠️ Telegram push failed: {e}")
 
 
 if __name__ == "__main__":

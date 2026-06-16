@@ -1,0 +1,10 @@
+Command: /Users/admin9/ccass-sentinel/.venv/bin/python /Users/admin9/ccass-sentinel/scripts/daily_runner.py --date 2025/09/09 --auto-backfill
+Exit code: 0
+
+STDOUT:
+🛰️  CCASS Sentinel Daily Runner — 2025/09/09
+  Watchlist: 2796 stocks
+  ✅ Already collected 2025/09/09 for all 2796 stocks
+
+
+STDERR:

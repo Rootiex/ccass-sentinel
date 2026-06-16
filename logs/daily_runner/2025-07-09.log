@@ -1,0 +1,287 @@
+Command: /Users/admin9/ccass-sentinel/.venv/bin/python /Users/admin9/ccass-sentinel/scripts/daily_runner.py --date 2025/07/09 --auto-backfill
+Exit code: 0
+
+STDOUT:
+🛰️  CCASS Sentinel Daily Runner — 2025/07/09
+  Watchlist: 2796 stocks
+  Already have: 500/2796 stocks for 2025/07/09; collecting 2296 missing stocks...
+  Progress: 10 processed, 2 collected, 0 errors, 0 pending timeouts
+  Progress: 20 processed, 11 collected, 0 errors, 0 pending timeouts
+  Progress: 30 processed, 21 collected, 0 errors, 0 pending timeouts
+  Progress: 40 processed, 31 collected, 0 errors, 0 pending timeouts
+  Progress: 50 processed, 40 collected, 0 errors, 0 pending timeouts
+  Progress: 60 processed, 50 collected, 0 errors, 0 pending timeouts
+  Progress: 70 processed, 60 collected, 0 errors, 0 pending timeouts
+  Progress: 80 processed, 70 collected, 0 errors, 0 pending timeouts
+  Progress: 90 processed, 80 collected, 0 errors, 0 pending timeouts
+  Progress: 100 processed, 90 collected, 0 errors, 0 pending timeouts
+  Progress: 110 processed, 100 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (610 entries)
+  Progress: 120 processed, 109 collected, 0 errors, 0 pending timeouts
+  Progress: 130 processed, 119 collected, 0 errors, 0 pending timeouts
+  Progress: 140 processed, 129 collected, 0 errors, 0 pending timeouts
+  Progress: 150 processed, 139 collected, 0 errors, 0 pending timeouts
+  Progress: 160 processed, 149 collected, 0 errors, 0 pending timeouts
+  Progress: 170 processed, 159 collected, 0 errors, 0 pending timeouts
+  Progress: 180 processed, 169 collected, 0 errors, 0 pending timeouts
+  Progress: 190 processed, 179 collected, 0 errors, 0 pending timeouts
+  Progress: 200 processed, 188 collected, 0 errors, 0 pending timeouts
+  Progress: 210 processed, 198 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (712 entries)
+  Progress: 220 processed, 208 collected, 0 errors, 0 pending timeouts
+  Progress: 230 processed, 218 collected, 0 errors, 0 pending timeouts
+  Progress: 240 processed, 228 collected, 0 errors, 0 pending timeouts
+  Progress: 250 processed, 238 collected, 0 errors, 0 pending timeouts
+  Progress: 260 processed, 248 collected, 0 errors, 0 pending timeouts
+  Progress: 270 processed, 258 collected, 0 errors, 0 pending timeouts
+  Progress: 280 processed, 268 collected, 0 errors, 0 pending timeouts
+  Progress: 290 processed, 276 collected, 0 errors, 0 pending timeouts
+  Progress: 300 processed, 286 collected, 0 errors, 0 pending timeouts
+  Progress: 310 processed, 296 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (814 entries)
+  Progress: 320 processed, 305 collected, 0 errors, 0 pending timeouts
+  Progress: 330 processed, 315 collected, 0 errors, 0 pending timeouts
+  Progress: 340 processed, 325 collected, 0 errors, 0 pending timeouts
+  Progress: 350 processed, 335 collected, 0 errors, 0 pending timeouts
+  Progress: 360 processed, 345 collected, 0 errors, 0 pending timeouts
+  Progress: 370 processed, 355 collected, 0 errors, 0 pending timeouts
+  Progress: 380 processed, 365 collected, 0 errors, 0 pending timeouts
+  Progress: 390 processed, 375 collected, 0 errors, 0 pending timeouts
+  Progress: 400 processed, 385 collected, 0 errors, 0 pending timeouts
+  Progress: 410 processed, 394 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (916 entries)
+  Progress: 420 processed, 404 collected, 0 errors, 0 pending timeouts
+  Progress: 430 processed, 414 collected, 0 errors, 0 pending timeouts
+  Progress: 440 processed, 424 collected, 0 errors, 0 pending timeouts
+  Progress: 450 processed, 433 collected, 0 errors, 0 pending timeouts
+  Progress: 460 processed, 443 collected, 0 errors, 0 pending timeouts
+  Progress: 470 processed, 453 collected, 0 errors, 0 pending timeouts
+  Progress: 480 processed, 463 collected, 0 errors, 0 pending timeouts
+  Progress: 490 processed, 473 collected, 0 errors, 0 pending timeouts
+  Progress: 500 processed, 483 collected, 0 errors, 0 pending timeouts
+  Progress: 510 processed, 493 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1017 entries)
+  Progress: 520 processed, 503 collected, 0 errors, 0 pending timeouts
+  Progress: 530 processed, 513 collected, 0 errors, 0 pending timeouts
+  Progress: 540 processed, 523 collected, 0 errors, 0 pending timeouts
+  Progress: 550 processed, 532 collected, 0 errors, 0 pending timeouts
+  Progress: 560 processed, 542 collected, 0 errors, 0 pending timeouts
+  Progress: 570 processed, 552 collected, 0 errors, 0 pending timeouts
+  Progress: 580 processed, 562 collected, 0 errors, 0 pending timeouts
+  Progress: 590 processed, 572 collected, 0 errors, 0 pending timeouts
+  Progress: 600 processed, 582 collected, 0 errors, 0 pending timeouts
+  Progress: 610 processed, 592 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1118 entries)
+  Progress: 620 processed, 602 collected, 0 errors, 0 pending timeouts
+  Progress: 630 processed, 611 collected, 0 errors, 0 pending timeouts
+  Progress: 640 processed, 621 collected, 0 errors, 0 pending timeouts
+  Progress: 650 processed, 631 collected, 0 errors, 0 pending timeouts
+  Progress: 660 processed, 641 collected, 0 errors, 0 pending timeouts
+  Progress: 670 processed, 651 collected, 0 errors, 0 pending timeouts
+  Progress: 680 processed, 661 collected, 0 errors, 0 pending timeouts
+  Progress: 690 processed, 671 collected, 0 errors, 0 pending timeouts
+  Progress: 700 processed, 680 collected, 0 errors, 0 pending timeouts
+  Progress: 710 processed, 690 collected, 0 errors, 0 pending timeouts
+  Progress: 720 processed, 699 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1221 entries)
+  Progress: 730 processed, 709 collected, 0 errors, 0 pending timeouts
+  Progress: 740 processed, 719 collected, 0 errors, 0 pending timeouts
+  Progress: 750 processed, 729 collected, 0 errors, 0 pending timeouts
+  Progress: 760 processed, 739 collected, 0 errors, 0 pending timeouts
+  Progress: 770 processed, 749 collected, 0 errors, 0 pending timeouts
+  Progress: 780 processed, 759 collected, 0 errors, 0 pending timeouts
+  Progress: 790 processed, 769 collected, 0 errors, 0 pending timeouts
+  Progress: 800 processed, 779 collected, 0 errors, 0 pending timeouts
+  Progress: 810 processed, 789 collected, 0 errors, 0 pending timeouts
+  Progress: 820 processed, 798 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1322 entries)
+  Progress: 830 processed, 808 collected, 0 errors, 0 pending timeouts
+  Progress: 840 processed, 818 collected, 0 errors, 0 pending timeouts
+  Progress: 850 processed, 828 collected, 0 errors, 0 pending timeouts
+  Progress: 860 processed, 838 collected, 0 errors, 0 pending timeouts
+  Progress: 870 processed, 848 collected, 0 errors, 0 pending timeouts
+  Progress: 880 processed, 858 collected, 0 errors, 0 pending timeouts
+  Progress: 890 processed, 868 collected, 0 errors, 0 pending timeouts
+  Progress: 900 processed, 878 collected, 0 errors, 0 pending timeouts
+  Progress: 910 processed, 887 collected, 0 errors, 0 pending timeouts
+  Progress: 920 processed, 897 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1423 entries)
+  Progress: 930 processed, 907 collected, 0 errors, 0 pending timeouts
+  Progress: 940 processed, 917 collected, 0 errors, 0 pending timeouts
+  Progress: 950 processed, 927 collected, 0 errors, 0 pending timeouts
+  Progress: 960 processed, 937 collected, 0 errors, 0 pending timeouts
+  Progress: 970 processed, 947 collected, 0 errors, 0 pending timeouts
+  Progress: 980 processed, 957 collected, 0 errors, 0 pending timeouts
+  Progress: 990 processed, 967 collected, 0 errors, 0 pending timeouts
+  Progress: 1000 processed, 976 collected, 0 errors, 0 pending timeouts
+  Progress: 1010 processed, 986 collected, 0 errors, 0 pending timeouts
+  Progress: 1020 processed, 995 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1525 entries)
+  Progress: 1030 processed, 1005 collected, 0 errors, 0 pending timeouts
+  Progress: 1040 processed, 1015 collected, 0 errors, 0 pending timeouts
+  Progress: 1050 processed, 1025 collected, 0 errors, 0 pending timeouts
+  Progress: 1060 processed, 1035 collected, 0 errors, 0 pending timeouts
+  Progress: 1070 processed, 1045 collected, 0 errors, 0 pending timeouts
+  Progress: 1080 processed, 1055 collected, 0 errors, 0 pending timeouts
+  Progress: 1090 processed, 1065 collected, 0 errors, 0 pending timeouts
+  Progress: 1100 processed, 1075 collected, 0 errors, 0 pending timeouts
+  Progress: 1110 processed, 1085 collected, 0 errors, 0 pending timeouts
+  Progress: 1120 processed, 1095 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1625 entries)
+  Progress: 1130 processed, 1105 collected, 0 errors, 0 pending timeouts
+  Progress: 1140 processed, 1115 collected, 0 errors, 0 pending timeouts
+  Progress: 1150 processed, 1125 collected, 0 errors, 0 pending timeouts
+  Progress: 1160 processed, 1134 collected, 0 errors, 0 pending timeouts
+  Progress: 1170 processed, 1144 collected, 0 errors, 0 pending timeouts
+  Progress: 1180 processed, 1154 collected, 0 errors, 0 pending timeouts
+  Progress: 1190 processed, 1164 collected, 0 errors, 0 pending timeouts
+  Progress: 1200 processed, 1174 collected, 0 errors, 0 pending timeouts
+  Progress: 1210 processed, 1184 collected, 0 errors, 0 pending timeouts
+  Progress: 1220 processed, 1194 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1726 entries)
+  Progress: 1230 processed, 1204 collected, 0 errors, 0 pending timeouts
+  Progress: 1240 processed, 1214 collected, 0 errors, 0 pending timeouts
+  Progress: 1250 processed, 1223 collected, 0 errors, 0 pending timeouts
+  Progress: 1260 processed, 1232 collected, 0 errors, 0 pending timeouts
+  Progress: 1270 processed, 1242 collected, 0 errors, 0 pending timeouts
+  Progress: 1280 processed, 1252 collected, 0 errors, 0 pending timeouts
+  Progress: 1290 processed, 1261 collected, 0 errors, 0 pending timeouts
+  Progress: 1300 processed, 1270 collected, 0 errors, 0 pending timeouts
+  Progress: 1310 processed, 1280 collected, 0 errors, 0 pending timeouts
+  Progress: 1320 processed, 1289 collected, 0 errors, 0 pending timeouts
+  Progress: 1330 processed, 1297 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1833 entries)
+  Progress: 1340 processed, 1304 collected, 0 errors, 0 pending timeouts
+  Progress: 1350 processed, 1314 collected, 0 errors, 0 pending timeouts
+  Progress: 1360 processed, 1323 collected, 0 errors, 0 pending timeouts
+  Progress: 1370 processed, 1329 collected, 0 errors, 0 pending timeouts
+  Progress: 1380 processed, 1337 collected, 0 errors, 0 pending timeouts
+  Progress: 1390 processed, 1347 collected, 0 errors, 0 pending timeouts
+  Progress: 1400 processed, 1356 collected, 0 errors, 0 pending timeouts
+  Progress: 1410 processed, 1360 collected, 0 errors, 0 pending timeouts
+  Progress: 1420 processed, 1362 collected, 0 errors, 0 pending timeouts
+  Progress: 1430 processed, 1366 collected, 0 errors, 0 pending timeouts
+  Progress: 1440 processed, 1372 collected, 0 errors, 0 pending timeouts
+  Progress: 1450 processed, 1375 collected, 0 errors, 0 pending timeouts
+  Progress: 1460 processed, 1380 collected, 0 errors, 0 pending timeouts
+  Progress: 1470 processed, 1389 collected, 0 errors, 0 pending timeouts
+  Progress: 1480 processed, 1399 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (1981 entries)
+  💾 Interim holders saved (1982 entries)
+  Progress: 1490 processed, 1403 collected, 0 errors, 0 pending timeouts
+  Progress: 1500 processed, 1403 collected, 0 errors, 0 pending timeouts
+  Progress: 1510 processed, 1404 collected, 0 errors, 0 pending timeouts
+  Progress: 1520 processed, 1413 collected, 0 errors, 0 pending timeouts
+  Progress: 1530 processed, 1422 collected, 0 errors, 0 pending timeouts
+  Progress: 1540 processed, 1431 collected, 0 errors, 0 pending timeouts
+  Progress: 1550 processed, 1440 collected, 0 errors, 0 pending timeouts
+  Progress: 1560 processed, 1450 collected, 0 errors, 0 pending timeouts
+  Progress: 1570 processed, 1458 collected, 0 errors, 0 pending timeouts
+  Progress: 1580 processed, 1468 collected, 0 errors, 0 pending timeouts
+  Progress: 1590 processed, 1477 collected, 0 errors, 0 pending timeouts
+  Progress: 1600 processed, 1487 collected, 0 errors, 0 pending timeouts
+  Progress: 1610 processed, 1497 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2113 entries)
+  Progress: 1620 processed, 1506 collected, 0 errors, 0 pending timeouts
+  Progress: 1630 processed, 1515 collected, 0 errors, 0 pending timeouts
+  Progress: 1640 processed, 1524 collected, 0 errors, 0 pending timeouts
+  Progress: 1650 processed, 1534 collected, 0 errors, 0 pending timeouts
+  Progress: 1660 processed, 1543 collected, 0 errors, 0 pending timeouts
+  Progress: 1670 processed, 1553 collected, 0 errors, 0 pending timeouts
+  Progress: 1680 processed, 1560 collected, 0 errors, 0 pending timeouts
+  Progress: 1690 processed, 1569 collected, 0 errors, 0 pending timeouts
+  Progress: 1700 processed, 1578 collected, 0 errors, 0 pending timeouts
+  Progress: 1710 processed, 1588 collected, 0 errors, 0 pending timeouts
+  Progress: 1720 processed, 1597 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2223 entries)
+  Progress: 1730 processed, 1606 collected, 0 errors, 0 pending timeouts
+  Progress: 1740 processed, 1616 collected, 0 errors, 0 pending timeouts
+  Progress: 1750 processed, 1623 collected, 0 errors, 0 pending timeouts
+  Progress: 1760 processed, 1633 collected, 0 errors, 0 pending timeouts
+  Progress: 1770 processed, 1642 collected, 0 errors, 0 pending timeouts
+  Progress: 1780 processed, 1650 collected, 0 errors, 0 pending timeouts
+  Progress: 1790 processed, 1660 collected, 0 errors, 0 pending timeouts
+  Progress: 1800 processed, 1668 collected, 0 errors, 0 pending timeouts
+  Progress: 1810 processed, 1677 collected, 0 errors, 0 pending timeouts
+  Progress: 1820 processed, 1687 collected, 0 errors, 0 pending timeouts
+  Progress: 1830 processed, 1696 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2335 entries)
+  Progress: 1840 processed, 1704 collected, 0 errors, 0 pending timeouts
+  Progress: 1850 processed, 1710 collected, 0 errors, 0 pending timeouts
+  Progress: 1860 processed, 1719 collected, 0 errors, 0 pending timeouts
+  Progress: 1870 processed, 1729 collected, 0 errors, 0 pending timeouts
+  Progress: 1880 processed, 1739 collected, 0 errors, 0 pending timeouts
+  Progress: 1890 processed, 1749 collected, 0 errors, 0 pending timeouts
+  Progress: 1900 processed, 1759 collected, 0 errors, 0 pending timeouts
+  Progress: 1910 processed, 1769 collected, 0 errors, 0 pending timeouts
+  Progress: 1920 processed, 1779 collected, 0 errors, 0 pending timeouts
+  Progress: 1930 processed, 1789 collected, 0 errors, 0 pending timeouts
+  Progress: 1940 processed, 1799 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2441 entries)
+  Progress: 1950 processed, 1809 collected, 0 errors, 0 pending timeouts
+  Progress: 1960 processed, 1819 collected, 0 errors, 0 pending timeouts
+  Progress: 1970 processed, 1829 collected, 0 errors, 0 pending timeouts
+  Progress: 1980 processed, 1839 collected, 0 errors, 0 pending timeouts
+  Progress: 1990 processed, 1849 collected, 0 errors, 0 pending timeouts
+  Progress: 2000 processed, 1859 collected, 0 errors, 0 pending timeouts
+  Progress: 2010 processed, 1869 collected, 0 errors, 0 pending timeouts
+  Progress: 2020 processed, 1879 collected, 0 errors, 0 pending timeouts
+  Progress: 2030 processed, 1889 collected, 0 errors, 0 pending timeouts
+  Progress: 2040 processed, 1899 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2541 entries)
+  Progress: 2050 processed, 1909 collected, 0 errors, 0 pending timeouts
+  Progress: 2060 processed, 1919 collected, 0 errors, 0 pending timeouts
+  Progress: 2070 processed, 1929 collected, 0 errors, 0 pending timeouts
+  Progress: 2080 processed, 1939 collected, 0 errors, 0 pending timeouts
+  Progress: 2090 processed, 1949 collected, 0 errors, 0 pending timeouts
+  Progress: 2100 processed, 1959 collected, 0 errors, 0 pending timeouts
+  Progress: 2110 processed, 1969 collected, 0 errors, 0 pending timeouts
+  Progress: 2120 processed, 1979 collected, 0 errors, 0 pending timeouts
+  Progress: 2130 processed, 1989 collected, 0 errors, 0 pending timeouts
+  Progress: 2140 processed, 1995 collected, 0 errors, 0 pending timeouts
+  Progress: 2150 processed, 1999 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2651 entries)
+  Progress: 2160 processed, 2009 collected, 0 errors, 0 pending timeouts
+  Progress: 2170 processed, 2019 collected, 0 errors, 0 pending timeouts
+  Progress: 2180 processed, 2027 collected, 0 errors, 0 pending timeouts
+  Progress: 2190 processed, 2037 collected, 0 errors, 0 pending timeouts
+  Progress: 2200 processed, 2047 collected, 0 errors, 0 pending timeouts
+  Progress: 2210 processed, 2056 collected, 0 errors, 0 pending timeouts
+  Progress: 2220 processed, 2065 collected, 0 errors, 0 pending timeouts
+  Progress: 2230 processed, 2074 collected, 0 errors, 0 pending timeouts
+  Progress: 2240 processed, 2083 collected, 0 errors, 0 pending timeouts
+  Progress: 2250 processed, 2093 collected, 0 errors, 0 pending timeouts
+  Progress: 2260 processed, 2100 collected, 0 errors, 0 pending timeouts
+  💾 Interim holders saved (2760 entries)
+  Progress: 2270 processed, 2110 collected, 0 errors, 0 pending timeouts
+  Progress: 2280 processed, 2111 collected, 0 errors, 0 pending timeouts
+  Progress: 2290 processed, 2111 collected, 0 errors, 0 pending timeouts
+
+  ✅ Collected: 2112 | No data: 184 | Timeouts: 0 | Errors: 0
+  💾 Metrics → /Users/admin9/ccass-sentinel/data/ccass_timeseries.json
+  💾 Holders → /Users/admin9/ccass-sentinel/data/holders/2025-07-09.json
+  📊 Total: 2774 stocks, 91778 snapshots
+
+  ✅ No anomalies detected
+
+  📈 DAILY SUMMARY:
+    ⬆ 00086: BT5 49.3%→55.0% (+5.6pp)
+    ⬇ 00310: BT5 53.5%→49.9% (-3.5pp)
+    ⬇ 01282: BT5 40.2%→34.7% (-5.6pp)
+    ⬆ 01497: BT5 65.4%→73.9% (+8.4pp)
+    ⬆ 01672: BT5 49.1%→56.9% (+7.8pp)
+    ⬇ 01676: BT5 50.3%→46.7% (-3.6pp)
+    ⬇ 01722: BT5 54.5%→51.2% (-3.4pp)
+    ⬇ 01828: BT5 51.5%→42.3% (-9.2pp)
+    ⬆ 01897: BT5 18.5%→28.2% (+9.8pp)
+    ⬆ 02419: BT5 20.1%→23.1% (+3.0pp)
+    ⬇ 02431: BT5 83.8%→78.6% (-5.2pp)
+    ⬇ 02510: BT5 48.3%→43.2% (-5.1pp)
+    ⬇ 02555: BT5 27.1%→22.3% (-4.8pp)
+    ⬇ 02573: BT5 77.2%→72.0% (-5.2pp)
+    ⬆ 02621: BT5 73.7%→78.8% (+5.1pp)
+    ⬇ 02629: BT5 79.4%→71.5% (-7.9pp)
+    ⬇ 08196: BT5 45.7%→41.2% (-4.5pp)
+
+
+STDERR:

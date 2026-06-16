@@ -1,0 +1,36 @@
+Command: /Users/admin9/ccass-sentinel/.venv/bin/python /Users/admin9/ccass-sentinel/scripts/daily_runner.py --date 2026/06/11 --auto-backfill
+Exit code: 0
+
+STDOUT:
+🛰️  CCASS Sentinel Daily Runner — 2026/06/11
+  Watchlist: 2796 stocks
+  Already have: 2730/2796 stocks for 2026/06/11; collecting 66 missing stocks...
+  Progress: 10 processed, 10 collected, 0 errors, 0 pending timeouts
+  Progress: 20 processed, 20 collected, 0 errors, 0 pending timeouts
+  Progress: 30 processed, 30 collected, 0 errors, 0 pending timeouts
+  Progress: 40 processed, 40 collected, 0 errors, 0 pending timeouts
+  Progress: 50 processed, 41 collected, 0 errors, 0 pending timeouts
+  Progress: 60 processed, 41 collected, 0 errors, 0 pending timeouts
+
+  ✅ Collected: 42 | No data: 24 | Timeouts: 0 | Errors: 0
+  💾 Metrics → /Users/admin9/ccass-sentinel/data/ccass_timeseries.json
+  💾 Holders → /Users/admin9/ccass-sentinel/data/holders/2026-06-11.json
+  📊 Total: 2779 stocks, 313493 snapshots
+
+  ✅ No anomalies detected
+
+  📈 DAILY SUMMARY:
+    ⬆ 01771: BT5 45.5%→48.5% (+3.0pp)
+    ⬇ 01850: BT5 57.7%→52.5% (-5.2pp)
+    ⬆ 01991: BT5 64.1%→67.4% (+3.3pp)
+    ⬇ 02431: BT5 39.2%→35.8% (-3.5pp)
+    ⬆ 02609: BT5 52.0%→73.1% (+21.1pp)
+    ⬇ 02706: BT5 38.6%→35.0% (-3.6pp)
+    ⬇ 02951: BT5 68.9%→53.9% (-15.0pp)
+    ⬇ 06687: BT5 78.9%→59.1% (-19.8pp)
+    ⬆ 07618: BT5 27.3%→33.7% (+6.4pp)
+    ⬆ 08507: BT5 66.3%→76.0% (+9.6pp)
+    ⬆ 09993: BT5 22.5%→28.6% (+6.2pp)
+
+
+STDERR:

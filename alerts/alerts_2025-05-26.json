@@ -1,0 +1,4842 @@
+[
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00005: Float expanded +9.7% in 1 day (6,499,313,788→7,128,062,980)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00020: BrkT5 jumped +7.5pp in 1 day (29.2%→36.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00022: Participant count dropped -23 (194→171)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00033: BrkT5 jumped +4.4pp in 1 day (60.2%→64.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00037: BrkT5 jumped +13.6pp in 1 day (27.4%→41.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00037: Float expanded +21.4% in 1 day (398,211,506→483,589,732)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00040: BrkT5 jumped +6.7pp in 1 day (29.4%→36.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00064: Float expanded +1898.8% in 1 day (464,775,568→9,289,842,339)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00072: BrkT5 jumped +11.0pp in 1 day (14.3%→25.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00076: BrkT5 jumped +9.4pp in 1 day (27.1%→36.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00077: BrkT5 jumped +5.6pp in 1 day (33.3%→38.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00080: BrkT5 jumped +13.1pp in 1 day (66.8%→79.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00080: Participant count dropped -31 (157→126)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00084: Float expanded +7.9% in 1 day (492,461,924→531,157,128)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00103: Float expanded +255.2% in 1 day (270,228,693→959,833,056)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00108: Participant count dropped -20 (120→100)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00108: Float expanded +10.0% in 1 day (2,913,920,594→3,206,116,794)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00117: Participant count dropped -15 (102→87)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00118: BrkT5 jumped +7.4pp in 1 day (63.4%→70.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00120: BrkT5 jumped +3.1pp in 1 day (56.4%→59.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00125: Participant count dropped -9 (73→64)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00136: BrkT5 jumped +6.7pp in 1 day (22.3%→29.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00138: BrkT5 jumped +38.3pp in 1 day (21.3%→59.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00138: Float expanded +1875.1% in 1 day (34,968,444→690,670,636)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00139: BrkT5 jumped +16.6pp in 1 day (27.7%→44.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00139: Float expanded +1442.4% in 1 day (1,224,392,730→18,885,495,623)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00148: BrkT5 jumped +13.6pp in 1 day (7.5%→21.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00156: BrkT5 jumped +72.3pp in 1 day (13.0%→85.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00174: Float expanded +5.5% in 1 day (562,308,636→593,208,636)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00182: BrkT5 jumped +5.9pp in 1 day (28.9%→34.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00189: BrkT5 jumped +4.9pp in 1 day (21.1%→26.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00191: BrkT5 jumped +11.5pp in 1 day (31.6%→43.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00195: Float expanded +15.5% in 1 day (873,276,078→1,008,555,678)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00197: BrkT5 jumped +3.4pp in 1 day (50.1%→53.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00199: BrkT5 jumped +3.1pp in 1 day (64.0%→67.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00204: Float expanded +372.4% in 1 day (205,019,290→968,466,126)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00206: BrkT5 jumped +9.5pp in 1 day (64.0%→73.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00223: BrkT5 jumped +4.9pp in 1 day (48.4%→53.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00228: Float expanded +4636.9% in 1 day (135,330,528→6,410,440,739)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00232: BrkT5 jumped +3.6pp in 1 day (31.4%→35.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00239: BrkT5 jumped +10.1pp in 1 day (41.9%→52.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00245: Float expanded +1819.4% in 1 day (1,465,128,879→28,122,372,026)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00248: Float expanded +399.0% in 1 day (92,786,615→462,972,250)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00254: Float expanded +527.9% in 1 day (399,706,671→2,509,595,997)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00255: Float expanded +6.4% in 1 day (147,984,224→157,412,597)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00256: BrkT5 jumped +14.7pp in 1 day (35.8%→50.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00259: Participant count dropped -20 (151→131)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00261: BrkT5 jumped +7.3pp in 1 day (49.3%→56.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00264: BrkT5 jumped +8.5pp in 1 day (76.5%→85.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00267: BrkT5 jumped +7.2pp in 1 day (19.3%→26.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00266: Participant count dropped -11 (87→76)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00274: BrkT5 jumped +6.9pp in 1 day (58.1%→65.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00279: Float expanded +1439.2% in 1 day (1,365,004,688→21,010,397,043)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00286: Float expanded +12.7% in 1 day (153,215,565→172,671,517)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00285: BrkT5 jumped +5.2pp in 1 day (10.5%→15.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00291: BrkT5 jumped +3.4pp in 1 day (6.6%→10.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00290: BrkT5 jumped +30.3pp in 1 day (63.5%→93.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00296: BrkT5 jumped +4.2pp in 1 day (35.0%→39.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00296: Float expanded +14.9% in 1 day (495,530,466→569,136,151)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00295: BrkT5 jumped +6.1pp in 1 day (65.0%→71.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00295: Float expanded +10.2% in 1 day (7,051,286,231→7,769,898,981)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00300: BrkT5 jumped +13.5pp in 1 day (16.6%→30.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00301: BrkT5 jumped +8.8pp in 1 day (79.0%→87.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00301: Participant count dropped -14 (95→81)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00302: BrkT5 jumped +8.2pp in 1 day (27.1%→35.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00308: BrkT5 jumped +4.2pp in 1 day (25.1%→29.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00309: BrkT5 jumped +4.4pp in 1 day (52.3%→56.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00311: BrkT5 jumped +3.9pp in 1 day (7.9%→11.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00311: Participant count dropped -12 (111→99)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00314: Participant count dropped -22 (102→80)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00320: BrkT5 jumped +10.1pp in 1 day (24.3%→34.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00325: Participant count dropped -26 (155→129)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00326: BrkT5 jumped +4.1pp in 1 day (86.7%→90.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00328: Float expanded +97.4% in 1 day (57,065,260→112,618,641)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00330: Float expanded +899.5% in 1 day (281,367,217→2,812,338,609)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00339: Participant count dropped -10 (99→89)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00345: Float expanded +6.3% in 1 day (828,433,964→881,022,591)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00348: Float expanded +5.2% in 1 day (729,720,855→767,377,255)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00352: BrkT5 jumped +11.5pp in 1 day (62.6%→74.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00352: Participant count dropped -38 (115→77)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "00352: Cluster broker B01959 grew 10.1%→18.4% (+8.3pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00353: BrkT5 jumped +8.0pp in 1 day (24.3%→32.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00353: Float expanded +13.5% in 1 day (352,149,665→399,577,835)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00357: BrkT5 jumped +12.8pp in 1 day (12.3%→25.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00361: BrkT5 jumped +4.5pp in 1 day (66.9%→71.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00370: BrkT5 jumped +43.0pp in 1 day (36.0%→79.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00376: BrkT5 jumped +15.0pp in 1 day (58.3%→73.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00376: Participant count dropped -57 (241→184)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00381: BrkT5 jumped +21.0pp in 1 day (57.1%→78.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00396: BrkT5 jumped +3.9pp in 1 day (44.4%→48.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00397: BrkT5 jumped +9.3pp in 1 day (37.8%→47.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00397: Float expanded +15.5% in 1 day (2,149,780,094→2,483,043,913)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00399: BrkT5 jumped +21.3pp in 1 day (23.1%→44.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00399: Participant count dropped -24 (211→187)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00412: BrkT5 jumped +3.8pp in 1 day (69.3%→73.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00412: Participant count dropped -29 (261→232)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00413: BrkT5 jumped +19.0pp in 1 day (72.5%→91.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00419: Float expanded +808.0% in 1 day (1,419,646,963→12,890,569,481)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00433: BrkT5 jumped +7.5pp in 1 day (63.2%→70.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00434: BrkT5 jumped +3.9pp in 1 day (53.2%→57.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00439: BrkT5 jumped +15.3pp in 1 day (30.3%→45.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00442: Participant count dropped -12 (83→71)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00464: BrkT5 jumped +7.9pp in 1 day (54.5%→62.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00467: Float expanded +14.7% in 1 day (18,045,679,671→20,701,371,869)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00465: BrkT5 jumped +4.1pp in 1 day (52.0%→56.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00465: Participant count dropped -17 (103→86)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00471: BrkT5 jumped +24.4pp in 1 day (43.7%→68.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00475: BrkT5 jumped +3.8pp in 1 day (40.2%→44.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00482: Float expanded +390.8% in 1 day (240,113,943→1,178,526,897)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00484: BrkT5 jumped +5.1pp in 1 day (31.7%→36.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00488: BrkT5 jumped +15.5pp in 1 day (41.8%→57.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00497: BrkT5 jumped +5.2pp in 1 day (69.5%→74.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00498: BrkT5 jumped +4.8pp in 1 day (69.6%→74.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00506: BrkT5 jumped +7.2pp in 1 day (42.2%→49.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00515: BrkT5 jumped +18.1pp in 1 day (30.9%→49.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00515: Float expanded +252.8% in 1 day (267,124,834→942,324,374)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00527: BrkT5 jumped +4.2pp in 1 day (71.3%→75.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00529: BrkT5 jumped +5.5pp in 1 day (23.2%→28.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00542: Float expanded +436.7% in 1 day (1,363,796,241→7,320,159,414)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00544: BrkT5 jumped +12.4pp in 1 day (46.6%→59.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00544: Float expanded +767.7% in 1 day (28,899,849→250,752,486)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00553: BrkT5 jumped +9.4pp in 1 day (21.3%→30.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00556: BrkT5 jumped +33.1pp in 1 day (51.3%→84.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00556: Float expanded +201.8% in 1 day (327,995,355→989,739,700)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00559: BrkT5 jumped +8.6pp in 1 day (67.7%→76.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00564: BrkT5 jumped +3.3pp in 1 day (11.4%→14.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00565: BrkT5 jumped +12.9pp in 1 day (45.1%→58.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00567: BrkT5 jumped +4.1pp in 1 day (75.7%→79.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00571: BrkT5 jumped +25.5pp in 1 day (41.4%→67.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00572: Float expanded +9.2% in 1 day (208,488,431→227,602,279)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00576: BrkT5 jumped +4.2pp in 1 day (1.4%→5.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00580: BrkT5 jumped +3.6pp in 1 day (22.3%→25.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00585: BrkT5 jumped +4.1pp in 1 day (79.2%→83.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00586: BrkT5 jumped +4.1pp in 1 day (19.3%→23.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00596: Participant count dropped -22 (185→163)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00599: BrkT5 jumped +12.7pp in 1 day (30.9%→43.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00601: BrkT5 jumped +5.1pp in 1 day (57.6%→62.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00607: BrkT5 jumped +5.3pp in 1 day (53.4%→58.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00608: BrkT5 jumped +8.6pp in 1 day (28.7%→37.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00608: Float expanded +13.1% in 1 day (62,441,629→70,594,406)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00616: BrkT5 jumped +4.2pp in 1 day (70.7%→74.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00621: BrkT5 jumped +3.9pp in 1 day (31.4%→35.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00621: Float expanded +901.5% in 1 day (1,755,363,463→17,579,328,956)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00627: Float expanded +6.3% in 1 day (355,836,424→378,266,035)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00628: BrkT5 jumped +3.2pp in 1 day (56.0%→59.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00632: BrkT5 jumped +9.6pp in 1 day (74.5%→84.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00640: Float expanded +112.6% in 1 day (103,480,501→220,016,006)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00643: Participant count dropped -23 (125→102)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00656: BrkT5 jumped +4.1pp in 1 day (39.3%→43.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00666: BrkT5 jumped +41.6pp in 1 day (23.2%→64.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00666: Participant count dropped -30 (112→82)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00690: BrkT5 jumped +7.5pp in 1 day (28.8%→36.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00695: BrkT5 jumped +3.0pp in 1 day (74.3%→77.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00695: Participant count dropped -13 (107→94)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00698: Float expanded +7775.0% in 1 day (114,515,865→9,018,175,222)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00703: Float expanded +5.1% in 1 day (604,841,562→635,601,862)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00712: BrkT5 jumped +5.6pp in 1 day (26.6%→32.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00721: BrkT5 jumped +6.6pp in 1 day (44.8%→51.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00732: Float expanded +15.2% in 1 day (1,227,510,370→1,414,123,469)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00736: BrkT5 jumped +20.9pp in 1 day (33.6%→54.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00746: BrkT5 jumped +4.5pp in 1 day (42.1%→46.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00751: Float expanded +17.5% in 1 day (904,064,521→1,062,370,708)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00759: BrkT5 jumped +4.4pp in 1 day (16.5%→20.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00759: Float expanded +12.3% in 1 day (212,776,874→238,852,874)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00765: BrkT5 jumped +6.9pp in 1 day (64.2%→71.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00764: Float expanded +843.6% in 1 day (374,883,628→3,537,299,442)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00804: Float expanded +494.0% in 1 day (57,485,490→341,464,090)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00806: BrkT5 jumped +3.3pp in 1 day (43.0%→46.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00821: Float expanded +661.7% in 1 day (323,344,752→2,462,796,545)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00830: BrkT5 jumped +6.2pp in 1 day (31.6%→37.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00833: BrkT5 jumped +13.3pp in 1 day (24.1%→37.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00846: BrkT5 jumped +16.6pp in 1 day (66.3%→83.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00854: BrkT5 jumped +6.6pp in 1 day (87.9%→94.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00854: Participant count dropped -21 (67→46)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00856: BrkT5 jumped +4.8pp in 1 day (46.2%→51.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00863: Participant count dropped -32 (162→130)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00873: BrkT5 jumped +13.2pp in 1 day (20.8%→34.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00873: Float expanded +14.9% in 1 day (1,109,288,844→1,274,093,435)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00875: BrkT5 jumped +32.0pp in 1 day (29.0%→61.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00876: BrkT5 jumped +4.1pp in 1 day (71.1%→75.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00880: BrkT5 jumped +3.7pp in 1 day (63.2%→66.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00893: BrkT5 jumped +15.3pp in 1 day (37.3%→52.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00899: Float expanded +149.3% in 1 day (442,650,241→1,103,379,586)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00905: BrkT5 jumped +4.2pp in 1 day (83.9%→88.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00905: Participant count dropped -13 (121→108)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00917: Participant count dropped -44 (108→64)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00918: BrkT5 jumped +10.4pp in 1 day (24.0%→34.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00926: Float expanded +8.6% in 1 day (101,047,005→109,759,855)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00929: Participant count dropped -12 (111→99)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00931: BrkT5 jumped +8.1pp in 1 day (51.2%→59.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00938: BrkT5 jumped +15.8pp in 1 day (28.6%→44.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00938: Float expanded +6.1% in 1 day (358,417,627→380,174,189)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00943: Float expanded +1288.7% in 1 day (369,161,558→5,126,362,289)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00945: Float expanded +7.4% in 1 day (15,262,368→16,394,662)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00979: BrkT5 jumped +7.0pp in 1 day (42.4%→49.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "00979: Float expanded +28.9% in 1 day (506,314,573→652,536,933)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00981: BrkT5 jumped +3.3pp in 1 day (28.1%→31.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "00986: BrkT5 jumped +4.9pp in 1 day (39.1%→43.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "00999: Participant count dropped -19 (91→72)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01002: BrkT5 jumped +5.1pp in 1 day (41.8%→46.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01010: BrkT5 jumped +7.3pp in 1 day (43.9%→51.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01011: BrkT5 jumped +3.8pp in 1 day (37.2%→41.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01020: BrkT5 jumped +6.2pp in 1 day (49.9%→56.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01028: BrkT5 jumped +23.8pp in 1 day (44.5%→68.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01028: Float expanded +21.2% in 1 day (1,711,882,304→2,075,455,840)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01029: Float expanded +566.5% in 1 day (1,916,550,226→12,772,883,910)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01047: BrkT5 jumped +3.0pp in 1 day (33.8%→36.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01059: BrkT5 jumped +9.1pp in 1 day (69.0%→78.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01059: Float expanded +29.3% in 1 day (286,889,222→370,925,624)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01066: Participant count dropped -29 (161→132)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01069: Float expanded +713.5% in 1 day (95,472,135→776,642,493)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01070: BrkT5 jumped +3.4pp in 1 day (57.8%→61.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01072: Participant count dropped -40 (233→193)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01075: BrkT5 jumped +3.0pp in 1 day (29.3%→32.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01085: BrkT5 jumped +5.8pp in 1 day (64.0%→69.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01085: Float expanded +12.9% in 1 day (319,893,237→361,143,237)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01087: BrkT5 jumped +12.1pp in 1 day (42.7%→54.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01102: BrkT5 jumped +7.8pp in 1 day (64.0%→71.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01104: BrkT5 jumped +10.4pp in 1 day (77.0%→87.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01105: BrkT5 jumped +3.5pp in 1 day (55.9%→59.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01107: BrkT5 jumped +16.8pp in 1 day (48.1%→64.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01114: BrkT5 jumped +8.1pp in 1 day (10.6%→18.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01115: BrkT5 jumped +10.2pp in 1 day (33.2%→43.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01125: BrkT5 jumped +38.9pp in 1 day (8.1%→47.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01150: BrkT5 jumped +6.2pp in 1 day (68.4%→74.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01152: BrkT5 jumped +8.5pp in 1 day (66.1%→74.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01159: BrkT5 jumped +6.2pp in 1 day (48.9%→55.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01164: BrkT5 jumped +10.5pp in 1 day (59.0%→69.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01163: Float expanded +36.6% in 1 day (403,732,490→551,392,490)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01166: BrkT5 jumped +6.0pp in 1 day (68.7%→74.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01168: Float expanded +756.2% in 1 day (428,315,492→3,667,359,706)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01177: BrkT5 jumped +5.0pp in 1 day (18.0%→23.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01184: BrkT5 jumped +5.9pp in 1 day (66.9%→72.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01209: BrkT5 jumped +7.8pp in 1 day (23.8%→31.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01211: Participant count dropped -46 (327→281)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01233: BrkT5 jumped +11.2pp in 1 day (59.1%→70.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01237: BrkT5 jumped +5.0pp in 1 day (69.6%→74.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01253: Float expanded +926.3% in 1 day (422,768,881→4,338,696,854)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01255: BrkT5 jumped +36.6pp in 1 day (33.3%→69.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01255: Float expanded +161.0% in 1 day (79,708,189→208,011,806)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01270: Participant count dropped -31 (219→188)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01272: BrkT5 jumped +3.7pp in 1 day (41.9%→45.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01276: BrkT5 jumped +25.0pp in 1 day (5.5%→30.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01282: Float expanded +11.7% in 1 day (1,403,371,286→1,567,321,086)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01286: BrkT5 jumped +3.9pp in 1 day (6.7%→10.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01298: Participant count dropped -5 (47→42)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01303: Participant count dropped -12 (97→85)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01316: BrkT5 jumped +7.7pp in 1 day (57.6%→65.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01319: BrkT5 jumped +72.1pp in 1 day (7.7%→79.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01318: BrkT5 jumped +18.5pp in 1 day (7.4%→25.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01328: BrkT5 jumped +4.2pp in 1 day (84.6%→88.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01328: Participant count dropped -23 (129→106)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01332: BrkT5 jumped +13.5pp in 1 day (50.4%→63.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01333: BrkT5 jumped +28.7pp in 1 day (48.6%→77.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01333: Participant count dropped -37 (121→84)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01341: BrkT5 jumped +48.1pp in 1 day (8.0%→56.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01341: Participant count dropped -36 (179→143)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01347: BrkT5 jumped +6.7pp in 1 day (14.3%→21.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01348: Float expanded +16.9% in 1 day (1,242,188,340→1,452,698,340)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01354: BrkT5 jumped +19.6pp in 1 day (33.2%→52.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01354: Participant count dropped -18 (68→50)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01354: Float expanded +14.3% in 1 day (14,554,790→16,643,090)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01355: BrkT5 jumped +5.7pp in 1 day (51.9%→57.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01355: Float expanded +20.7% in 1 day (376,952,686→455,035,686)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01357: BrkT5 jumped +7.0pp in 1 day (13.3%→20.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01364: BrkT5 jumped +19.9pp in 1 day (54.8%→74.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01372: BrkT5 jumped +8.7pp in 1 day (50.9%→59.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01376: BrkT5 jumped +30.5pp in 1 day (50.7%→81.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01376: Float expanded +193.6% in 1 day (334,111,950→980,983,950)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01378: Participant count dropped -33 (239→206)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01380: BrkT5 jumped +16.2pp in 1 day (37.7%→53.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01396: Participant count dropped -20 (158→138)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01400: BrkT5 jumped +8.2pp in 1 day (57.9%→66.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01401: BrkT5 jumped +5.2pp in 1 day (65.0%→70.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01401: Participant count dropped -14 (123→109)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01405: BrkT5 jumped +5.6pp in 1 day (49.5%→55.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01406: BrkT5 jumped +15.7pp in 1 day (50.3%→66.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01406: Float expanded +65.5% in 1 day (289,507,238→479,131,313)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01407: Cluster broker B02120 grew 7.4%→37.7% (+30.4pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01410: Float expanded +12.2% in 1 day (811,830,700→910,916,900)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01413: BrkT5 jumped +8.6pp in 1 day (54.0%→62.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01413: Participant count dropped -15 (131→116)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01413: Float expanded +266.2% in 1 day (327,690,478→1,199,954,890)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01417: Participant count dropped -16 (84→68)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01419: BrkT5 jumped +3.6pp in 1 day (48.5%→52.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01428: BrkT5 jumped +3.6pp in 1 day (65.0%→68.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01432: BrkT5 jumped +4.9pp in 1 day (63.6%→68.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01443: BrkT5 jumped +9.2pp in 1 day (17.2%→26.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01450: BrkT5 jumped +7.3pp in 1 day (64.7%→72.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01450: Float expanded +23.7% in 1 day (1,118,268,226→1,383,797,670)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01451: Float expanded +10.9% in 1 day (64,326,000→71,316,000)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01466: BrkT5 jumped +5.1pp in 1 day (71.3%→76.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01471: Participant count dropped -12 (59→47)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01476: Participant count dropped -13 (76→63)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01489: BrkT5 jumped +5.7pp in 1 day (86.8%→92.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01489: Participant count dropped -10 (83→73)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01497: Participant count dropped -9 (62→53)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01502: Float expanded +5.8% in 1 day (97,730,780→103,387,780)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01519: BrkT5 jumped +9.2pp in 1 day (49.9%→59.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01520: BrkT5 jumped +7.5pp in 1 day (54.6%→62.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01525: BrkT5 jumped +6.2pp in 1 day (66.4%→72.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01528: BrkT5 jumped +22.7pp in 1 day (25.7%→48.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01530: Participant count dropped -46 (229→183)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01540: BrkT5 jumped +10.2pp in 1 day (60.0%→70.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01541: Participant count dropped -21 (137→116)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01543: BrkT5 jumped +4.1pp in 1 day (68.3%→72.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01546: Participant count dropped -11 (99→88)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01561: BrkT5 jumped +10.6pp in 1 day (44.0%→54.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01561: Float expanded +23.7% in 1 day (738,634,078→913,634,078)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01570: Participant count dropped -30 (63→33)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01570: Float expanded +6.1% in 1 day (162,835,173→172,710,377)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01585: Participant count dropped -20 (146→126)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01592: BrkT5 jumped +6.5pp in 1 day (52.4%→58.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01592: Float expanded +612.2% in 1 day (237,104,131→1,688,556,311)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01596: Participant count dropped -43 (93→50)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01596: Cluster broker B01959 grew 0.3%→11.2% (+10.8pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01596: Float expanded +17.8% in 1 day (186,526,214→219,708,890)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01593: Cluster broker B01959 grew 0.0%→11.5% (+11.5pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01593: Float expanded +16.2% in 1 day (736,997,950→856,497,950)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01600: Float expanded +7.3% in 1 day (896,750,557→962,150,707)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01617: Participant count dropped -25 (144→119)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01628: Float expanded +241.2% in 1 day (1,182,269,086→4,033,747,550)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01635: BrkT5 jumped +33.7pp in 1 day (8.3%→42.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01635: Participant count dropped -31 (143→112)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01651: Participant count dropped -13 (128→115)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01652: Cluster broker B01959 grew 70.3%→75.9% (+5.7pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01655: BrkT5 jumped +11.1pp in 1 day (42.3%→53.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01657: BrkT5 jumped +3.8pp in 1 day (67.0%→70.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01657: Participant count dropped -9 (54→45)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01660: BrkT5 jumped +4.8pp in 1 day (87.4%→92.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01662: Participant count dropped -17 (91→74)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01667: Float expanded +27.2% in 1 day (529,060,000→672,720,000)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01675: Participant count dropped -26 (148→122)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01676: BrkT5 jumped +7.5pp in 1 day (43.2%→50.7%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01676: Cluster broker B01959 grew 0.1%→5.3% (+5.2pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01680: Float expanded +527.4% in 1 day (831,363,359→5,215,692,344)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01682: Float expanded +5.0% in 1 day (748,290,409→785,822,409)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01693: Float expanded +44.4% in 1 day (27,408,055→39,578,560)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01698: Participant count dropped -91 (203→112)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01702: Float expanded +13.2% in 1 day (119,899,570→135,743,570)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01703: BrkT5 jumped +15.6pp in 1 day (59.1%→74.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01703: Float expanded +862.5% in 1 day (106,459,439→1,024,724,400)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01709: Participant count dropped -68 (182→114)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01712: BrkT5 jumped +11.9pp in 1 day (65.7%→77.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01712: Participant count dropped -35 (113→78)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01715: BrkT5 jumped +4.9pp in 1 day (63.6%→68.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01715: Participant count dropped -15 (113→98)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01720: Participant count dropped -22 (118→96)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01727: Float expanded +17.7% in 1 day (315,842,977→371,856,977)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01728: Float expanded +79.7% in 1 day (1,772,350,577→3,185,430,105)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01729: BrkT5 jumped +11.8pp in 1 day (67.1%→78.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01729: Participant count dropped -25 (151→126)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01732: BrkT5 jumped +5.3pp in 1 day (35.3%→40.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01732: Float expanded +37.7% in 1 day (520,928,400→717,459,900)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01735: BrkT5 jumped +20.7pp in 1 day (51.9%→72.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01738: BrkT5 jumped +5.5pp in 1 day (85.1%→90.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01738: Participant count dropped -12 (105→93)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01739: Participant count dropped -12 (81→69)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01745: BrkT5 jumped +5.0pp in 1 day (43.4%→48.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01747: BrkT5 jumped +9.8pp in 1 day (84.2%→94.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01747: Participant count dropped -10 (86→76)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01751: BrkT5 jumped +11.2pp in 1 day (75.4%→86.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01753: Float expanded +7.0% in 1 day (1,000,685,180→1,070,655,580)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01775: BrkT5 jumped +4.6pp in 1 day (32.5%→37.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01776: BrkT5 jumped +4.5pp in 1 day (11.8%→16.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01778: BrkT5 jumped +6.9pp in 1 day (73.3%→80.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01780: BrkT5 jumped +32.7pp in 1 day (63.4%→96.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01780: Participant count dropped -22 (103→81)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01783: BrkT5 jumped +7.4pp in 1 day (66.1%→73.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01783: Participant count dropped -21 (126→105)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01782: BrkT5 jumped +7.8pp in 1 day (71.2%→79.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01787: BrkT5 jumped +4.2pp in 1 day (4.3%→8.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01788: BrkT5 jumped +8.8pp in 1 day (69.8%→78.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01792: BrkT5 jumped +11.6pp in 1 day (54.1%→65.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01792: Float expanded +2416.9% in 1 day (54,443,820→1,370,275,961)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01795: Participant count dropped -8 (72→64)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01796: BrkT5 jumped +16.3pp in 1 day (77.6%→93.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01796: Participant count dropped -52 (118→66)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01798: BrkT5 jumped +9.2pp in 1 day (13.5%→22.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01801: BrkT5 jumped +4.5pp in 1 day (6.1%→10.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01809: Participant count dropped -17 (103→86)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01817: BrkT5 jumped +12.8pp in 1 day (74.2%→87.1%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01817: Float expanded +8.4% in 1 day (679,428,480→736,244,980)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01820: Participant count dropped -3 (25→22)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01825: Float expanded +772.6% in 1 day (39,476,545→344,482,462)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01831: BrkT5 jumped +10.0pp in 1 day (50.1%→60.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01835: BrkT5 jumped +8.1pp in 1 day (59.2%→67.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01835: Participant count dropped -13 (51→38)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01835: Float expanded +11.1% in 1 day (32,347,190→35,943,990)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01845: BrkT5 jumped +10.2pp in 1 day (70.7%→80.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01851: BrkT5 jumped +3.9pp in 1 day (92.3%→96.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01855: BrkT5 jumped +37.8pp in 1 day (22.2%→60.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01855: Participant count dropped -54 (105→51)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01857: BrkT5 jumped +3.8pp in 1 day (31.9%→35.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01860: BrkT5 jumped +19.7pp in 1 day (15.1%→34.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01862: BrkT5 jumped +11.7pp in 1 day (57.3%→69.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01865: BrkT5 jumped +5.6pp in 1 day (43.9%→49.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01875: BrkT5 jumped +10.0pp in 1 day (68.5%→78.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01875: Participant count dropped -21 (129→108)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01875: Float expanded +85.3% in 1 day (303,706,293→562,864,508)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01877: BrkT5 jumped +14.7pp in 1 day (15.9%→30.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01888: BrkT5 jumped +17.6pp in 1 day (12.6%→30.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01894: Float expanded +306.5% in 1 day (224,473,745→912,404,930)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01900: Float expanded +8.8% in 1 day (1,456,278,626→1,583,870,983)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01903: BrkT5 jumped +26.8pp in 1 day (56.7%→83.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01903: Participant count dropped -23 (82→59)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01905: BrkT5 jumped +6.6pp in 1 day (51.9%→58.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01906: Float expanded +11.6% in 1 day (594,768,177→663,524,010)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01907: Float expanded +6.4% in 1 day (1,867,728,714→1,986,336,942)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01908: BrkT5 jumped +11.4pp in 1 day (40.3%→51.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01911: BrkT5 jumped +4.8pp in 1 day (59.7%→64.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01911: Participant count dropped -16 (146→130)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01912: Float expanded +487.9% in 1 day (73,668,072→433,060,730)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01920: BrkT5 jumped +9.3pp in 1 day (69.5%→78.8%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01920: Cluster broker B02082 grew 52.8%→66.6% (+13.7pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01919: Float expanded +7.8% in 1 day (2,744,538,226→2,958,843,190)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01921: BrkT5 jumped +4.4pp in 1 day (68.7%→73.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01925: BrkT5 jumped +8.9pp in 1 day (74.6%→83.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01925: Float expanded +65.9% in 1 day (87,377,021→144,946,521)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01931: Participant count dropped -64 (147→83)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01941: BrkT5 jumped +3.4pp in 1 day (60.1%→63.5%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01940: Cluster broker B01959 grew 7.9%→29.0% (+21.1pp)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01939: Participant count dropped -37 (132→95)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01943: BrkT5 jumped +8.6pp in 1 day (79.6%→88.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01949: Float expanded +400.0% in 1 day (159,763,968→798,819,850)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01950: BrkT5 jumped +12.1pp in 1 day (44.0%→56.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01952: BrkT5 jumped +8.4pp in 1 day (22.7%→31.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01951: BrkT5 jumped +4.2pp in 1 day (17.3%→21.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01953: Participant count dropped -34 (115→81)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01959: Float expanded +225.4% in 1 day (156,063,900→507,779,950)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01962: BrkT5 jumped +17.6pp in 1 day (27.6%→45.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01961: BrkT5 jumped +10.0pp in 1 day (74.7%→84.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01965: BrkT5 jumped +3.2pp in 1 day (38.4%→41.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01967: BrkT5 jumped +3.1pp in 1 day (59.7%→62.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01969: BrkT5 jumped +16.8pp in 1 day (71.2%→88.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "01969: Participant count dropped -34 (100→66)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01970: BrkT5 jumped +3.4pp in 1 day (40.6%→44.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01972: BrkT5 jumped +7.2pp in 1 day (3.4%→10.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01981: Float expanded +19.3% in 1 day (396,560,990→472,991,990)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01983: BrkT5 jumped +6.0pp in 1 day (68.2%→74.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01993: BrkT5 jumped +6.5pp in 1 day (70.5%→76.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01991: BrkT5 jumped +12.7pp in 1 day (63.7%→76.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "01991: Float expanded +690.5% in 1 day (162,771,812→1,286,637,878)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01995: BrkT5 jumped +23.0pp in 1 day (26.5%→49.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02002: BrkT5 jumped +11.4pp in 1 day (61.9%→73.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02002: Float expanded +25.7% in 1 day (385,395,601→484,610,601)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02003: BrkT5 jumped +49.2pp in 1 day (33.5%→82.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02007: BrkT5 jumped +6.0pp in 1 day (14.0%→20.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02015: Participant count dropped -24 (236→212)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02025: BrkT5 jumped +4.1pp in 1 day (83.0%→87.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02048: BrkT5 jumped +5.2pp in 1 day (50.5%→55.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02057: Float expanded +6.3% in 1 day (290,239,842→308,494,947)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02076: Participant count dropped -39 (78→39)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02096: BrkT5 jumped +8.9pp in 1 day (51.4%→60.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02097: BrkT5 jumped +31.8pp in 1 day (6.6%→38.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02097: Participant count dropped -27 (162→135)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02098: Participant count dropped -15 (131→116)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02099: BrkT5 jumped +5.3pp in 1 day (11.0%→16.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02102: BrkT5 jumped +10.3pp in 1 day (36.0%→46.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02105: BrkT5 jumped +6.6pp in 1 day (32.3%→38.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02105: Participant count dropped -31 (134→103)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02112: BrkT5 jumped +7.4pp in 1 day (77.6%→85.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02111: BrkT5 jumped +44.6pp in 1 day (30.8%→75.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02111: Float expanded +197.8% in 1 day (323,843,600→964,319,600)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02126: BrkT5 jumped +4.0pp in 1 day (21.1%→25.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02130: BrkT5 jumped +6.3pp in 1 day (45.8%→52.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02137: BrkT5 jumped +8.4pp in 1 day (23.1%→31.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02142: BrkT5 jumped +11.6pp in 1 day (27.7%→39.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02146: Float expanded +12.8% in 1 day (60,778,490→68,567,990)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02147: Float expanded +1900.0% in 1 day (55,468,689→1,109,357,875)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02149: BrkT5 jumped +17.8pp in 1 day (42.7%→60.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02149: Participant count dropped -19 (108→89)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02155: BrkT5 jumped +4.9pp in 1 day (30.9%→35.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02157: BrkT5 jumped +6.8pp in 1 day (6.8%→13.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02157: Participant count dropped -14 (123→109)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02160: Float expanded +165.9% in 1 day (901,476,263→2,397,318,249)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02162: BrkT5 jumped +11.9pp in 1 day (37.2%→49.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02166: Participant count dropped -14 (103→89)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02167: Participant count dropped -22 (85→63)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02169: BrkT5 jumped +53.7pp in 1 day (27.9%→81.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02169: Participant count dropped -37 (104→67)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02170: BrkT5 jumped +3.1pp in 1 day (31.4%→34.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02172: Participant count dropped -25 (159→134)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02179: BrkT5 jumped +5.7pp in 1 day (72.9%→78.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02180: BrkT5 jumped +10.4pp in 1 day (56.7%→67.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02180: Float expanded +22.8% in 1 day (106,650,488→131,001,810)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02185: BrkT5 jumped +10.2pp in 1 day (63.8%→74.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02191: BrkT5 jumped +3.1pp in 1 day (36.5%→39.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02195: Float expanded +900.0% in 1 day (112,693,614→1,126,938,165)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02211: BrkT5 jumped +17.5pp in 1 day (30.5%→47.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02211: Float expanded +311.9% in 1 day (78,515,052→323,422,811)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02212: Float expanded +30.1% in 1 day (454,784,000→591,784,000)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02218: BrkT5 jumped +12.1pp in 1 day (58.5%→70.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02218: Float expanded +11.0% in 1 day (63,581,184→70,591,484)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02219: BrkT5 jumped +4.4pp in 1 day (50.4%→54.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02221: BrkT5 jumped +6.2pp in 1 day (52.7%→58.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02221: Float expanded +714.6% in 1 day (189,396,713→1,542,748,649)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02225: Participant count dropped -15 (93→78)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02228: BrkT5 jumped +7.5pp in 1 day (23.3%→30.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02228: Participant count dropped -35 (256→221)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02231: Participant count dropped -22 (103→81)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02245: BrkT5 jumped +4.5pp in 1 day (19.1%→23.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02245: Participant count dropped -42 (145→103)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02251: BrkT5 jumped +6.7pp in 1 day (55.3%→62.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02252: BrkT5 jumped +4.7pp in 1 day (8.0%→12.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02255: Participant count dropped -17 (169→152)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02256: BrkT5 jumped +14.8pp in 1 day (39.9%→54.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02257: Participant count dropped -21 (129→108)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02265: BrkT5 jumped +4.5pp in 1 day (74.8%→79.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02265: Float expanded +17.4% in 1 day (251,198,950→294,933,950)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02268: BrkT5 jumped +9.8pp in 1 day (43.1%→52.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02268: Participant count dropped -16 (151→135)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02270: BrkT5 jumped +50.1pp in 1 day (49.3%→99.4%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "02270: Cluster broker B02120 grew 5.7%→12.0% (+6.4pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02276: BrkT5 jumped +18.1pp in 1 day (48.4%→66.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02276: Participant count dropped -14 (130→116)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02289: BrkT5 jumped +4.9pp in 1 day (81.6%→86.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02291: BrkT5 jumped +10.4pp in 1 day (39.1%→49.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02291: Participant count dropped -9 (76→67)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02295: Participant count dropped -13 (45→32)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02297: BrkT5 jumped +5.2pp in 1 day (70.5%→75.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02297: Participant count dropped -36 (121→85)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02302: BrkT5 jumped +8.2pp in 1 day (81.5%→89.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02302: Participant count dropped -30 (152→122)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02306: BrkT5 jumped +3.6pp in 1 day (74.6%→78.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02312: BrkT5 jumped +24.2pp in 1 day (46.0%→70.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02315: BrkT5 jumped +28.0pp in 1 day (40.8%→68.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02322: BrkT5 jumped +7.5pp in 1 day (71.4%→78.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02325: BrkT5 jumped +6.3pp in 1 day (81.5%→87.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02325: Participant count dropped -37 (95→58)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02336: Float expanded +6.5% in 1 day (748,933,836→797,818,732)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02348: Participant count dropped -12 (115→103)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02350: BrkT5 jumped +5.2pp in 1 day (67.7%→72.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02355: Participant count dropped -14 (110→96)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02358: BrkT5 jumped +6.5pp in 1 day (49.4%→55.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02367: Participant count dropped -59 (183→124)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02369: Float expanded +4578.8% in 1 day (331,594,666→15,514,807,632)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02371: Float expanded +868.2% in 1 day (629,006,554→6,090,053,578)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02373: BrkT5 jumped +20.8pp in 1 day (47.4%→68.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02373: Participant count dropped -18 (88→70)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02382: BrkT5 jumped +14.2pp in 1 day (7.2%→21.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02392: BrkT5 jumped +5.0pp in 1 day (74.6%→79.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02392: Float expanded +6.3% in 1 day (351,262,730→373,426,830)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02393: BrkT5 jumped +4.7pp in 1 day (65.9%→70.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02402: BrkT5 jumped +3.8pp in 1 day (45.9%→49.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02402: Participant count dropped -18 (115→97)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02405: BrkT5 jumped +20.3pp in 1 day (17.6%→37.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02410: BrkT5 jumped +37.4pp in 1 day (5.2%→42.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02410: Participant count dropped -50 (120→70)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02419: BrkT5 jumped +4.7pp in 1 day (19.1%→23.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02419: Participant count dropped -22 (93→71)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02418: Participant count dropped -34 (85→51)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02420: Participant count dropped -9 (63→54)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02427: Float expanded +348.5% in 1 day (204,132,415→915,501,565)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02432: BrkT5 jumped +12.1pp in 1 day (12.8%→24.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02432: Participant count dropped -36 (210→174)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02431: BrkT5 jumped +45.2pp in 1 day (39.2%→84.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02431: Participant count dropped -42 (147→105)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02433: BrkT5 jumped +21.1pp in 1 day (48.2%→69.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02436: Participant count dropped -7 (67→60)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "02450: Cluster broker B01959 grew 0.0%→32.2% (+32.2pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02450: Float expanded +47.6% in 1 day (33,182,990→48,964,490)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02451: BrkT5 jumped +21.6pp in 1 day (18.5%→40.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02451: Participant count dropped -12 (61→49)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02453: Participant count dropped -36 (114→78)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02458: BrkT5 jumped +8.5pp in 1 day (81.0%→89.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02460: BrkT5 jumped +13.6pp in 1 day (14.9%→28.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02465: BrkT5 jumped +12.6pp in 1 day (9.8%→22.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02465: Participant count dropped -20 (134→114)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02473: BrkT5 jumped +48.7pp in 1 day (27.5%→76.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02473: Participant count dropped -87 (158→71)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02469: BrkT5 jumped +10.5pp in 1 day (46.4%→56.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02477: Participant count dropped -18 (123→105)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02480: BrkT5 jumped +9.0pp in 1 day (85.2%→94.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02486: Float expanded +7.2% in 1 day (94,912,022→101,735,080)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02488: Participant count dropped -14 (139→125)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02489: BrkT5 jumped +7.6pp in 1 day (64.2%→71.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02489: Participant count dropped -36 (123→87)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02495: BrkT5 jumped +43.9pp in 1 day (44.9%→88.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02495: Participant count dropped -71 (132→61)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02497: BrkT5 jumped +4.6pp in 1 day (85.0%→89.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02498: BrkT5 jumped +7.8pp in 1 day (31.1%→38.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02501: BrkT5 jumped +9.9pp in 1 day (62.4%→72.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02501: Participant count dropped -11 (77→66)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02501: Float expanded +6.1% in 1 day (113,559,990→120,530,990)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02502: BrkT5 jumped +7.1pp in 1 day (50.6%→57.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02503: BrkT5 jumped +31.9pp in 1 day (49.2%→81.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02503: Participant count dropped -34 (109→75)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02505: BrkT5 jumped +4.9pp in 1 day (23.2%→28.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02506: BrkT5 jumped +37.5pp in 1 day (11.8%→49.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02507: Participant count dropped -40 (144→104)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02509: Participant count dropped -31 (93→62)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02510: BrkT5 jumped +15.4pp in 1 day (37.4%→52.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02510: Participant count dropped -19 (124→105)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02511: BrkT5 jumped +4.5pp in 1 day (61.9%→66.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02517: BrkT5 jumped +14.3pp in 1 day (37.0%→51.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02521: BrkT5 jumped +5.7pp in 1 day (66.5%→72.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02522: BrkT5 jumped +21.0pp in 1 day (11.7%→32.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02522: Participant count dropped -65 (161→96)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02531: BrkT5 jumped +3.5pp in 1 day (74.2%→77.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02531: Participant count dropped -11 (91→80)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02533: BrkT5 jumped +6.5pp in 1 day (40.0%→46.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02535: Participant count dropped -23 (94→71)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02550: Participant count dropped -49 (174→125)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02556: BrkT5 jumped +24.9pp in 1 day (54.1%→79.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02556: Participant count dropped -18 (136→118)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02555: BrkT5 jumped +15.8pp in 1 day (21.4%→37.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02555: Participant count dropped -25 (128→103)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02559: BrkT5 jumped +4.4pp in 1 day (79.6%→84.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02558: BrkT5 jumped +5.9pp in 1 day (57.1%→63.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02561: BrkT5 jumped +18.6pp in 1 day (52.7%→71.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02562: BrkT5 jumped +59.8pp in 1 day (20.6%→80.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02562: Participant count dropped -53 (189→136)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02570: BrkT5 jumped +37.8pp in 1 day (7.6%→45.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02570: Participant count dropped -51 (119→68)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "02571: Cluster broker B02120 grew 0.1%→5.4% (+5.3pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02576: BrkT5 jumped +3.2pp in 1 day (46.7%→49.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02577: BrkT5 jumped +42.0pp in 1 day (27.9%→69.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02577: Participant count dropped -72 (197→125)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02582: BrkT5 jumped +72.6pp in 1 day (9.7%→82.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02582: Participant count dropped -62 (142→80)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02586: BrkT5 jumped +37.4pp in 1 day (27.7%→65.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02585: BrkT5 jumped +13.7pp in 1 day (71.0%→84.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02587: BrkT5 jumped +33.8pp in 1 day (49.1%→83.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02587: Participant count dropped -94 (142→48)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02589: BrkT5 jumped +49.7pp in 1 day (11.8%→61.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02593: BrkT5 jumped +11.6pp in 1 day (35.7%→47.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02598: BrkT5 jumped +3.7pp in 1 day (40.3%→44.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02598: Participant count dropped -90 (174→84)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02600: BrkT5 jumped +3.1pp in 1 day (8.5%→11.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02602: BrkT5 jumped +9.0pp in 1 day (55.3%→64.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02611: BrkT5 jumped +4.3pp in 1 day (12.1%→16.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02613: BrkT5 jumped +4.8pp in 1 day (50.8%→55.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02616: BrkT5 jumped +14.6pp in 1 day (32.0%→46.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02625: BrkT5 jumped +14.6pp in 1 day (74.9%→89.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02629: BrkT5 jumped +49.7pp in 1 day (27.8%→77.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02668: Participant count dropped -21 (140→119)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "02668: Cluster broker B02120 grew 0.0%→14.4% (+14.4pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02696: BrkT5 jumped +8.4pp in 1 day (45.3%→53.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02699: BrkT5 jumped +23.2pp in 1 day (37.2%→60.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02699: Participant count dropped -23 (132→109)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02699: Float expanded +1655.3% in 1 day (93,360,319→1,638,737,800)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02722: BrkT5 jumped +7.7pp in 1 day (27.9%→35.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02728: BrkT5 jumped +3.4pp in 1 day (63.6%→67.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02738: Participant count dropped -12 (77→65)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02799: BrkT5 jumped +16.9pp in 1 day (12.2%→29.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02865: BrkT5 jumped +51.2pp in 1 day (11.9%→63.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02865: Participant count dropped -43 (151→108)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02888: BrkT5 jumped +3.6pp in 1 day (7.0%→10.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02899: Participant count dropped -37 (293→256)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03302: BrkT5 jumped +3.5pp in 1 day (67.2%→70.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03302: Participant count dropped -10 (92→82)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03316: Participant count dropped -14 (114→100)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "03321: Float expanded +758.4% in 1 day (69,894,324→599,967,250)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03322: BrkT5 jumped +3.5pp in 1 day (27.1%→30.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03329: BrkT5 jumped +7.4pp in 1 day (24.4%→31.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03330: BrkT5 jumped +14.2pp in 1 day (28.0%→42.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03336: BrkT5 jumped +4.2pp in 1 day (60.5%→64.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03360: BrkT5 jumped +7.9pp in 1 day (52.4%→60.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03366: BrkT5 jumped +4.3pp in 1 day (28.6%→33.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03380: BrkT5 jumped +4.8pp in 1 day (17.3%→22.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03395: BrkT5 jumped +13.9pp in 1 day (62.0%→75.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03395: Participant count dropped -25 (115→90)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03396: BrkT5 jumped +3.0pp in 1 day (24.3%→27.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03623: BrkT5 jumped +3.4pp in 1 day (71.6%→75.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03626: BrkT5 jumped +20.8pp in 1 day (66.7%→87.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03628: BrkT5 jumped +3.8pp in 1 day (66.9%→70.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03633: BrkT5 jumped +4.3pp in 1 day (63.1%→67.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03633: Participant count dropped -21 (97→76)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03638: BrkT5 jumped +43.9pp in 1 day (31.7%→75.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "03638: Float expanded +6.0% in 1 day (73,025,427→77,378,327)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03660: Participant count dropped -27 (87→60)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "03660: Float expanded +26.4% in 1 day (199,380,012→251,931,459)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03666: BrkT5 jumped +14.9pp in 1 day (40.7%→55.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03668: BrkT5 jumped +5.5pp in 1 day (27.1%→32.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03677: BrkT5 jumped +62.8pp in 1 day (32.1%→94.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03677: Participant count dropped -24 (135→111)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03678: BrkT5 jumped +5.0pp in 1 day (15.4%→20.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03681: BrkT5 jumped +12.0pp in 1 day (46.2%→58.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03681: Participant count dropped -21 (173→152)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03692: BrkT5 jumped +5.2pp in 1 day (18.9%→24.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03699: BrkT5 jumped +3.4pp in 1 day (61.2%→64.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03700: BrkT5 jumped +4.6pp in 1 day (58.5%→63.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03708: BrkT5 jumped +3.6pp in 1 day (55.4%→59.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03708: Participant count dropped -18 (146→128)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "03708: Float expanded +900.8% in 1 day (598,263,664→5,987,281,650)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03718: BrkT5 jumped +5.0pp in 1 day (57.4%→62.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03738: BrkT5 jumped +11.0pp in 1 day (17.1%→28.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03738: Participant count dropped -21 (199→178)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03778: BrkT5 jumped +7.9pp in 1 day (74.4%→82.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "03778: Float expanded +2205.5% in 1 day (50,771,129→1,170,537,106)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03788: BrkT5 jumped +8.1pp in 1 day (57.3%→65.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03788: Participant count dropped -20 (146→126)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03798: BrkT5 jumped +22.2pp in 1 day (39.2%→61.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03822: BrkT5 jumped +4.7pp in 1 day (30.4%→35.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03833: BrkT5 jumped +5.7pp in 1 day (22.2%→27.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03886: BrkT5 jumped +12.5pp in 1 day (35.6%→48.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03899: BrkT5 jumped +5.2pp in 1 day (32.1%→37.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03908: BrkT5 jumped +13.4pp in 1 day (7.1%→20.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03913: BrkT5 jumped +7.4pp in 1 day (28.8%→36.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03928: BrkT5 jumped +28.2pp in 1 day (68.0%→96.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "03928: Float expanded +149.3% in 1 day (188,831,900→470,695,900)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03931: BrkT5 jumped +25.1pp in 1 day (23.6%→48.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03933: BrkT5 jumped +4.3pp in 1 day (17.2%→21.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03939: BrkT5 jumped +15.5pp in 1 day (64.5%→79.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03939: Participant count dropped -73 (159→86)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03958: BrkT5 jumped +3.6pp in 1 day (11.4%→14.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03978: Participant count dropped -17 (110→93)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03983: BrkT5 jumped +4.5pp in 1 day (20.3%→24.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "03990: BrkT5 jumped +5.5pp in 1 day (23.6%→29.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "03996: Participant count dropped -26 (210→184)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "04333: Float expanded +12.8% in 1 day (3,440→3,880)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "04335: BrkT5 jumped +12.7pp in 1 day (17.8%→30.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "04335: Float expanded +27.6% in 1 day (5,070→6,470)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "04336: Float expanded +8.5% in 1 day (2,580→2,800)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06036: Participant count dropped -13 (122→109)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06036: Float expanded +13.3% in 1 day (726,270,000→823,175,000)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06038: Float expanded +6.8% in 1 day (236,420,000→252,430,000)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06069: BrkT5 jumped +6.1pp in 1 day (50.8%→56.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06069: Participant count dropped -16 (124→108)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06086: Participant count dropped -18 (123→105)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06098: Float expanded +15.7% in 1 day (2,038,530,778→2,359,120,617)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06108: Float expanded +688.1% in 1 day (157,778,656→1,243,479,390)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06113: Participant count dropped -14 (77→63)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06113: Float expanded +11.6% in 1 day (320,953,800→358,025,800)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06119: BrkT5 jumped +4.0pp in 1 day (36.9%→40.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06127: BrkT5 jumped +7.6pp in 1 day (14.5%→22.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06128: BrkT5 jumped +21.1pp in 1 day (45.2%→66.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06162: BrkT5 jumped +31.7pp in 1 day (62.8%→94.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06162: Participant count dropped -15 (107→92)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06162: Float expanded +12.2% in 1 day (1,781,431,900→1,999,567,900)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06160: BrkT5 jumped +4.8pp in 1 day (1.1%→5.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06178: BrkT5 jumped +3.6pp in 1 day (59.2%→62.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06181: Participant count dropped -80 (203→123)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06188: BrkT5 jumped +11.2pp in 1 day (35.6%→46.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06188: Participant count dropped -20 (80→60)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06190: Participant count dropped -6 (58→52)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06196: BrkT5 jumped +7.6pp in 1 day (23.7%→31.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06288: Float expanded +15.0% in 1 day (2,575,320→2,962,570)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06608: BrkT5 jumped +12.0pp in 1 day (45.9%→58.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06609: BrkT5 jumped +20.3pp in 1 day (52.0%→72.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06610: BrkT5 jumped +4.9pp in 1 day (47.0%→52.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06610: Float expanded +1812.6% in 1 day (104,795,911→2,004,344,990)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06616: BrkT5 jumped +37.5pp in 1 day (25.8%→63.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06618: BrkT5 jumped +11.9pp in 1 day (15.3%→27.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06639: Participant count dropped -10 (89→79)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06655: BrkT5 jumped +8.6pp in 1 day (56.8%→65.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06655: Participant count dropped -44 (129→85)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06657: Participant count dropped -27 (61→34)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06663: BrkT5 jumped +3.1pp in 1 day (54.6%→57.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06666: BrkT5 jumped +5.7pp in 1 day (31.8%→37.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06669: BrkT5 jumped +10.3pp in 1 day (61.3%→71.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06676: Participant count dropped -29 (95→66)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06677: BrkT5 jumped +13.8pp in 1 day (30.8%→44.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06680: BrkT5 jumped +19.4pp in 1 day (23.8%→43.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06680: Participant count dropped -27 (203→176)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06681: BrkT5 jumped +28.1pp in 1 day (60.3%→88.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06681: Participant count dropped -78 (160→82)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06683: BrkT5 jumped +21.5pp in 1 day (39.2%→60.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06683: Participant count dropped -37 (154→117)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06686: Participant count dropped -12 (55→43)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06693: BrkT5 jumped +7.9pp in 1 day (23.8%→31.8%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "06696: Cluster broker B01959 grew 0.0%→23.7% (+23.6pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06805: BrkT5 jumped +3.7pp in 1 day (33.0%→36.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06808: BrkT5 jumped +5.2pp in 1 day (2.7%→7.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06812: BrkT5 jumped +4.6pp in 1 day (29.9%→34.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06812: Float expanded +14.3% in 1 day (104,008,500→118,918,500)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06826: BrkT5 jumped +5.3pp in 1 day (19.4%→24.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06826: Float expanded +9.0% in 1 day (35,820,591→39,032,941)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06829: BrkT5 jumped +5.9pp in 1 day (37.8%→43.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06829: Float expanded +10.3% in 1 day (135,767,624→149,766,674)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06830: BrkT5 jumped +10.6pp in 1 day (41.5%→52.1%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "06830: Cluster broker B01959 grew 9.0%→17.0% (+8.0pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06830: Float expanded +20.2% in 1 day (347,676,304→418,021,904)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06838: BrkT5 jumped +4.0pp in 1 day (51.9%→55.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06838: Participant count dropped -9 (66→57)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06855: Participant count dropped -18 (152→134)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06865: BrkT5 jumped +8.2pp in 1 day (9.4%→17.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06865: Float expanded +11.7% in 1 day (395,464,860→441,614,960)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06877: BrkT5 jumped +3.8pp in 1 day (82.4%→86.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06885: Participant count dropped -19 (130→111)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06889: BrkT5 jumped +6.0pp in 1 day (40.3%→46.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06890: Participant count dropped -11 (73→62)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06893: Participant count dropped -12 (116→104)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06896: BrkT5 jumped +6.6pp in 1 day (31.1%→37.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06911: BrkT5 jumped +11.0pp in 1 day (26.2%→37.2%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "06911: Cluster broker B02120 grew 5.7%→10.9% (+5.2pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06928: BrkT5 jumped +5.0pp in 1 day (46.4%→51.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06929: Participant count dropped -19 (115→96)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06933: BrkT5 jumped +28.0pp in 1 day (57.1%→85.1%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "06933: Cluster broker B01959 grew 26.6%→62.0% (+35.4pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06933: Float expanded +185.1% in 1 day (118,789,890→338,712,350)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06936: BrkT5 jumped +5.8pp in 1 day (8.3%→14.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06955: BrkT5 jumped +39.1pp in 1 day (11.0%→50.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06955: Participant count dropped -33 (133→100)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06963: Participant count dropped -19 (121→102)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06978: BrkT5 jumped +11.3pp in 1 day (50.4%→61.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06989: BrkT5 jumped +6.5pp in 1 day (35.6%→42.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06990: BrkT5 jumped +3.7pp in 1 day (11.2%→14.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "06990: Participant count dropped -20 (89→69)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06998: BrkT5 jumped +23.1pp in 1 day (39.4%→62.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08007: Float expanded +101.6% in 1 day (224,384,840→452,328,610)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08018: BrkT5 jumped +26.2pp in 1 day (29.5%→55.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08021: Float expanded +3607.3% in 1 day (315,933,349→11,712,744,482)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08027: BrkT5 jumped +10.1pp in 1 day (58.1%→68.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08030: BrkT5 jumped +9.8pp in 1 day (82.1%→91.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08036: BrkT5 jumped +7.8pp in 1 day (79.9%→87.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08037: BrkT5 jumped +27.6pp in 1 day (46.1%→73.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08037: Float expanded +98.7% in 1 day (429,309,432→853,130,672)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08042: BrkT5 jumped +3.3pp in 1 day (32.9%→36.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08049: BrkT5 jumped +19.4pp in 1 day (45.2%→64.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08049: Float expanded +29.1% in 1 day (133,603,270→172,475,420)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08050: Float expanded +221.2% in 1 day (249,106,452→800,091,274)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08052: BrkT5 jumped +9.8pp in 1 day (67.2%→77.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08056: BrkT5 jumped +3.4pp in 1 day (45.7%→49.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08060: BrkT5 jumped +3.3pp in 1 day (54.1%→57.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08069: Float expanded +1898.3% in 1 day (28,997,913→579,459,290)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08070: Participant count dropped -9 (59→50)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08079: BrkT5 jumped +27.2pp in 1 day (49.8%→77.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08081: BrkT5 jumped +3.6pp in 1 day (55.2%→58.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08093: BrkT5 jumped +20.1pp in 1 day (37.1%→57.2%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "08093: Cluster broker B01959 grew 11.5%→17.6% (+6.2pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08093: Float expanded +1436.1% in 1 day (27,266,339→418,828,739)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08106: BrkT5 jumped +10.3pp in 1 day (65.4%→75.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08106: Participant count dropped -9 (82→73)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08115: Float expanded +20.0% in 1 day (35,695,690→42,843,690)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08118: BrkT5 jumped +23.7pp in 1 day (45.6%→69.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08118: Float expanded +80.4% in 1 day (264,502,700→477,214,700)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08120: BrkT5 jumped +5.5pp in 1 day (66.6%→72.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08123: Float expanded +5907.0% in 1 day (99,688,351→5,988,261,460)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08133: BrkT5 jumped +3.8pp in 1 day (53.2%→57.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08146: BrkT5 jumped +22.5pp in 1 day (61.5%→84.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08146: Float expanded +132.3% in 1 day (344,442,762→800,269,950)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08147: Float expanded +24.2% in 1 day (70,498,412→87,594,112)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08153: Float expanded +803.1% in 1 day (40,381,469→364,692,488)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08168: BrkT5 jumped +26.4pp in 1 day (43.3%→69.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08168: Participant count dropped -12 (110→98)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08172: Float expanded +900.0% in 1 day (175,872,839→1,758,728,985)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08173: BrkT5 jumped +20.5pp in 1 day (61.8%→82.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08173: Float expanded +107.9% in 1 day (103,334,668→214,876,771)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08176: BrkT5 jumped +15.4pp in 1 day (36.5%→51.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08178: BrkT5 jumped +37.1pp in 1 day (40.2%→77.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08179: BrkT5 jumped +33.0pp in 1 day (40.2%→73.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08186: BrkT5 jumped +16.8pp in 1 day (49.2%→65.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08188: BrkT5 jumped +4.0pp in 1 day (35.4%→39.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08189: BrkT5 jumped +4.3pp in 1 day (54.6%→59.0%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "08189: Cluster broker B01959 grew 14.2%→19.9% (+5.7pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08193: BrkT5 jumped +3.5pp in 1 day (60.8%→64.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08198: BrkT5 jumped +3.1pp in 1 day (69.8%→72.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08206: BrkT5 jumped +4.8pp in 1 day (53.2%→58.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08210: Float expanded +10.6% in 1 day (304,149,950→336,279,950)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08219: BrkT5 jumped +13.0pp in 1 day (53.4%→66.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08219: Float expanded +8.5% in 1 day (118,521,745→128,566,745)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08221: Float expanded +20.2% in 1 day (34,371,724→41,322,724)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08223: BrkT5 jumped +12.4pp in 1 day (72.6%→85.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08223: Participant count dropped -21 (104→83)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08226: BrkT5 jumped +5.7pp in 1 day (65.2%→70.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08229: Float expanded +21.9% in 1 day (188,565,150→229,895,150)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08237: BrkT5 jumped +6.0pp in 1 day (83.2%→89.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08246: BrkT5 jumped +6.9pp in 1 day (34.4%→41.2%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08246: Float expanded +588.6% in 1 day (129,183,462→889,523,700)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08247: BrkT5 jumped +3.4pp in 1 day (30.1%→33.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08250: Float expanded +12.3% in 1 day (235,050,764→263,936,464)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08268: BrkT5 jumped +10.2pp in 1 day (67.5%→77.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08269: Float expanded +7.3% in 1 day (642,843,354→689,890,272)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08275: BrkT5 jumped +5.5pp in 1 day (61.3%→66.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08282: BrkT5 jumped +3.6pp in 1 day (63.1%→66.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08292: BrkT5 jumped +18.4pp in 1 day (57.0%→75.4%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08291: Float expanded +187.1% in 1 day (51,665,792→148,316,494)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08293: BrkT5 jumped +3.2pp in 1 day (71.1%→74.3%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08300: BrkT5 jumped +4.2pp in 1 day (82.6%→86.7%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08305: Participant count dropped -12 (108→96)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08319: BrkT5 jumped +4.0pp in 1 day (26.3%→30.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08329: BrkT5 jumped +4.3pp in 1 day (36.5%→40.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08333: Float expanded +9.1% in 1 day (36,507,500→39,838,500)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08340: BrkT5 jumped +7.1pp in 1 day (59.5%→66.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08357: BrkT5 jumped +38.4pp in 1 day (21.2%→59.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08365: BrkT5 jumped +4.3pp in 1 day (62.7%→67.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08368: BrkT5 jumped +21.5pp in 1 day (57.9%→79.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08370: BrkT5 jumped +5.0pp in 1 day (42.9%→47.9%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08371: BrkT5 jumped +6.5pp in 1 day (31.3%→37.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08385: BrkT5 jumped +10.2pp in 1 day (62.6%→72.8%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08391: BrkT5 jumped +4.9pp in 1 day (62.4%→67.2%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08395: BrkT5 jumped +8.8pp in 1 day (78.2%→87.0%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08395: Participant count dropped -13 (77→64)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08395: Float expanded +75.3% in 1 day (630,735,762→1,105,548,250)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08401: BrkT5 jumped +5.4pp in 1 day (73.4%→78.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08412: Float expanded +112.4% in 1 day (46,545,610→98,874,371)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08428: Float expanded +13.9% in 1 day (44,467,706→50,661,706)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08430: BrkT5 jumped +6.2pp in 1 day (70.1%→76.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08439: Participant count dropped -10 (84→74)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08460: BrkT5 jumped +25.3pp in 1 day (46.4%→71.7%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08471: BrkT5 jumped +4.1pp in 1 day (59.0%→63.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08471: Participant count dropped -11 (92→81)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08472: BrkT5 jumped +18.6pp in 1 day (42.4%→61.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08475: BrkT5 jumped +21.5pp in 1 day (29.6%→51.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08480: BrkT5 jumped +4.3pp in 1 day (76.7%→81.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08490: BrkT5 jumped +5.8pp in 1 day (56.6%→62.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08491: BrkT5 jumped +8.9pp in 1 day (72.4%→81.3%)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "08491: Cluster broker B02165 grew 18.1%→25.2% (+7.1pp)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08491: Float expanded +7.4% in 1 day (225,284,158→241,935,408)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08500: BrkT5 jumped +4.2pp in 1 day (82.6%→86.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08513: Float expanded +893.7% in 1 day (70,530,749→700,862,525)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08516: Float expanded +226.4% in 1 day (50,377,274→164,422,679)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08519: Float expanded +300.1% in 1 day (90,298,425→361,288,700)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08527: BrkT5 jumped +16.7pp in 1 day (54.4%→71.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08527: Participant count dropped -12 (74→62)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08532: BrkT5 jumped +4.4pp in 1 day (53.3%→57.7%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08532: Float expanded +449.4% in 1 day (84,550,389→464,499,900)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08540: BrkT5 jumped +5.9pp in 1 day (88.5%→94.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08540: Participant count dropped -41 (80→39)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08547: BrkT5 jumped +19.1pp in 1 day (46.8%→65.8%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08547: Participant count dropped -17 (106→89)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08558: Float expanded +8.9% in 1 day (52,957,803→57,697,438)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08603: BrkT5 jumped +4.5pp in 1 day (75.0%→79.5%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08603: Participant count dropped -37 (82→45)"
+  },
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "08603: Cluster broker B02165 grew 3.8%→16.5% (+12.7pp)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08613: BrkT5 jumped +8.1pp in 1 day (61.7%→69.8%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08619: Float expanded +845.6% in 1 day (116,730,413→1,103,854,130)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08620: BrkT5 jumped +3.9pp in 1 day (78.5%→82.5%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08622: BrkT5 jumped +12.4pp in 1 day (52.1%→64.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08622: Float expanded +48.4% in 1 day (255,911,890→379,671,890)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "08629: Float expanded +5.1% in 1 day (9,684,990→10,178,990)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08635: BrkT5 jumped +20.0pp in 1 day (39.3%→59.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08635: Participant count dropped -13 (91→78)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "08646: BrkT5 jumped +4.5pp in 1 day (47.9%→52.4%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "08659: Participant count dropped -12 (79→67)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09606: Participant count dropped -36 (134→98)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09626: BrkT5 jumped +3.9pp in 1 day (4.3%→8.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09636: Participant count dropped -23 (120→97)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "09638: Float expanded +152.7% in 1 day (5,910,297→14,935,797)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09660: BrkT5 jumped +18.2pp in 1 day (33.9%→52.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09660: Participant count dropped -42 (316→274)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09663: Participant count dropped -11 (103→92)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09688: Participant count dropped -26 (166→140)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09689: BrkT5 jumped +20.9pp in 1 day (67.7%→88.6%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09699: BrkT5 jumped +24.2pp in 1 day (45.9%→70.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09699: Participant count dropped -21 (135→114)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "09857: Float expanded +5.4% in 1 day (329,734,260→347,482,381)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09858: BrkT5 jumped +9.2pp in 1 day (22.2%→31.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09860: BrkT5 jumped +13.0pp in 1 day (47.9%→60.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09860: Participant count dropped -11 (78→67)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09863: Participant count dropped -29 (170→141)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09878: Participant count dropped -23 (115→92)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09879: Participant count dropped -6 (47→41)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09880: BrkT5 jumped +6.0pp in 1 day (7.4%→13.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09885: BrkT5 jumped +4.4pp in 1 day (46.8%→51.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09885: Participant count dropped -19 (145→126)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "09886: Float expanded +10.9% in 1 day (594,443,677→659,266,277)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09890: BrkT5 jumped +5.4pp in 1 day (70.7%→76.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "09890: Float expanded +5.0% in 1 day (312,187,298→327,898,248)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09899: BrkT5 jumped +4.2pp in 1 day (17.0%→21.2%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09899: Participant count dropped -14 (124→110)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09900: Participant count dropped -13 (58→45)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09911: BrkT5 jumped +8.7pp in 1 day (48.7%→57.4%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09919: BrkT5 jumped +39.3pp in 1 day (24.6%→63.9%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09929: Participant count dropped -19 (107→88)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09936: Participant count dropped -21 (85→64)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09958: BrkT5 jumped +9.7pp in 1 day (36.5%→46.1%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09961: Participant count dropped -50 (265→215)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09963: Participant count dropped -9 (89→80)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09969: BrkT5 jumped +3.3pp in 1 day (31.8%→35.1%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09982: BrkT5 jumped +3.8pp in 1 day (57.5%→61.3%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "09982: Float expanded +6.5% in 1 day (3,595,492,001→3,830,674,000)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09992: Participant count dropped -80 (294→214)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09993: BrkT5 jumped +10.3pp in 1 day (21.3%→31.6%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "09993: Participant count dropped -28 (111→83)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "09995: BrkT5 jumped +16.4pp in 1 day (15.8%→32.2%)"
+  }
+]

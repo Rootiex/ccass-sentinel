@@ -1,0 +1,7 @@
+Command: /Users/admin9/ccass-sentinel/.venv/bin/python /Users/admin9/ccass-sentinel/scripts/daily_runner.py --date 2025/06/10 --auto-backfill
+Timeout: 1200s
+
+STDOUT:
+
+
+STDERR:

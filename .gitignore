@@ -3,3 +3,6 @@ __pycache__/
 *.tmp
 .DS_Store
 *.skill
+
+# Data files - kept locally only
+data/holders/
