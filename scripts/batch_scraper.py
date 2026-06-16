@@ -101,6 +101,26 @@ def main():
     print(f"  Trading dates (weekdays): {total}")
     print(f"  Mode: {'DRY-RUN' if args.dry_run else 'SAVE'}\n")
     
+    # Refresh watchlist by discovering new listings
+    print("  🔍 Refreshing watchlist before batch run...")
+    discover_script = REPO_ROOT / "scripts" / "discover_new_listings.py"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(discover_script)],
+            cwd=str(REPO_ROOT),
+            capture_output=True,
+            timeout=600,
+        )
+        if result.returncode == 0:
+            print("  ✅ Watchlist refreshed successfully\n")
+        else:
+            stderr = result.stderr.decode('utf-8', errors='ignore')
+            print(f"  ⚠️  Watchlist refresh had issues: {stderr[:200]}\n")
+    except subprocess.TimeoutExpired:
+        print("  ⚠️  Watchlist refresh timed out\n")
+    except Exception as e:
+        print(f"  ⚠️  Watchlist refresh failed: {e}\n")
+    
     # Run daily_runner for each date
     success = 0
     failed = 0

@@ -294,6 +294,26 @@ def main():
     stock_retries = max(0, args.stock_retries)
     timeout_rounds = max(0, args.timeout_rounds)
     
+    # Refresh watchlist by discovering new listings
+    print("\n  🔍 Refreshing watchlist...")
+    discover_script = REPO_ROOT / "scripts" / "discover_new_listings.py"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(discover_script)],
+            cwd=str(REPO_ROOT),
+            capture_output=True,
+            timeout=600,
+        )
+        if result.returncode == 0:
+            print("  ✅ Watchlist refreshed successfully")
+        else:
+            stderr = result.stderr.decode('utf-8', errors='ignore')
+            print(f"  ⚠️  Watchlist refresh had issues: {stderr[:200]}")
+    except subprocess.TimeoutExpired:
+        print("  ⚠️  Watchlist refresh timed out (taking too long)")
+    except Exception as e:
+        print(f"  ⚠️  Watchlist refresh failed: {e}")
+    
     # Load watchlist
     if not WATCHLIST_FILE.exists():
         print(f"  ❌ No watchlist at {WATCHLIST_FILE}")
